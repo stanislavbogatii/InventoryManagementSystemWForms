@@ -1,0 +1,17 @@
+C:\Users\Stanislav\Documents\NET LEARn\InventoryManagementSystemWForms\InventoryManagementSystemWForms\bin\Debug\net9.0-windows\InventoryManagementSystemWForms.exe
+C:\Users\Stanislav\Documents\NET LEARn\InventoryManagementSystemWForms\InventoryManagementSystemWForms\bin\Debug\net9.0-windows\InventoryManagementSystemWForms.deps.json
+C:\Users\Stanislav\Documents\NET LEARn\InventoryManagementSystemWForms\InventoryManagementSystemWForms\bin\Debug\net9.0-windows\InventoryManagementSystemWForms.runtimeconfig.json
+C:\Users\Stanislav\Documents\NET LEARn\InventoryManagementSystemWForms\InventoryManagementSystemWForms\bin\Debug\net9.0-windows\InventoryManagementSystemWForms.dll
+C:\Users\Stanislav\Documents\NET LEARn\InventoryManagementSystemWForms\InventoryManagementSystemWForms\bin\Debug\net9.0-windows\InventoryManagementSystemWForms.pdb
+C:\Users\Stanislav\Documents\NET LEARn\InventoryManagementSystemWForms\InventoryManagementSystemWForms\obj\Debug\net9.0-windows\InventoryManagementSystemWForms.LoginForm.resources
+C:\Users\Stanislav\Documents\NET LEARn\InventoryManagementSystemWForms\InventoryManagementSystemWForms\obj\Debug\net9.0-windows\InventoryManagementSystemWForms.csproj.GenerateResource.cache
+C:\Users\Stanislav\Documents\NET LEARn\InventoryManagementSystemWForms\InventoryManagementSystemWForms\obj\Debug\net9.0-windows\InventoryManagementSystemWForms.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stanislav\Documents\NET LEARn\InventoryManagementSystemWForms\InventoryManagementSystemWForms\obj\Debug\net9.0-windows\InventoryManagementSystemWForms.AssemblyInfoInputs.cache
+C:\Users\Stanislav\Documents\NET LEARn\InventoryManagementSystemWForms\InventoryManagementSystemWForms\obj\Debug\net9.0-windows\InventoryManagementSystemWForms.AssemblyInfo.cs
+C:\Users\Stanislav\Documents\NET LEARn\InventoryManagementSystemWForms\InventoryManagementSystemWForms\obj\Debug\net9.0-windows\InventoryManagementSystemWForms.csproj.CoreCompileInputs.cache
+C:\Users\Stanislav\Documents\NET LEARn\InventoryManagementSystemWForms\InventoryManagementSystemWForms\obj\Debug\net9.0-windows\InventoryManagementSystemWForms.dll
+C:\Users\Stanislav\Documents\NET LEARn\InventoryManagementSystemWForms\InventoryManagementSystemWForms\obj\Debug\net9.0-windows\refint\InventoryManagementSystemWForms.dll
+C:\Users\Stanislav\Documents\NET LEARn\InventoryManagementSystemWForms\InventoryManagementSystemWForms\obj\Debug\net9.0-windows\InventoryManagementSystemWForms.pdb
+C:\Users\Stanislav\Documents\NET LEARn\InventoryManagementSystemWForms\InventoryManagementSystemWForms\obj\Debug\net9.0-windows\InventoryManagementSystemWForms.genruntimeconfig.cache
+C:\Users\Stanislav\Documents\NET LEARn\InventoryManagementSystemWForms\InventoryManagementSystemWForms\obj\Debug\net9.0-windows\ref\InventoryManagementSystemWForms.dll
+C:\Users\Stanislav\Documents\NET LEARn\InventoryManagementSystemWForms\InventoryManagementSystemWForms\obj\Debug\net9.0-windows\InventoryManagementSystemWForms.Properties.Resources.resources
