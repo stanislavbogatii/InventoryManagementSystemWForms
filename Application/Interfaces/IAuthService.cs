@@ -4,7 +4,7 @@ namespace Application.Interfaces
 {
     public interface IAuthService
     {
-        bool Login(string username, string password);
-        void Register(UserRegisterDto dto);
+        Task<bool> Login(string username, string password);
+        Task Register(UserRegisterDto dto);
     }
 }

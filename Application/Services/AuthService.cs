@@ -16,18 +16,18 @@ public class AuthService : IAuthService
         _userRepo = userRepo;
     }
 
-    public bool Login(string username, string password)
+    public async Task<bool> Login(string username, string password)
     {
-        var user = _userRepo.GetByUsername(username);
+        var user = await _userRepo.GetByUsernameAsync(username);
         if (user == null) return false;
 
         var hash = HashPassword(password);
         return user.PasswordHash == hash;
     }
 
-    public void Register(UserRegisterDto dto)
+    public async Task Register(UserRegisterDto dto)
     {
-        var existing = _userRepo.GetByUsername(dto.Username);
+        var existing = await _userRepo.GetByUsernameAsync(dto.Username);
         if (existing != null)
             throw new Exception("User already exists");
 
@@ -37,7 +37,7 @@ public class AuthService : IAuthService
             PasswordHash = HashPassword(dto.Password),
         };
 
-        _userRepo.Add(user);
+        await _userRepo.AddAsync(user);
     }
 
     private string HashPassword(string password)

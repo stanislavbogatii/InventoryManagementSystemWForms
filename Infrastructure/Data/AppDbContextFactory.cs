@@ -10,7 +10,8 @@ namespace Infrastructure.Data
             var optionsBuilder = new DbContextOptionsBuilder<AppDbContext>();
 
             optionsBuilder.UseSqlServer(
-                @"Server=DESKTOP-BJHK5QL;Database=InnventoryDB;Trusted_Connection=True;TrustServerCertificate=True");
+                @"Server=DESKTOP-BJHK5QL;Database=InnventoryDB;Trusted_Connection=True;TrustServerCertificate=True"
+            );
 
             return new AppDbContext(optionsBuilder.Options);
         }

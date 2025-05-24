@@ -1,4 +1,5 @@
-﻿namespace Domain.Entitites
+﻿
+namespace Domain.Entitites
 {
     public class User
     {

@@ -13,3 +13,4 @@ C:\Users\Stanislav\Documents\NET LEARn\InventoryManagementSystemWForms\Applicati
 C:\Users\Stanislav\Documents\NET LEARn\InventoryManagementSystemWForms\Application\obj\Debug\net9.0\refint\Application.dll
 C:\Users\Stanislav\Documents\NET LEARn\InventoryManagementSystemWForms\Application\obj\Debug\net9.0\Application.pdb
 C:\Users\Stanislav\Documents\NET LEARn\InventoryManagementSystemWForms\Application\obj\Debug\net9.0\ref\Application.dll
+C:\Users\Stanislav\Documents\NET LEARn\InventoryManagementSystemWForms\Application\obj\Debug\net9.0\Application.sourcelink.json
