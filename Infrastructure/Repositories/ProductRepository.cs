@@ -2,6 +2,7 @@
 using Infrastructure.Data;
 using Domain.Entitites;
 using Microsoft.EntityFrameworkCore;
+using Domain.Filters;
 
 namespace Infrastructure.Repositories
 {
@@ -34,9 +35,34 @@ namespace Infrastructure.Repositories
             await _context.SaveChangesAsync();
         }
 
-        public async Task<IEnumerable<Product>> GetAllAsync()
+        public async Task<IEnumerable<Product>> GetAllAsync(ProductFilters? filters = null)
         {
-            return await _context.Products.ToListAsync();
+            IQueryable<Product> query = _context.Products.Include(p => p.Category);
+            if (filters is not null)
+            {
+                if (!string.IsNullOrWhiteSpace(filters.title))
+                {
+                    query = query.Where(p =>
+                        (!string.IsNullOrEmpty(p.Title) && p.Title.Contains(filters.title)) ||
+                        (!string.IsNullOrEmpty(p.Article) && p.Article.Contains(filters.title)) ||
+                        (!string.IsNullOrEmpty(p.Code) && p.Code.Contains(filters.title))
+                    );
+
+                }
+
+                if (filters.minPrice.HasValue)
+                {
+                    query = query.Where(p => p.Price >= filters.minPrice.Value);
+                }
+
+                if (filters.maxPrice.HasValue)
+                {
+                    query = query.Where(p => p.Price <= filters.maxPrice.Value);
+                }
+            }
+
+
+            return await query.ToListAsync();
         }
     }
 }

@@ -1,4 +1,6 @@
-﻿using Application.Interfaces;
+﻿using Application.DTOs;
+using Application.Interfaces;
+using Domain.Filters;
 using Infrastructure;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -23,6 +25,8 @@ namespace Presentation.Forms
                 btnManageUsers.Visible = true;
             }
             lblCurrentUser.Text = $"Current user: {Session.CurrentUser?.Username}";
+
+            this.AcceptButton = btnFilter;
 
             _ = LoadProductsAsync();
         }
@@ -70,7 +74,17 @@ namespace Presentation.Forms
 
         private void btnFilter_Click(object sender, EventArgs e)
         {
-            // Логика фильтрации списка товаров
+            int minPrice = string.IsNullOrEmpty(intMinPrice.Text) ? 0 : int.Parse(intMinPrice.Text);
+            int maxPrice = string.IsNullOrEmpty(intMaxPrice.Text) ? int.MaxValue : int.Parse(intMaxPrice.Text);
+            var title = string.IsNullOrEmpty(txtFilterName.Text) ? null : txtFilterName.Text;
+            ProductFilters filters = new()
+            {
+                minPrice = minPrice,
+                maxPrice = maxPrice,
+                title = title,
+            };
+
+            LoadProductsAsync(filters);  
         }
 
         private void btnGenerateReport_Click(object sender, EventArgs e)
@@ -85,9 +99,9 @@ namespace Presentation.Forms
             this.Hide();
         }
 
-        private async Task LoadProductsAsync()
+        private async Task LoadProductsAsync(ProductFilters? filters = null)
         {
-            var products = await _productService.GetAll();
+            var products = await _productService.GetAll(filters);
 
             dgvProducts.Rows.Clear();
 

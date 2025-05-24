@@ -8,7 +8,6 @@ namespace Presentation.Forms
         private DataGridView dgvProducts;
         private TextBox txtFilterName;
         private TextBox txtFilterCategory;
-        private TextBox txtFilterPrice;
         private Button btnFilter;
         private Button btnGenerateReport;
         private Button btnLogout;
@@ -28,11 +27,7 @@ namespace Presentation.Forms
         {
             lblCurrentUser = new Label();
             dgvProducts = new DataGridView();
-            dataGridViewTextBoxColumnID = new DataGridViewTextBoxColumn{
-                HeaderText = "ProductID",
-                Name = "ProductID",
-                Visible = false
-            };
+            dataGridViewTextBoxColumnID = new DataGridViewTextBoxColumn();
             dataGridViewTextBoxColumn1 = new DataGridViewTextBoxColumn();
             dataGridViewTextBoxColumn2 = new DataGridViewTextBoxColumn();
             dataGridViewTextBoxColumn3 = new DataGridViewTextBoxColumn();
@@ -40,16 +35,16 @@ namespace Presentation.Forms
             dataGridViewTextBoxColumn5 = new DataGridViewTextBoxColumn();
             dataGridViewTextBoxColumn6 = new DataGridViewTextBoxColumn();
             dataGridViewTextBoxColumn7 = new DataGridViewTextBoxColumn();
-            var deleteButtonColumn = new DataGridViewButtonColumn();
-
+            deleteButtonColumn = new DataGridViewButtonColumn();
             txtFilterName = new TextBox();
             txtFilterCategory = new TextBox();
-            txtFilterPrice = new TextBox();
             btnFilter = new Button();
             btnGenerateReport = new Button();
             btnLogout = new Button();
             btnManageUsers = new Button();
             btnCreateProduct = new Button();
+            intMinPrice = new TextBox();
+            intMaxPrice = new TextBox();
             ((System.ComponentModel.ISupportInitialize)dgvProducts).BeginInit();
             SuspendLayout();
             // 
@@ -64,34 +59,20 @@ namespace Presentation.Forms
             // dgvProducts
             // 
             dgvProducts.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-            dgvProducts.Columns.AddRange(new DataGridViewColumn[] 
-            {
-                dataGridViewTextBoxColumnID,
-                dataGridViewTextBoxColumn1, 
-                dataGridViewTextBoxColumn2, 
-                dataGridViewTextBoxColumn3, 
-                dataGridViewTextBoxColumn4, 
-                dataGridViewTextBoxColumn5, 
-                dataGridViewTextBoxColumn6, 
-                dataGridViewTextBoxColumn7,
-                deleteButtonColumn
-            });
-
-            dgvProducts.CellContentClick += dgvProducts_CellDeleteClick;
-            dgvProducts.CellDoubleClick += dgvProducts_CellDoubleClick;
-
-            deleteButtonColumn.HeaderText = "Actions";
-            deleteButtonColumn.Name = "DeleteButton";
-            deleteButtonColumn.Text = "Delete";
-            deleteButtonColumn.UseColumnTextForButtonValue = true;
-
-
+            dgvProducts.Columns.AddRange(new DataGridViewColumn[] { dataGridViewTextBoxColumnID, dataGridViewTextBoxColumn1, dataGridViewTextBoxColumn2, dataGridViewTextBoxColumn3, dataGridViewTextBoxColumn4, dataGridViewTextBoxColumn5, dataGridViewTextBoxColumn6, dataGridViewTextBoxColumn7, deleteButtonColumn });
             dgvProducts.Location = new Point(10, 80);
             dgvProducts.Name = "dgvProducts";
             dgvProducts.ReadOnly = true;
             dgvProducts.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dgvProducts.Size = new Size(1200, 800);
             dgvProducts.TabIndex = 1;
+            dgvProducts.CellContentClick += dgvProducts_CellDeleteClick;
+            dgvProducts.CellDoubleClick += dgvProducts_CellDoubleClick;
+            // 
+            // dataGridViewTextBoxColumnID
+            // 
+            dataGridViewTextBoxColumnID.Name = "dataGridViewTextBoxColumnID";
+            dataGridViewTextBoxColumnID.ReadOnly = true;
             // 
             // dataGridViewTextBoxColumn1
             // 
@@ -135,33 +116,33 @@ namespace Presentation.Forms
             dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
             dataGridViewTextBoxColumn7.ReadOnly = true;
             // 
+            // deleteButtonColumn
+            // 
+            deleteButtonColumn.HeaderText = "Actions";
+            deleteButtonColumn.Name = "deleteButtonColumn";
+            deleteButtonColumn.ReadOnly = true;
+            deleteButtonColumn.Text = "Delete";
+            deleteButtonColumn.UseColumnTextForButtonValue = true;
+            // 
             // txtFilterName
             // 
             txtFilterName.Location = new Point(10, 40);
             txtFilterName.Name = "txtFilterName";
-            txtFilterName.PlaceholderText = "Filter by name";
+            txtFilterName.PlaceholderText = " Name, article, code";
             txtFilterName.Size = new Size(120, 23);
             txtFilterName.TabIndex = 2;
             // 
             // txtFilterCategory
             // 
-            txtFilterCategory.Location = new Point(140, 40);
+            txtFilterCategory.Location = new Point(136, 40);
             txtFilterCategory.Name = "txtFilterCategory";
             txtFilterCategory.PlaceholderText = "Filter by category";
             txtFilterCategory.Size = new Size(120, 23);
             txtFilterCategory.TabIndex = 3;
             // 
-            // txtFilterPrice
-            // 
-            txtFilterPrice.Location = new Point(270, 40);
-            txtFilterPrice.Name = "txtFilterPrice";
-            txtFilterPrice.PlaceholderText = "Filter by price";
-            txtFilterPrice.Size = new Size(120, 23);
-            txtFilterPrice.TabIndex = 4;
-            // 
             // btnFilter
             // 
-            btnFilter.Location = new Point(400, 40);
+            btnFilter.Location = new Point(514, 40);
             btnFilter.Name = "btnFilter";
             btnFilter.Size = new Size(75, 23);
             btnFilter.TabIndex = 5;
@@ -204,15 +185,34 @@ namespace Presentation.Forms
             btnCreateProduct.Text = "Create product";
             btnCreateProduct.Click += btnCreateProduct_Click;
             // 
+            // intMinPrice
+            // 
+            intMinPrice.Location = new Point(262, 40);
+            intMinPrice.Name = "intMinPrice";
+            intMinPrice.PlaceholderText = "Min price";
+            intMinPrice.Size = new Size(120, 23);
+            intMinPrice.TabIndex = 10;
+            intMinPrice.KeyPress += NumericTextBox_KeyPress;
+            // 
+            // intMaxPrice
+            // 
+            intMaxPrice.Location = new Point(388, 40);
+            intMaxPrice.Name = "intMaxPrice";
+            intMaxPrice.PlaceholderText = "Max price";
+            intMaxPrice.Size = new Size(120, 23);
+            intMaxPrice.TabIndex = 11;
+            intMaxPrice.KeyPress += NumericTextBox_KeyPress;
+            // 
             // HomeForm
             // 
             ClientSize = new Size(1387, 894);
+            Controls.Add(intMaxPrice);
+            Controls.Add(intMinPrice);
             Controls.Add(btnCreateProduct);
             Controls.Add(lblCurrentUser);
             Controls.Add(dgvProducts);
             Controls.Add(txtFilterName);
             Controls.Add(txtFilterCategory);
-            Controls.Add(txtFilterPrice);
             Controls.Add(btnFilter);
             Controls.Add(btnGenerateReport);
             Controls.Add(btnLogout);
@@ -226,6 +226,27 @@ namespace Presentation.Forms
             PerformLayout();
 
         }
+
+
+
+        private void NumericTextBox_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            TextBox txtBox = sender as TextBox;
+
+            char decimalSeparator = System.Globalization.CultureInfo.CurrentCulture.NumberFormat.NumberDecimalSeparator[0];
+
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && e.KeyChar != decimalSeparator)
+            {
+                e.Handled = true;
+            }
+
+            if (e.KeyChar == decimalSeparator && txtBox.Text.Contains(decimalSeparator))
+            {
+                e.Handled = true;
+            }
+        }
+
+
         private DataGridViewTextBoxColumn dataGridViewTextBoxColumnID;
         private DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
         private DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
@@ -236,5 +257,8 @@ namespace Presentation.Forms
         private DataGridViewTextBoxColumn dataGridViewTextBoxColumn7;
 
         private Button btnCreateProduct;
+        private DataGridViewButtonColumn deleteButtonColumn;
+        private TextBox intMinPrice;
+        private TextBox intMaxPrice;
     }
 }

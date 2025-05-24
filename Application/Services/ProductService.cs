@@ -1,6 +1,7 @@
 ﻿using Application.DTOs.Product;
 using Application.Interfaces;
 using Domain.Entitites;
+using Domain.Filters;
 using Domain.Interfaces;
 
 namespace Application.Services
@@ -18,9 +19,9 @@ namespace Application.Services
             Product product = new()
             {
                 Title = dto.Title,
-                Price = dto.Price, 
+                Price = dto.Price,
                 Code = dto.Code,
-                Article = dto.Article, 
+                Article = dto.Article,
                 Quantity = dto.Quantity,
                 OldPrice = dto.OldPrice,
                 CategoryId = dto.CategoryId,
@@ -35,9 +36,9 @@ namespace Application.Services
             await _productRepo.DeleteAsync(id);
         }
 
-        public async Task<IEnumerable<ProductDto>> GetAll()
+        public async Task<IEnumerable<ProductDto>> GetAll(ProductFilters? filters = null)
         {
-            var products = await _productRepo.GetAllAsync();
+            var products = await _productRepo.GetAllAsync(filters);
             if (products is not null)
             {
                 return products.Select(p => ToDto(p)).ToList();
