@@ -150,3 +150,12 @@ C:\Users\Stanislav\Documents\NET LEARn\InventoryManagementSystemWForms\Presentat
 C:\Users\Stanislav\Documents\NET LEARn\InventoryManagementSystemWForms\Presentation\bin\Debug\net9.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
 C:\Users\Stanislav\Documents\NET LEARn\InventoryManagementSystemWForms\Presentation\bin\Debug\net9.0-windows\Microsoft.Extensions.Hosting.Abstractions.dll
 C:\Users\Stanislav\Documents\NET LEARn\InventoryManagementSystemWForms\Presentation\obj\Debug\net9.0-windows\Presentation.Forms.ViewProductForm.resources
+C:\Users\Stanislav\Documents\NET LEARn\InventoryManagementSystemWForms\Presentation\obj\Debug\net9.0-windows\Presentation.Forms.AdminHomeForm.resources
+C:\Users\Stanislav\Documents\NET LEARn\InventoryManagementSystemWForms\Presentation\bin\Debug\net9.0-windows\ClosedXML.dll
+C:\Users\Stanislav\Documents\NET LEARn\InventoryManagementSystemWForms\Presentation\bin\Debug\net9.0-windows\ClosedXML.Parser.dll
+C:\Users\Stanislav\Documents\NET LEARn\InventoryManagementSystemWForms\Presentation\bin\Debug\net9.0-windows\DocumentFormat.OpenXml.dll
+C:\Users\Stanislav\Documents\NET LEARn\InventoryManagementSystemWForms\Presentation\bin\Debug\net9.0-windows\DocumentFormat.OpenXml.Framework.dll
+C:\Users\Stanislav\Documents\NET LEARn\InventoryManagementSystemWForms\Presentation\bin\Debug\net9.0-windows\ExcelNumberFormat.dll
+C:\Users\Stanislav\Documents\NET LEARn\InventoryManagementSystemWForms\Presentation\bin\Debug\net9.0-windows\RBush.dll
+C:\Users\Stanislav\Documents\NET LEARn\InventoryManagementSystemWForms\Presentation\bin\Debug\net9.0-windows\SixLabors.Fonts.dll
+C:\Users\Stanislav\Documents\NET LEARn\InventoryManagementSystemWForms\Presentation\obj\Debug\net9.0-windows\Presentation.Forms.WarehouseManagementForm.resources

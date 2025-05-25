@@ -1,7 +1,7 @@
 ﻿using Application.Interfaces;
-using Domain.Entitites;
 using Infrastructure;
 using Microsoft.Extensions.DependencyInjection;
+using Presentation.Interfaces;
 
 
 namespace Presentation.Forms;
@@ -10,18 +10,21 @@ public partial class LoginForm : Form
     private readonly IAuthService _authService;
     private readonly IUserService _userService;
     private readonly IServiceProvider _serviceProvider;
+    private readonly IFormFactory _formFactory;
 
     public LoginForm(
-        IAuthService authService, 
+        IAuthService authService,
         IUserService userService,
         IProductService productService,
-        IServiceProvider serviceProvider
+        IServiceProvider serviceProvider,
+        IFormFactory formFactory
     )
     {
         InitializeComponent();
         _authService = authService;
         _userService = userService;
         _serviceProvider = serviceProvider;
+        _formFactory = formFactory;
 
         this.AcceptButton = btnLogin;
     }
@@ -35,15 +38,12 @@ public partial class LoginForm : Form
 
             if (user != null)
             {
-                Session.CurrentUser = new User
-                {
-                    Username = user.Username ?? "",
-                    Id = user.Id,
-                    Role = user.Role ?? "User"
-                };
+                Session.Instance.UserName = user.Username;
+                Session.Instance.UserRole = user.Role;
+                Session.Instance.Id = user.Id;
             }
-            var home = _serviceProvider.GetRequiredService<HomeForm>();
-            home.Show();
+            Form form = _formFactory.CreateForm(user.Role ?? "User");
+            form.Show();
             this.Hide();
         }
         else

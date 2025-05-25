@@ -1,5 +1,4 @@
-﻿using Application.DTOs;
-using Application.Interfaces;
+﻿using Application.Interfaces;
 using Domain.Filters;
 using Infrastructure;
 using Microsoft.Extensions.DependencyInjection;
@@ -20,11 +19,7 @@ namespace Presentation.Forms
             _productService = productService;
             _serviceProvider = serviceProvider;
 
-            if (Session.CurrentUser?.Role == "Admin")
-            {
-                btnManageUsers.Visible = true;
-            }
-            lblCurrentUser.Text = $"Current user: {Session.CurrentUser?.Username}";
+            lblCurrentUser.Text = $"Current user: {Session.Instance.UserName}";
 
             this.AcceptButton = btnFilter;
 
@@ -33,7 +28,7 @@ namespace Presentation.Forms
 
         private async void dgvProducts_CellDeleteClick(object sender, DataGridViewCellEventArgs e)
         {
-            if (dgvProducts.Columns[e.ColumnIndex].Name == "DeleteButton" && e.RowIndex >= 0)
+            if (dgvProducts.Columns[e.ColumnIndex].Name == "deleteButtonColumn" && e.RowIndex >= 0)
             {
                 int productId = Convert.ToInt32(dgvProducts.Rows[e.RowIndex].Cells["ProductID"].Value);
                 var confirm = MessageBox.Show("Are you sure you want to delete this product?", "Confirm Delete", MessageBoxButtons.YesNo);
@@ -84,7 +79,7 @@ namespace Presentation.Forms
                 title = title,
             };
 
-            LoadProductsAsync(filters);  
+            LoadProductsAsync(filters);
         }
 
         private void btnGenerateReport_Click(object sender, EventArgs e)
@@ -94,6 +89,7 @@ namespace Presentation.Forms
 
         private void btnLogout_Click(object sender, EventArgs e)
         {
+            Session.Instance.Clear();
             var loginForm = _serviceProvider.GetRequiredService<LoginForm>();
             loginForm.Show();
             this.Hide();

@@ -11,7 +11,6 @@ namespace Presentation.Forms
         private Button btnFilter;
         private Button btnGenerateReport;
         private Button btnLogout;
-        private Button btnManageUsers;
         private System.ComponentModel.IContainer components = null;
 
         protected override void Dispose(bool disposing)
@@ -41,7 +40,6 @@ namespace Presentation.Forms
             btnFilter = new Button();
             btnGenerateReport = new Button();
             btnLogout = new Button();
-            btnManageUsers = new Button();
             btnCreateProduct = new Button();
             intMinPrice = new TextBox();
             intMaxPrice = new TextBox();
@@ -71,7 +69,9 @@ namespace Presentation.Forms
             // 
             // dataGridViewTextBoxColumnID
             // 
-            dataGridViewTextBoxColumnID.Name = "dataGridViewTextBoxColumnID";
+            dataGridViewTextBoxColumnID.Name = "ProductID";
+            dataGridViewTextBoxColumnID.HeaderText = "ID";
+
             dataGridViewTextBoxColumnID.ReadOnly = true;
             // 
             // dataGridViewTextBoxColumn1
@@ -160,25 +160,16 @@ namespace Presentation.Forms
             // 
             // btnLogout
             // 
-            btnLogout.Location = new Point(1220, 120);
+            btnLogout.Location = new Point(1220, 152);
             btnLogout.Name = "btnLogout";
             btnLogout.Size = new Size(150, 30);
             btnLogout.TabIndex = 7;
             btnLogout.Text = "Logout";
             btnLogout.Click += btnLogout_Click;
             // 
-            // btnManageUsers
-            // 
-            btnManageUsers.Location = new Point(1220, 160);
-            btnManageUsers.Name = "btnManageUsers";
-            btnManageUsers.Size = new Size(150, 30);
-            btnManageUsers.TabIndex = 8;
-            btnManageUsers.Text = "Manage Users";
-            btnManageUsers.Visible = false;
-            // 
             // btnCreateProduct
             // 
-            btnCreateProduct.Location = new Point(1220, 199);
+            btnCreateProduct.Location = new Point(1220, 116);
             btnCreateProduct.Name = "btnCreateProduct";
             btnCreateProduct.Size = new Size(150, 30);
             btnCreateProduct.TabIndex = 9;
@@ -216,7 +207,6 @@ namespace Presentation.Forms
             Controls.Add(btnFilter);
             Controls.Add(btnGenerateReport);
             Controls.Add(btnLogout);
-            Controls.Add(btnManageUsers);
             MaximizeBox = false;
             Name = "HomeForm";
             StartPosition = FormStartPosition.CenterScreen;

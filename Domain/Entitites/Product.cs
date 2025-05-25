@@ -21,5 +21,7 @@
         public int? CategoryId { get; set; } = null; 
 
         public Category Category { get; set; } = null!;
+        public int? WarehouseLocationId { get; set; } = null;
+        public Warehouse? WarehouseLocation { get; set; } = null;
     }
 }

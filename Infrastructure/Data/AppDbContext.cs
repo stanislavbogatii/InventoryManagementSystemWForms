@@ -11,6 +11,8 @@ namespace Infrastructure.Data
         public DbSet<User> Users { get; set; }
         public DbSet<Product> Products { get; set; }
         public DbSet<Category> Categories { get; set; }
+        public DbSet<Warehouse> Warehouses { get; set; }
+
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -54,7 +56,32 @@ namespace Infrastructure.Data
                     .WithMany()
                     .HasForeignKey(p => p.CategoryId)
                     .OnDelete(DeleteBehavior.Cascade);
+
+                entity.HasOne(p => p.WarehouseLocation)
+                      .WithMany(w => w.Products)
+                      .HasForeignKey(p => p.WarehouseLocationId)
+                      .OnDelete(DeleteBehavior.SetNull);
             });
+
+            modelBuilder.Entity<Warehouse>(entity =>
+            {
+                entity.HasKey(e => e.Id);
+                entity.Property(e => e.Name).IsRequired().HasMaxLength(200);
+                entity.Property(e => e.StorageType).IsRequired().HasMaxLength(100);
+                entity.Property(e => e.Length).IsRequired();
+                entity.Property(e => e.Width).IsRequired();
+                entity.Property(e => e.Height).IsRequired();
+                entity.Property(e => e.MaxLoadCapacity).IsRequired();
+                entity.Property(e => e.AccessLevel).IsRequired().HasMaxLength(100);
+                entity.Property(e => e.HasSecuritySystem).IsRequired();
+                entity.Property(w => w.AccessLevel)
+                  .HasConversion<string>()
+                  .IsRequired();
+                entity.Property(w => w.StorageType)
+                  .HasConversion<string>()
+                  .IsRequired();
+            });
+
         }
     }
 }

@@ -89,11 +89,16 @@ namespace Infrastructure.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int?>("WarehouseLocationId")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
 
                     b.HasIndex("CategoryId");
 
                     b.HasIndex("CategoryId1");
+
+                    b.HasIndex("WarehouseLocationId");
 
                     b.ToTable("Products");
                 });
@@ -124,6 +129,49 @@ namespace Infrastructure.Migrations
                     b.ToTable("Users");
                 });
 
+            modelBuilder.Entity("Domain.Entitites.Warehouse", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("AccessLevel")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<bool>("HasSecuritySystem")
+                        .HasColumnType("bit");
+
+                    b.Property<double>("Height")
+                        .HasColumnType("float");
+
+                    b.Property<double>("Length")
+                        .HasColumnType("float");
+
+                    b.Property<double>("MaxLoadCapacity")
+                        .HasColumnType("float");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
+
+                    b.Property<string>("StorageType")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<double>("Width")
+                        .HasColumnType("float");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Warehouses");
+                });
+
             modelBuilder.Entity("Domain.Entitites.Category", b =>
                 {
                     b.HasOne("Domain.Entitites.Category", "Parent")
@@ -144,13 +192,25 @@ namespace Infrastructure.Migrations
                         .WithMany("Products")
                         .HasForeignKey("CategoryId1");
 
+                    b.HasOne("Domain.Entitites.Warehouse", "WarehouseLocation")
+                        .WithMany("Products")
+                        .HasForeignKey("WarehouseLocationId")
+                        .OnDelete(DeleteBehavior.SetNull);
+
                     b.Navigation("Category");
+
+                    b.Navigation("WarehouseLocation");
                 });
 
             modelBuilder.Entity("Domain.Entitites.Category", b =>
                 {
                     b.Navigation("Categories");
 
+                    b.Navigation("Products");
+                });
+
+            modelBuilder.Entity("Domain.Entitites.Warehouse", b =>
+                {
                     b.Navigation("Products");
                 });
 #pragma warning restore 612, 618
