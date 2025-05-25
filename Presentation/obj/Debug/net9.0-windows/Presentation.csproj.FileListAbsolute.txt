@@ -159,3 +159,4 @@ C:\Users\Stanislav\Documents\NET LEARn\InventoryManagementSystemWForms\Presentat
 C:\Users\Stanislav\Documents\NET LEARn\InventoryManagementSystemWForms\Presentation\bin\Debug\net9.0-windows\RBush.dll
 C:\Users\Stanislav\Documents\NET LEARn\InventoryManagementSystemWForms\Presentation\bin\Debug\net9.0-windows\SixLabors.Fonts.dll
 C:\Users\Stanislav\Documents\NET LEARn\InventoryManagementSystemWForms\Presentation\obj\Debug\net9.0-windows\Presentation.Forms.WarehouseManagementForm.resources
+C:\Users\Stanislav\Documents\NET LEARn\InventoryManagementSystemWForms\Presentation\obj\Debug\net9.0-windows\Presentation.Forms.CreateWarehouseForm.resources

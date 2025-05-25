@@ -39,6 +39,7 @@ static class Program
         services.AddTransient<ViewProductForm>();
         services.AddTransient<CreateProductForm>();
         services.AddTransient<WarehouseManagementForm>();
+        services.AddTransient<CreateWarehouseForm>();
 
         var provider = services.BuildServiceProvider();
 

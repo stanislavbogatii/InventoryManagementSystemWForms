@@ -1,21 +1,25 @@
-﻿namespace Presentation.Forms
+﻿using Microsoft.Extensions.DependencyInjection;
+
+namespace Presentation.Forms
 {
     public partial class WarehouseManagementForm : Form
     {
         private readonly IWarehouseService _warehouseService;
-        public WarehouseManagementForm(IWarehouseService warehouseService)
+        private IServiceProvider _serviceProvider;
+        public WarehouseManagementForm(IWarehouseService warehouseService, IServiceProvider serviceProvider)
         {
             _warehouseService = warehouseService;
+            _serviceProvider = serviceProvider;
             InitializeComponent();
         }
 
         private void btnCreateWarehouse_Click(object sender, EventArgs e)
         {
-            //var createForm = new CreateWarehouseForm();
-            //if (createForm.ShowDialog() == DialogResult.OK)
-            //{
-            //    LoadWarehouses();
-            //}
+            var form = _serviceProvider.GetRequiredService<CreateWarehouseForm>();
+            if (form.ShowDialog() == DialogResult.OK)
+            {
+                LoadWarehouses();
+            }
         }
 
         private async void LoadWarehouses()
