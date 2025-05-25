@@ -26,24 +26,24 @@
                                  .FirstOrDefaultAsync(w => w.Id == id);
         }
 
-        public async Task AddAsync(Warehouse location)
+        public async Task AddAsync(Warehouse warehouse)
         {
-            _context.Warehouses.Add(location);
+            _context.Warehouses.Add(warehouse);
             await _context.SaveChangesAsync();
         }
 
-        public async Task UpdateAsync(Warehouse location)
+        public async Task UpdateAsync(Warehouse warehouse)
         {
-            _context.Warehouses.Update(location);
+            _context.Warehouses.Update(warehouse);
             await _context.SaveChangesAsync();
         }
 
         public async Task DeleteAsync(int id)
         {
-            var location = await _context.Warehouses.FindAsync(id);
-            if (location != null)
+            var warehouse = await _context.Warehouses.FindAsync(id);
+            if (warehouse != null)
             {
-                _context.Warehouses.Remove(location);
+                _context.Warehouses.Remove(warehouse);
                 await _context.SaveChangesAsync();
             }
         }

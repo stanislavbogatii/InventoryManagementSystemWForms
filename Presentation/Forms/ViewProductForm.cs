@@ -12,7 +12,7 @@ namespace Presentation.Forms
         {
             InitializeComponent();
             _productService = productService;
-            this.AcceptButton = btnCreateProduct;
+            this.AcceptButton = btnSaveProduct;
         }
 
         public ViewProductForm(IProductService productService, ProductDto product)
@@ -36,7 +36,7 @@ namespace Presentation.Forms
             txtQuantity.Text = product.Quantity.ToString();
         }
 
-        public async void btnCreateProduct_Click(object sender, EventArgs e)
+        public async void btnSaveProduct_Click(object sender, EventArgs e)
         {
             if (!validateForm())
             {
@@ -44,7 +44,7 @@ namespace Presentation.Forms
             }
             try
             {
-                var dto = new CreateProductDto
+                var dto = new UpdateProductDto
                 {
                     Title = txtTitle.Text,
                     Code = txtCode.Text,
@@ -58,7 +58,7 @@ namespace Presentation.Forms
 
                 if (dto is not null)
                 {
-                    await _productService.Create(dto);
+                    await _productService.Update(_product.Id, dto);
                 }
 
                 MessageBox.Show($"Product '{dto.Title}' success created");

@@ -10,7 +10,7 @@
         private TextBox txtPrice;
         private Label lblQuantity;
         private TextBox txtQuantity;
-        private Button btnCreateProduct;
+        private Button btnSaveProduct;
         private System.ComponentModel.IContainer components = null;
 
         private Label label1;
@@ -41,7 +41,7 @@
             txtPrice = new TextBox();
             lblQuantity = new Label();
             txtQuantity = new TextBox();
-            btnCreateProduct = new Button();
+            btnSaveProduct = new Button();
             label1 = new Label();
             txtArticle = new TextBox();
             txtCodeLbl = new Label();
@@ -115,14 +115,14 @@
             txtQuantity.TabIndex = 7;
             txtQuantity.KeyPress += NumericTextBox_KeyPress; // фильтрация ввода
             // 
-            // btnCreateProduct
+            // btnSaveProduct
             // 
-            btnCreateProduct.Location = new Point(140, 413);
-            btnCreateProduct.Name = "btnCreateProduct";
-            btnCreateProduct.Size = new Size(200, 30);
-            btnCreateProduct.TabIndex = 8;
-            btnCreateProduct.Text = "Create Product";
-            btnCreateProduct.Click += btnCreateProduct_Click;
+            btnSaveProduct.Location = new Point(140, 413);
+            btnSaveProduct.Name = "btnSaveProduct";
+            btnSaveProduct.Size = new Size(200, 30);
+            btnSaveProduct.TabIndex = 8;
+            btnSaveProduct.Text = "Save";
+            btnSaveProduct.Click += btnSaveProduct_Click;
             // 
             // label1
             // 
@@ -204,7 +204,7 @@
             Controls.Add(txtPrice);
             Controls.Add(lblQuantity);
             Controls.Add(txtQuantity);
-            Controls.Add(btnCreateProduct);
+            Controls.Add(btnSaveProduct);
             MaximizeBox = false;
             Name = "ViewProductForm";
             StartPosition = FormStartPosition.CenterScreen;

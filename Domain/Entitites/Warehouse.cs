@@ -14,21 +14,6 @@ namespace Domain.Entitites
         public WarehouseAccessLevelEnum AccessLevel { get; set; } = 0;
         public bool HasSecuritySystem { get; set; }
         public ICollection<Product> Products { get; set; } = new List<Product>();
-
-        public Warehouse Clone()
-        {
-            return new Warehouse
-            {
-                Name = this.Name + " (копия)",
-                StorageType = this.StorageType,
-                Length = this.Length,
-                Width = this.Width,
-                Height = this.Height,
-                MaxLoadCapacity = this.MaxLoadCapacity,
-                AccessLevel = this.AccessLevel,
-                HasSecuritySystem = this.HasSecuritySystem
-            };
-        }
     }
 
 }

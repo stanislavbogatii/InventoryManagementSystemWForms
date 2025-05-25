@@ -1,8 +1,9 @@
-﻿using Application.DTOs.Product;
-using Application.DTOs.User;
+﻿using Application.DTOs.User;
 using Application.Interfaces;
 using Domain.Entitites;
 using Domain.Interfaces;
+using System.Security.Cryptography;
+using System.Text;
 
 namespace Application.Services
 {
@@ -38,12 +39,25 @@ namespace Application.Services
             return null;
         }
 
-        public Task<UserDto> Create(CreateUserDto dto)
+        public async Task Create(CreateUserDto dto)
         {
-            throw new NotImplementedException();
+
+            var user = await _userRepo.GetByUsernameAsync(dto.Username);
+            if (user is not null) throw new Exception("User with same username already exist");
+
+            var hash = HashPassword(dto.Password);
+
+            User newUser = new()
+            {
+                Username = dto.Username,
+                Role = dto.Role,
+                PasswordHash = hash
+            };
+            await _userRepo.CreateAsync(newUser);
+
         }
 
-        public Task Update(int id)
+        public Task Update(int id, UpdateUserDto dto)
         {
             throw new NotImplementedException();
         }
@@ -64,6 +78,14 @@ namespace Application.Services
             Username = user.Username,
             Role = user.Role
         };
+
+        private string HashPassword(string password)
+        {
+            using var sha = SHA256.Create();
+            var bytes = Encoding.UTF8.GetBytes(password);
+            var hash = sha.ComputeHash(bytes);
+            return Convert.ToBase64String(hash);
+        }
 
     }
 }

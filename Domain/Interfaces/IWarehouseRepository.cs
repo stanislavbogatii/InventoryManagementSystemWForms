@@ -6,8 +6,8 @@ namespace Domain.Interfaces
     {
         Task<IEnumerable<Warehouse>> GetAllAsync();
         Task<Warehouse?> GetByIdAsync(int id);
-        Task AddAsync(Warehouse location);
-        Task UpdateAsync(Warehouse location);
+        Task AddAsync(Warehouse warehouse);
+        Task UpdateAsync(Warehouse warehouse);
         Task DeleteAsync(int id);
     }
 }

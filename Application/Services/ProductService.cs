@@ -1,6 +1,8 @@
 ﻿using Application.DTOs.Product;
+using Application.DTOs.Warehouse;
 using Application.Interfaces;
 using Domain.Entitites;
+using Domain.Enums;
 using Domain.Filters;
 using Domain.Interfaces;
 
@@ -56,15 +58,22 @@ namespace Application.Services
             return null;
         }
 
-        public Task<ProductDto?> GetByUsername(string username)
+        public async Task Update(int id, UpdateProductDto dto)
         {
-            throw new NotImplementedException();
+            var product = await _productRepo.GetByIdAsync(id);
+            if (product == null) throw new Exception("Product not found");
+            product.Title = dto.Title;
+            product.Price = dto.Price;
+            product.Code = dto.Code;
+            product.Article = dto.Article;
+            product.Quantity = dto.Quantity;
+            product.OldPrice = dto.OldPrice;
+            product.CategoryId = dto.CategoryId;
+            product.Description = dto.Description;
+
+            await _productRepo.UdpateAsync(product);
         }
 
-        public Task Update(int id)
-        {
-            throw new NotImplementedException();
-        }
 
         public static ProductDto ToDto(Product product)
         {

@@ -12,21 +12,21 @@ public class WarehouseService : IWarehouseService
         _repository = repository;
     }
 
-    public async Task<IEnumerable<WarehouseDto>> GetAllAsync()
+    public async Task<IEnumerable<WarehouseDto>> GetAll()
     {
         var locations = await _repository.GetAllAsync();
         return locations.Select(l => MapToDto(l)).ToList();
     }
 
-    public async Task<WarehouseDto?> GetByIdAsync(int id)
+    public async Task<WarehouseDto?> GetById(int id)
     {
         var location = await _repository.GetByIdAsync(id);
         return location == null ? null : MapToDto(location);
     }
 
-    public async Task CreateAsync(CreateWarehouseDto dto)
+    public async Task Create(CreateWarehouseDto dto)
     {
-        var location = new Warehouse
+        var warehouse = new Warehouse
         {
             Name = dto.Name,
             StorageType = Enum.Parse<WarehouseStorageTypeEnum>(dto.StorageType),
@@ -38,27 +38,27 @@ public class WarehouseService : IWarehouseService
             HasSecuritySystem = dto.HasSecuritySystem,
         };
 
-        await _repository.AddAsync(location);
+        await _repository.AddAsync(warehouse);
     }
 
-    public async Task UpdateAsync(int id, CreateWarehouseDto dto)
+    public async Task Update(int id, UpdateWarehouseDto dto)
     {
-        var location = await _repository.GetByIdAsync(id);
-        if (location == null) throw new Exception("Warehouse not found");
+        var warehouse = await _repository.GetByIdAsync(id);
+        if (warehouse == null) throw new Exception("Warehouse not found");
 
-        location.Name = dto.Name;
-        location.StorageType = Enum.Parse<WarehouseStorageTypeEnum>(dto.StorageType);
-        location.Length = dto.Length;
-        location.Width = dto.Width;
-        location.Height = dto.Height;
-        location.MaxLoadCapacity = dto.MaxLoadCapacity;
-        location.AccessLevel = Enum.Parse<WarehouseAccessLevelEnum>(dto.AccessLevel);
-        location.HasSecuritySystem = dto.HasSecuritySystem;
+        warehouse.Name = dto.Name;
+        warehouse.StorageType = Enum.Parse<WarehouseStorageTypeEnum>(dto.StorageType);
+        warehouse.Length = dto.Length;
+        warehouse.Width = dto.Width;
+        warehouse.Height = dto.Height;
+        warehouse.MaxLoadCapacity = dto.MaxLoadCapacity;
+        warehouse.AccessLevel = Enum.Parse<WarehouseAccessLevelEnum>(dto.AccessLevel);
+        warehouse.HasSecuritySystem = dto.HasSecuritySystem;
 
-        await _repository.UpdateAsync(location);
+        await _repository.UpdateAsync(warehouse);
     }
 
-    public async Task DeleteAsync(int id)
+    public async Task Delete(int id)
     {
         await _repository.DeleteAsync(id);
     }

@@ -160,3 +160,10 @@ C:\Users\Stanislav\Documents\NET LEARn\InventoryManagementSystemWForms\Presentat
 C:\Users\Stanislav\Documents\NET LEARn\InventoryManagementSystemWForms\Presentation\bin\Debug\net9.0-windows\SixLabors.Fonts.dll
 C:\Users\Stanislav\Documents\NET LEARn\InventoryManagementSystemWForms\Presentation\obj\Debug\net9.0-windows\Presentation.Forms.WarehouseManagementForm.resources
 C:\Users\Stanislav\Documents\NET LEARn\InventoryManagementSystemWForms\Presentation\obj\Debug\net9.0-windows\Presentation.Forms.CreateWarehouseForm.resources
+C:\Users\Stanislav\Documents\NET LEARn\InventoryManagementSystemWForms\Presentation\obj\Debug\net9.0-windows\Presentation.Forms.ViewWarehouseForm.resources
+C:\Users\Stanislav\Documents\NET LEARn\InventoryManagementSystemWForms\Presentation\obj\Debug\net9.0-windows\Presentation.Forms.CategoriesManagementForm.resources
+C:\Users\Stanislav\Documents\NET LEARn\InventoryManagementSystemWForms\Presentation\obj\Debug\net9.0-windows\Presentation.Forms.CreateCategoryForm.resources
+C:\Users\Stanislav\Documents\NET LEARn\InventoryManagementSystemWForms\Presentation\obj\Debug\net9.0-windows\Presentation.Forms.CreateUserForm.resources
+C:\Users\Stanislav\Documents\NET LEARn\InventoryManagementSystemWForms\Presentation\obj\Debug\net9.0-windows\Presentation.Forms.UserManagementForm.resources
+C:\Users\Stanislav\Documents\NET LEARn\InventoryManagementSystemWForms\Presentation\obj\Debug\net9.0-windows\Presentation.Forms.ViewCategoryForm.resources
+C:\Users\Stanislav\Documents\NET LEARn\InventoryManagementSystemWForms\Presentation\obj\Debug\net9.0-windows\Presentation.Forms.ViewUserForm.resources

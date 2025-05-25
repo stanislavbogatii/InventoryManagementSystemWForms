@@ -3,108 +3,172 @@
   "WorkspaceRootPath": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|c:\\users\\stanislav\\documents\\net learn\\inventorymanagementsystemwforms\\presentation\\forms\\warehousesmanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\forms\\warehousesmanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|c:\\users\\stanislav\\documents\\net learn\\inventorymanagementsystemwforms\\presentation\\forms\\homeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\forms\\homeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\presentation\\forms\\homeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\forms\\homeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|c:\\users\\stanislav\\documents\\net learn\\inventorymanagementsystemwforms\\presentation\\forms\\createwarehouseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\forms\\createwarehouseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|c:\\users\\stanislav\\documents\\net learn\\inventorymanagementsystemwforms\\presentation\\forms\\createwarehouseform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\forms\\createwarehouseform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|c:\\users\\stanislav\\documents\\net learn\\inventorymanagementsystemwforms\\presentation\\forms\\createproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\forms\\createproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\presentation\\forms\\createproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\forms\\createproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|c:\\users\\stanislav\\documents\\net learn\\inventorymanagementsystemwforms\\presentation\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\presentation\\forms\\warehousesmanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\forms\\warehousesmanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|c:\\users\\stanislav\\documents\\net learn\\inventorymanagementsystemwforms\\presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|c:\\users\\stanislav\\documents\\net learn\\inventorymanagementsystemwforms\\presentation\\forms\\createwarehouseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\forms\\createwarehouseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|c:\\users\\stanislav\\documents\\net learn\\inventorymanagementsystemwforms\\presentation\\forms\\adminhomeform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\forms\\adminhomeform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E68C9BF1-CFE9-4C45-8246-373F649D7DED}|Infrastructure\\Infrastructure.csproj|c:\\users\\stanislav\\documents\\net learn\\inventorymanagementsystemwforms\\infrastructure\\repositories\\warehouserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E68C9BF1-CFE9-4C45-8246-373F649D7DED}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\warehouserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|c:\\users\\stanislav\\documents\\net learn\\inventorymanagementsystemwforms\\presentation\\forms\\adminhomeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\forms\\adminhomeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|c:\\users\\stanislav\\documents\\net learn\\inventorymanagementsystemwforms\\presentation\\forms\\adminhomeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\forms\\adminhomeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|c:\\users\\stanislav\\documents\\net learn\\inventorymanagementsystemwforms\\application\\dtos\\warehouse\\warehousedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|solutionrelative:application\\dtos\\warehouse\\warehousedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|c:\\users\\stanislav\\documents\\net learn\\inventorymanagementsystemwforms\\presentation\\forms\\warehousesmanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\forms\\warehousesmanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|c:\\users\\stanislav\\documents\\net learn\\inventorymanagementsystemwforms\\presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|c:\\users\\stanislav\\documents\\net learn\\inventorymanagementsystemwforms\\presentation\\factories\\formfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\factories\\formfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|c:\\users\\stanislav\\documents\\net learn\\inventorymanagementsystemwforms\\presentation\\presentation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\presentation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|c:\\users\\stanislav\\documents\\net learn\\inventorymanagementsystemwforms\\presentation\\forms\\categoriesmanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\forms\\categoriesmanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E68C9BF1-CFE9-4C45-8246-373F649D7DED}|Infrastructure\\Infrastructure.csproj|c:\\users\\stanislav\\documents\\net learn\\inventorymanagementsystemwforms\\infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{E68C9BF1-CFE9-4C45-8246-373F649D7DED}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|c:\\users\\stanislav\\documents\\net learn\\inventorymanagementsystemwforms\\presentation\\forms\\viewcategoryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\forms\\viewcategoryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{23304725-73F3-486D-B3E6-966ADA480098}|Domain\\Domain.csproj|c:\\users\\stanislav\\documents\\net learn\\inventorymanagementsystemwforms\\domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{23304725-73F3-486D-B3E6-966ADA480098}|Domain\\Domain.csproj|solutionrelative:domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|c:\\users\\stanislav\\documents\\net learn\\inventorymanagementsystemwforms\\presentation\\forms\\createcategoryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\forms\\createcategoryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\presentation\\forms\\adminhomeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\forms\\adminhomeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|c:\\users\\stanislav\\documents\\net learn\\inventorymanagementsystemwforms\\presentation\\forms\\viewuserform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\forms\\viewuserform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|c:\\users\\stanislav\\documents\\net learn\\inventorymanagementsystemwforms\\presentation\\forms\\warehousesmanagementform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\forms\\warehousesmanagementform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|c:\\users\\stanislav\\documents\\net learn\\inventorymanagementsystemwforms\\presentation\\forms\\createuserform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\forms\\createuserform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|c:\\users\\stanislav\\documents\\net learn\\inventorymanagementsystemwforms\\application\\services\\warehouseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|solutionrelative:application\\services\\warehouseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|c:\\users\\stanislav\\documents\\net learn\\inventorymanagementsystemwforms\\presentation\\forms\\usermanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\forms\\usermanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|c:\\users\\stanislav\\documents\\net learn\\inventorymanagementsystemwforms\\application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|solutionrelative:application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|c:\\users\\stanislav\\documents\\net learn\\inventorymanagementsystemwforms\\application\\dtos\\warehouse\\createwarehousedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|solutionrelative:application\\dtos\\warehouse\\createwarehousedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{23304725-73F3-486D-B3E6-966ADA480098}|Domain\\Domain.csproj|c:\\users\\stanislav\\documents\\net learn\\inventorymanagementsystemwforms\\domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23304725-73F3-486D-B3E6-966ADA480098}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E68C9BF1-CFE9-4C45-8246-373F649D7DED}|Infrastructure\\Infrastructure.csproj|c:\\users\\stanislav\\documents\\net learn\\inventorymanagementsystemwforms\\infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E68C9BF1-CFE9-4C45-8246-373F649D7DED}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|c:\\users\\stanislav\\documents\\net learn\\inventorymanagementsystemwforms\\application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|solutionrelative:application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|c:\\users\\stanislav\\documents\\net learn\\inventorymanagementsystemwforms\\application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|solutionrelative:application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|c:\\users\\stanislav\\documents\\net learn\\inventorymanagementsystemwforms\\application\\dtos\\user\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|solutionrelative:application\\dtos\\user\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|c:\\users\\stanislav\\documents\\net learn\\inventorymanagementsystemwforms\\application\\dtos\\user\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|solutionrelative:application\\dtos\\user\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|c:\\users\\stanislav\\documents\\net learn\\inventorymanagementsystemwforms\\application\\dtos\\user\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|solutionrelative:application\\dtos\\user\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|c:\\users\\stanislav\\documents\\net learn\\inventorymanagementsystemwforms\\presentation\\forms\\viewproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\forms\\viewproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|c:\\users\\stanislav\\documents\\net learn\\inventorymanagementsystemwforms\\presentation\\forms\\viewproductform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\forms\\viewproductform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|c:\\users\\stanislav\\documents\\net learn\\inventorymanagementsystemwforms\\presentation\\forms\\viewproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\forms\\viewproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|c:\\users\\stanislav\\documents\\net learn\\inventorymanagementsystemwforms\\application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|solutionrelative:application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23304725-73F3-486D-B3E6-966ADA480098}|Domain\\Domain.csproj|c:\\users\\stanislav\\documents\\net learn\\inventorymanagementsystemwforms\\domain\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23304725-73F3-486D-B3E6-966ADA480098}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E68C9BF1-CFE9-4C45-8246-373F649D7DED}|Infrastructure\\Infrastructure.csproj|c:\\users\\stanislav\\documents\\net learn\\inventorymanagementsystemwforms\\infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E68C9BF1-CFE9-4C45-8246-373F649D7DED}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{23304725-73F3-486D-B3E6-966ADA480098}|Domain\\Domain.csproj|c:\\users\\stanislav\\documents\\net learn\\inventorymanagementsystemwforms\\domain\\interfaces\\iwarehouserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23304725-73F3-486D-B3E6-966ADA480098}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\iwarehouserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E68C9BF1-CFE9-4C45-8246-373F649D7DED}|Infrastructure\\Infrastructure.csproj|c:\\users\\stanislav\\documents\\net learn\\inventorymanagementsystemwforms\\infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E68C9BF1-CFE9-4C45-8246-373F649D7DED}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E68C9BF1-CFE9-4C45-8246-373F649D7DED}|Infrastructure\\Infrastructure.csproj|c:\\users\\stanislav\\documents\\net learn\\inventorymanagementsystemwforms\\infrastructure\\repositories\\warehouserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E68C9BF1-CFE9-4C45-8246-373F649D7DED}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\warehouserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|c:\\users\\stanislav\\documents\\net learn\\inventorymanagementsystemwforms\\application\\services\\warehouseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|solutionrelative:application\\services\\warehouseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|c:\\users\\stanislav\\documents\\net learn\\inventorymanagementsystemwforms\\application\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|solutionrelative:application\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|c:\\users\\stanislav\\documents\\net learn\\inventorymanagementsystemwforms\\presentation\\forms\\viewwarehouseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\forms\\viewwarehouseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|c:\\users\\stanislav\\documents\\net learn\\inventorymanagementsystemwforms\\presentation\\forms\\createwarehouseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\forms\\createwarehouseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|c:\\users\\stanislav\\documents\\net learn\\inventorymanagementsystemwforms\\application\\interfaces\\iwarehouseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|solutionrelative:application\\interfaces\\iwarehouseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|c:\\users\\stanislav\\documents\\net learn\\inventorymanagementsystemwforms\\application\\dtos\\warehouse\\createwarehousedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|solutionrelative:application\\dtos\\warehouse\\createwarehousedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{23304725-73F3-486D-B3E6-966ADA480098}|Domain\\Domain.csproj|c:\\users\\stanislav\\documents\\net learn\\inventorymanagementsystemwforms\\domain\\entitites\\warehouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23304725-73F3-486D-B3E6-966ADA480098}|Domain\\Domain.csproj|solutionrelative:domain\\entitites\\warehouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|c:\\users\\stanislav\\documents\\net learn\\inventorymanagementsystemwforms\\presentation\\forms\\warehousesmanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\forms\\warehousesmanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|c:\\users\\stanislav\\documents\\net learn\\inventorymanagementsystemwforms\\presentation\\forms\\viewwarehouseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\forms\\viewwarehouseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|c:\\users\\stanislav\\documents\\net learn\\inventorymanagementsystemwforms\\presentation\\forms\\viewwarehouseform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\forms\\viewwarehouseform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|c:\\users\\stanislav\\documents\\net learn\\inventorymanagementsystemwforms\\presentation\\forms\\createwarehouseform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\forms\\createwarehouseform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|c:\\users\\stanislav\\documents\\net learn\\inventorymanagementsystemwforms\\presentation\\forms\\warehousesmanagementform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\forms\\warehousesmanagementform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|c:\\users\\stanislav\\documents\\net learn\\inventorymanagementsystemwforms\\presentation\\forms\\adminhomeform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\forms\\adminhomeform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|c:\\users\\stanislav\\documents\\net learn\\inventorymanagementsystemwforms\\presentation\\forms\\createwarehouseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\forms\\createwarehouseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{23304725-73F3-486D-B3E6-966ADA480098}|Domain\\Domain.csproj|c:\\users\\stanislav\\documents\\net learn\\inventorymanagementsystemwforms\\domain\\enums\\warehousestoragetypeenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -113,34 +177,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{23304725-73F3-486D-B3E6-966ADA480098}|Domain\\Domain.csproj|c:\\users\\stanislav\\documents\\net learn\\inventorymanagementsystemwforms\\domain\\enums\\warehouseaccesslevelenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23304725-73F3-486D-B3E6-966ADA480098}|Domain\\Domain.csproj|solutionrelative:domain\\enums\\warehouseaccesslevelenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23304725-73F3-486D-B3E6-966ADA480098}|Domain\\Domain.csproj|c:\\users\\stanislav\\documents\\net learn\\inventorymanagementsystemwforms\\domain\\entitites\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23304725-73F3-486D-B3E6-966ADA480098}|Domain\\Domain.csproj|solutionrelative:domain\\entitites\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23304725-73F3-486D-B3E6-966ADA480098}|Domain\\Domain.csproj|c:\\users\\stanislav\\documents\\net learn\\inventorymanagementsystemwforms\\domain\\entitites\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23304725-73F3-486D-B3E6-966ADA480098}|Domain\\Domain.csproj|solutionrelative:domain\\entitites\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|c:\\users\\stanislav\\documents\\net learn\\inventorymanagementsystemwforms\\application\\builders\\detailedexcelreportbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|solutionrelative:application\\builders\\detailedexcelreportbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|c:\\users\\stanislav\\documents\\net learn\\inventorymanagementsystemwforms\\application\\interfaces\\iexcelreportbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|solutionrelative:application\\interfaces\\iexcelreportbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|c:\\users\\stanislav\\documents\\net learn\\inventorymanagementsystemwforms\\application\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|solutionrelative:application\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|c:\\users\\stanislav\\documents\\net learn\\inventorymanagementsystemwforms\\application\\directors\\excelreportdirector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|solutionrelative:application\\directors\\excelreportdirector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|c:\\users\\stanislav\\documents\\net learn\\inventorymanagementsystemwforms\\application\\builders\\shortexcelreportbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|solutionrelative:application\\builders\\shortexcelreportbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -150,7 +186,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -170,433 +206,564 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CreateProductForm.cs",
-              "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Forms\\CreateProductForm.cs",
-              "RelativeDocumentMoniker": "Presentation\\Forms\\CreateProductForm.cs",
-              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Forms\\CreateProductForm.cs",
-              "RelativeToolTip": "Presentation\\Forms\\CreateProductForm.cs",
-              "ViewState": "AgIAAB0AAABAmZmZmVkgwCwAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T13:11:28.268Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CreateWarehouseForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Forms\\CreateWarehouseForm.Designer.cs",
-              "RelativeDocumentMoniker": "Presentation\\Forms\\CreateWarehouseForm.Designer.cs",
-              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Forms\\CreateWarehouseForm.Designer.cs",
-              "RelativeToolTip": "Presentation\\Forms\\CreateWarehouseForm.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T13:09:50.704Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "WarehousesManagementForm.cs",
-              "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Forms\\WarehousesManagementForm.cs",
-              "RelativeDocumentMoniker": "Presentation\\Forms\\WarehousesManagementForm.cs",
-              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Forms\\WarehousesManagementForm.cs",
-              "RelativeToolTip": "Presentation\\Forms\\WarehousesManagementForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T12:55:09.538Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "LoginForm.cs",
-              "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Forms\\LoginForm.cs",
-              "RelativeDocumentMoniker": "Presentation\\Forms\\LoginForm.cs",
-              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Forms\\LoginForm.cs",
-              "RelativeToolTip": "Presentation\\Forms\\LoginForm.cs",
-              "ViewState": "AgIAABUAAACAYWZmZmYSwC8AAAAJAAAAAAAAAA==",
+              "Title": "ViewCategoryForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Forms\\ViewCategoryForm.cs",
+              "RelativeDocumentMoniker": "Presentation\\Forms\\ViewCategoryForm.cs",
+              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Forms\\ViewCategoryForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "Presentation\\Forms\\ViewCategoryForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T13:03:27.496Z",
+              "WhenOpened": "2025-05-25T15:35:56.624Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WarehouseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Application\\DTOs\\Warehouse\\WarehouseDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\Warehouse\\WarehouseDto.cs",
+              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Application\\DTOs\\Warehouse\\WarehouseDto.cs",
+              "RelativeToolTip": "Application\\DTOs\\Warehouse\\WarehouseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T14:59:12.597Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "CreateWarehouseForm.cs",
-              "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Forms\\CreateWarehouseForm.cs",
-              "RelativeDocumentMoniker": "Presentation\\Forms\\CreateWarehouseForm.cs",
-              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Forms\\CreateWarehouseForm.cs",
-              "RelativeToolTip": "Presentation\\Forms\\CreateWarehouseForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAXAAAAAAAAAA==",
+              "Title": "WarehousesManagementForm.cs",
+              "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Forms\\WarehousesManagementForm.cs",
+              "RelativeDocumentMoniker": "Presentation\\Forms\\WarehousesManagementForm.cs",
+              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Forms\\WarehousesManagementForm.cs",
+              "RelativeToolTip": "Presentation\\Forms\\WarehousesManagementForm.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAIwGYAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T13:09:45.206Z",
+              "WhenOpened": "2025-05-25T14:00:32.572Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HomeForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Forms\\HomeForm.cs",
-              "RelativeDocumentMoniker": "Presentation\\Forms\\HomeForm.cs",
-              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Forms\\HomeForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "Presentation\\Forms\\HomeForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentIndex": 1,
+              "Title": "AdminHomeForm.cs",
+              "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Forms\\AdminHomeForm.cs",
+              "RelativeDocumentMoniker": "Presentation\\Forms\\AdminHomeForm.cs",
+              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Forms\\AdminHomeForm.cs",
+              "RelativeToolTip": "Presentation\\Forms\\AdminHomeForm.cs",
+              "ViewState": "AgIAAAEAAAAA/v////8RwAsAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T12:53:34.398Z",
+              "WhenOpened": "2025-05-25T14:31:06.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminHomeForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Forms\\AdminHomeForm.cs",
+              "RelativeDocumentMoniker": "Presentation\\Forms\\AdminHomeForm.cs",
+              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Forms\\AdminHomeForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "Presentation\\Forms\\AdminHomeForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T14:32:45.423Z",
               "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HomeForm.cs",
-              "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Forms\\HomeForm.cs",
-              "RelativeDocumentMoniker": "Presentation\\Forms\\HomeForm.cs",
-              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Forms\\HomeForm.cs",
-              "RelativeToolTip": "Presentation\\Forms\\HomeForm.cs",
-              "ViewState": "AgIAAGYAAABgMTMzM/MqwH8AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Program.cs",
+              "RelativeDocumentMoniker": "Presentation\\Program.cs",
+              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Program.cs",
+              "RelativeToolTip": "Presentation\\Program.cs",
+              "ViewState": "AgIAACQAAABAAAAAAIAgwEMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T11:59:20.246Z",
+              "WhenOpened": "2025-05-25T15:36:05.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CategoriesManagementForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Forms\\CategoriesManagementForm.cs",
+              "RelativeDocumentMoniker": "Presentation\\Forms\\CategoriesManagementForm.cs",
+              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Forms\\CategoriesManagementForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "Presentation\\Forms\\CategoriesManagementForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T15:36:42.95Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FormFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Factories\\FormFactory.cs",
+              "RelativeDocumentMoniker": "Presentation\\Factories\\FormFactory.cs",
+              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Factories\\FormFactory.cs",
+              "RelativeToolTip": "Presentation\\Factories\\FormFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T15:36:46.553Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "CreateCategoryForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Forms\\CreateCategoryForm.cs",
+              "RelativeDocumentMoniker": "Presentation\\Forms\\CreateCategoryForm.cs",
+              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Forms\\CreateCategoryForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "Presentation\\Forms\\CreateCategoryForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T15:35:49.224Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ViewUserForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Forms\\ViewUserForm.cs",
+              "RelativeDocumentMoniker": "Presentation\\Forms\\ViewUserForm.cs",
+              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Forms\\ViewUserForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "Presentation\\Forms\\ViewUserForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T15:35:16.103Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CreateUserForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Forms\\CreateUserForm.cs",
+              "RelativeDocumentMoniker": "Presentation\\Forms\\CreateUserForm.cs",
+              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Forms\\CreateUserForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "Presentation\\Forms\\CreateUserForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T15:35:09.931Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserManagementForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Forms\\UserManagementForm.cs",
+              "RelativeDocumentMoniker": "Presentation\\Forms\\UserManagementForm.cs",
+              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Forms\\UserManagementForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "Presentation\\Forms\\UserManagementForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T15:34:55.786Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Application\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Application\\Services\\AuthService.cs",
+              "RelativeToolTip": "Application\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAsAAAAAzMzMzMwvwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T15:34:18.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Application\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Application\\Services\\UserService.cs",
+              "RelativeToolTip": "Application\\Services\\UserService.cs",
+              "ViewState": "AgIAABoAAACgZWZmZmYzwDYAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T15:28:03.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Application\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Application\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T15:27:49.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Domain\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Domain\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T15:27:04.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T15:26:57.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Application\\DTOs\\User\\UserDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\User\\UserDto.cs",
+              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Application\\DTOs\\User\\UserDto.cs",
+              "RelativeToolTip": "Application\\DTOs\\User\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T15:26:50.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CreateUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Application\\DTOs\\User\\CreateUserDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\User\\CreateUserDto.cs",
+              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Application\\DTOs\\User\\CreateUserDto.cs",
+              "RelativeToolTip": "Application\\DTOs\\User\\CreateUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T15:26:29.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ViewProductForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Forms\\ViewProductForm.Designer.cs",
+              "RelativeDocumentMoniker": "Presentation\\Forms\\ViewProductForm.Designer.cs",
+              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Forms\\ViewProductForm.Designer.cs",
+              "RelativeToolTip": "Presentation\\Forms\\ViewProductForm.Designer.cs",
+              "ViewState": "AgIAAGIAAAAAlpmZmZkIwKIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T15:22:33.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IWarehouseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Domain\\Interfaces\\IWarehouseRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\IWarehouseRepository.cs",
+              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Domain\\Interfaces\\IWarehouseRepository.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\IWarehouseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T15:18:38.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "WarehouseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Infrastructure\\Repositories\\WarehouseRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\WarehouseRepository.cs",
+              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Infrastructure\\Repositories\\WarehouseRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\WarehouseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T15:18:11.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ViewProductForm.cs",
+              "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Forms\\ViewProductForm.cs",
+              "RelativeDocumentMoniker": "Presentation\\Forms\\ViewProductForm.cs",
+              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Forms\\ViewProductForm.cs",
+              "RelativeToolTip": "Presentation\\Forms\\ViewProductForm.cs",
+              "ViewState": "AgIAABYAAACAmZmZmRkTwC8AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T14:19:58.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UpdateUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Application\\DTOs\\User\\UpdateUserDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\User\\UpdateUserDto.cs",
+              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Application\\DTOs\\User\\UpdateUserDto.cs",
+              "RelativeToolTip": "Application\\DTOs\\User\\UpdateUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T14:59:42.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ViewProductForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Forms\\ViewProductForm.cs",
+              "RelativeDocumentMoniker": "Presentation\\Forms\\ViewProductForm.cs",
+              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Forms\\ViewProductForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "Presentation\\Forms\\ViewProductForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T14:05:24.88Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Domain\\Interfaces\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Domain\\Interfaces\\IProductRepository.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T15:18:56.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Infrastructure\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Infrastructure\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T15:19:10.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Application\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Application\\Services\\ProductService.cs",
+              "RelativeToolTip": "Application\\Services\\ProductService.cs",
+              "ViewState": "AgIAABcAAADA/v///38owCMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T15:13:52.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Application\\Interfaces\\IProductService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IProductService.cs",
+              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Application\\Interfaces\\IProductService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T15:13:33.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ViewWarehouseForm.cs",
+              "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Forms\\ViewWarehouseForm.cs",
+              "RelativeDocumentMoniker": "Presentation\\Forms\\ViewWarehouseForm.cs",
+              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Forms\\ViewWarehouseForm.cs",
+              "RelativeToolTip": "Presentation\\Forms\\ViewWarehouseForm.cs",
+              "ViewState": "AgIAABcAAAAAaGZmZmbuvzoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T14:12:45.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "WarehouseService.cs",
+              "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Application\\Services\\WarehouseService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\WarehouseService.cs",
+              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Application\\Services\\WarehouseService.cs",
+              "RelativeToolTip": "Application\\Services\\WarehouseService.cs",
+              "ViewState": "AgIAABwAAADgmZmZmZkwwCsAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T14:08:36.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CreateWarehouseForm.cs",
+              "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Forms\\CreateWarehouseForm.cs",
+              "RelativeDocumentMoniker": "Presentation\\Forms\\CreateWarehouseForm.cs",
+              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Forms\\CreateWarehouseForm.cs",
+              "RelativeToolTip": "Presentation\\Forms\\CreateWarehouseForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T13:54:53.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IWarehouseService.cs",
+              "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Application\\Interfaces\\IWarehouseService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IWarehouseService.cs",
+              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Application\\Interfaces\\IWarehouseService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IWarehouseService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T15:03:11.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "CreateWarehouseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Application\\DTOs\\Warehouse\\CreateWarehouseDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\Warehouse\\CreateWarehouseDto.cs",
+              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Application\\DTOs\\Warehouse\\CreateWarehouseDto.cs",
+              "RelativeToolTip": "Application\\DTOs\\Warehouse\\CreateWarehouseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T14:58:19.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Warehouse.cs",
+              "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Domain\\Entitites\\Warehouse.cs",
+              "RelativeDocumentMoniker": "Domain\\Entitites\\Warehouse.cs",
+              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Domain\\Entitites\\Warehouse.cs",
+              "RelativeToolTip": "Domain\\Entitites\\Warehouse.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAGA2wBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T14:59:20.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ViewWarehouseForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Forms\\ViewWarehouseForm.cs",
+              "RelativeDocumentMoniker": "Presentation\\Forms\\ViewWarehouseForm.cs",
+              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Forms\\ViewWarehouseForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "Presentation\\Forms\\ViewWarehouseForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T14:12:02.581Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
               "Title": "WarehousesManagementForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Forms\\WarehousesManagementForm.cs",
               "RelativeDocumentMoniker": "Presentation\\Forms\\WarehousesManagementForm.cs",
               "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Forms\\WarehousesManagementForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "Presentation\\Forms\\WarehousesManagementForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T12:53:30.259Z",
+              "WhenOpened": "2025-05-25T14:05:25.703Z",
               "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Program.cs",
-              "RelativeDocumentMoniker": "Presentation\\Program.cs",
-              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Program.cs",
-              "RelativeToolTip": "Presentation\\Program.cs",
-              "ViewState": "AgIAAAwAAAAAmpmZmdkpwCkAAAA1AAAAAAAAAA==",
+              "DocumentIndex": 37,
+              "Title": "ViewWarehouseForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Forms\\ViewWarehouseForm.Designer.cs",
+              "RelativeDocumentMoniker": "Presentation\\Forms\\ViewWarehouseForm.Designer.cs",
+              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Forms\\ViewWarehouseForm.Designer.cs",
+              "RelativeToolTip": "Presentation\\Forms\\ViewWarehouseForm.Designer.cs",
+              "ViewState": "AgIAAIkAAAAAlpmZmdkvwKQAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T12:52:17.186Z",
+              "WhenOpened": "2025-05-25T14:12:14.107Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 38,
+              "Title": "CreateWarehouseForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Forms\\CreateWarehouseForm.Designer.cs",
+              "RelativeDocumentMoniker": "Presentation\\Forms\\CreateWarehouseForm.Designer.cs",
+              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Forms\\CreateWarehouseForm.Designer.cs",
+              "RelativeToolTip": "Presentation\\Forms\\CreateWarehouseForm.Designer.cs",
+              "ViewState": "AgIAAIIAAAAAMTMzM/MgwJAAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T13:09:50.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "WarehousesManagementForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Forms\\WarehousesManagementForm.Designer.cs",
+              "RelativeDocumentMoniker": "Presentation\\Forms\\WarehousesManagementForm.Designer.cs",
+              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Forms\\WarehousesManagementForm.Designer.cs",
+              "RelativeToolTip": "Presentation\\Forms\\WarehousesManagementForm.Designer.cs",
+              "ViewState": "AgIAADoAAAAAMTMzM/MgwD0AAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T14:07:42.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "AdminHomeForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Forms\\AdminHomeForm.Designer.cs",
+              "RelativeDocumentMoniker": "Presentation\\Forms\\AdminHomeForm.Designer.cs",
+              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Forms\\AdminHomeForm.Designer.cs",
+              "RelativeToolTip": "Presentation\\Forms\\AdminHomeForm.Designer.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAcwEAAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T14:25:24.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
               "Title": "CreateWarehouseForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Forms\\CreateWarehouseForm.cs",
               "RelativeDocumentMoniker": "Presentation\\Forms\\CreateWarehouseForm.cs",
               "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Forms\\CreateWarehouseForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "Presentation\\Forms\\CreateWarehouseForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T13:09:41.37Z",
+              "WhenOpened": "2025-05-25T13:57:16.558Z",
               "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CreateProductForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Forms\\CreateProductForm.cs",
-              "RelativeDocumentMoniker": "Presentation\\Forms\\CreateProductForm.cs",
-              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Forms\\CreateProductForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "Presentation\\Forms\\CreateProductForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T13:02:43.855Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Application\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "Application\\Services\\AuthService.cs",
-              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Application\\Services\\AuthService.cs",
-              "RelativeToolTip": "Application\\Services\\AuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T12:49:56.331Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "WarehousesManagementForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Forms\\WarehousesManagementForm.Designer.cs",
-              "RelativeDocumentMoniker": "Presentation\\Forms\\WarehousesManagementForm.Designer.cs",
-              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Forms\\WarehousesManagementForm.Designer.cs",
-              "RelativeToolTip": "Presentation\\Forms\\WarehousesManagementForm.Designer.cs",
-              "ViewState": "AgIAAAsAAABQ/////z8kwCsAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T12:54:43.69Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "AdminHomeForm.cs",
-              "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Forms\\AdminHomeForm.cs",
-              "RelativeDocumentMoniker": "Presentation\\Forms\\AdminHomeForm.cs",
-              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Forms\\AdminHomeForm.cs",
-              "RelativeToolTip": "Presentation\\Forms\\AdminHomeForm.cs",
-              "ViewState": "AgIAAJEAAAAAYGZmZgYwwK4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T11:53:44.797Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "WarehouseRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Infrastructure\\Repositories\\WarehouseRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\WarehouseRepository.cs",
-              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Infrastructure\\Repositories\\WarehouseRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Repositories\\WarehouseRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T12:44:47.86Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AdminHomeForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Forms\\AdminHomeForm.Designer.cs",
-              "RelativeDocumentMoniker": "Presentation\\Forms\\AdminHomeForm.Designer.cs",
-              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Forms\\AdminHomeForm.Designer.cs",
-              "RelativeToolTip": "Presentation\\Forms\\AdminHomeForm.Designer.cs",
-              "ViewState": "AgIAAJMAAAAAAAAAAAAcwKkAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T11:51:01.228Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "FormFactory.cs",
-              "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Factories\\FormFactory.cs",
-              "RelativeDocumentMoniker": "Presentation\\Factories\\FormFactory.cs",
-              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Factories\\FormFactory.cs",
-              "RelativeToolTip": "Presentation\\Factories\\FormFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T13:01:56.84Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Domain.csproj",
-              "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Domain\\Domain.csproj",
-              "RelativeDocumentMoniker": "Domain\\Domain.csproj",
-              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Domain\\Domain.csproj",
-              "RelativeToolTip": "Domain\\Domain.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-25T13:01:25.487Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Infrastructure.csproj",
-              "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Infrastructure\\Infrastructure.csproj",
-              "RelativeDocumentMoniker": "Infrastructure\\Infrastructure.csproj",
-              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Infrastructure\\Infrastructure.csproj",
-              "RelativeToolTip": "Infrastructure\\Infrastructure.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-25T13:01:28.651Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Presentation.csproj",
-              "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Presentation.csproj",
-              "RelativeDocumentMoniker": "Presentation\\Presentation.csproj",
-              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Presentation.csproj",
-              "RelativeToolTip": "Presentation\\Presentation.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-25T13:01:29.463Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "WarehouseService.cs",
-              "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Application\\Services\\WarehouseService.cs",
-              "RelativeDocumentMoniker": "Application\\Services\\WarehouseService.cs",
-              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Application\\Services\\WarehouseService.cs",
-              "RelativeToolTip": "Application\\Services\\WarehouseService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T12:48:04.691Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "AdminHomeForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Forms\\AdminHomeForm.cs",
-              "RelativeDocumentMoniker": "Presentation\\Forms\\AdminHomeForm.cs",
-              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Forms\\AdminHomeForm.cs [Design]",
-              "RelativeToolTip": "Presentation\\Forms\\AdminHomeForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T11:51:01.886Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "CreateWarehouseDto.cs",
-              "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Application\\DTOs\\Warehouse\\CreateWarehouseDto.cs",
-              "RelativeDocumentMoniker": "Application\\DTOs\\Warehouse\\CreateWarehouseDto.cs",
-              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Application\\DTOs\\Warehouse\\CreateWarehouseDto.cs",
-              "RelativeToolTip": "Application\\DTOs\\Warehouse\\CreateWarehouseDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T12:42:59.892Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "IWarehouseRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Domain\\Interfaces\\IWarehouseRepository.cs",
-              "RelativeDocumentMoniker": "Domain\\Interfaces\\IWarehouseRepository.cs",
-              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Domain\\Interfaces\\IWarehouseRepository.cs",
-              "RelativeToolTip": "Domain\\Interfaces\\IWarehouseRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T12:44:11.002Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 42,
               "Title": "WarehouseStorageTypeEnum.cs",
               "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Domain\\Enums\\WarehouseStorageTypeEnum.cs",
               "RelativeDocumentMoniker": "Domain\\Enums\\WarehouseStorageTypeEnum.cs",
               "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Domain\\Enums\\WarehouseStorageTypeEnum.cs",
               "RelativeToolTip": "Domain\\Enums\\WarehouseStorageTypeEnum.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T12:37:58.164Z"
+              "WhenOpened": "2025-05-25T14:04:52.311Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 43,
               "Title": "WarehouseAccessLevelEnum.cs",
               "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Domain\\Enums\\WarehouseAccessLevelEnum.cs",
               "RelativeDocumentMoniker": "Domain\\Enums\\WarehouseAccessLevelEnum.cs",
               "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Domain\\Enums\\WarehouseAccessLevelEnum.cs",
               "RelativeToolTip": "Domain\\Enums\\WarehouseAccessLevelEnum.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T12:29:16.617Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Domain\\Entitites\\User.cs",
-              "RelativeDocumentMoniker": "Domain\\Entitites\\User.cs",
-              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Domain\\Entitites\\User.cs",
-              "RelativeToolTip": "Domain\\Entitites\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T12:27:26.698Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Domain\\Entitites\\Product.cs",
-              "RelativeDocumentMoniker": "Domain\\Entitites\\Product.cs",
-              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Domain\\Entitites\\Product.cs",
-              "RelativeToolTip": "Domain\\Entitites\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T12:25:36.872Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Infrastructure\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Infrastructure\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "Infrastructure\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAC0AAAAA/////38uwEIAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T12:24:20.942Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Warehouse.cs",
-              "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Domain\\Entitites\\Warehouse.cs",
-              "RelativeDocumentMoniker": "Domain\\Entitites\\Warehouse.cs",
-              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Domain\\Entitites\\Warehouse.cs",
-              "RelativeToolTip": "Domain\\Entitites\\Warehouse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T12:23:23.31Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "IExcelReportBuilder.cs",
-              "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Application\\Interfaces\\IExcelReportBuilder.cs",
-              "RelativeDocumentMoniker": "Application\\Interfaces\\IExcelReportBuilder.cs",
-              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Application\\Interfaces\\IExcelReportBuilder.cs",
-              "RelativeToolTip": "Application\\Interfaces\\IExcelReportBuilder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T12:00:19.926Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "IAuthService.cs",
-              "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Application\\Interfaces\\IAuthService.cs",
-              "RelativeDocumentMoniker": "Application\\Interfaces\\IAuthService.cs",
-              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Application\\Interfaces\\IAuthService.cs",
-              "RelativeToolTip": "Application\\Interfaces\\IAuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T12:01:47.913Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "ShortExcelReportBuilder.cs",
-              "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Application\\Builders\\ShortExcelReportBuilder.cs",
-              "RelativeDocumentMoniker": "Application\\Builders\\ShortExcelReportBuilder.cs",
-              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Application\\Builders\\ShortExcelReportBuilder.cs",
-              "RelativeToolTip": "Application\\Builders\\ShortExcelReportBuilder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T12:00:04.158Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "ExcelReportDirector.cs",
-              "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Application\\Directors\\ExcelReportDirector.cs",
-              "RelativeDocumentMoniker": "Application\\Directors\\ExcelReportDirector.cs",
-              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Application\\Directors\\ExcelReportDirector.cs",
-              "RelativeToolTip": "Application\\Directors\\ExcelReportDirector.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T11:59:12.687Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "DetailedExcelReportBuilder.cs",
-              "DocumentMoniker": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Application\\Builders\\DetailedExcelReportBuilder.cs",
-              "RelativeDocumentMoniker": "Application\\Builders\\DetailedExcelReportBuilder.cs",
-              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Application\\Builders\\DetailedExcelReportBuilder.cs",
-              "RelativeToolTip": "Application\\Builders\\DetailedExcelReportBuilder.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAQwDQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T11:58:51.794Z"
+              "WhenOpened": "2025-05-25T14:04:26.945Z",
+              "EditorCaption": ""
             }
           ]
         }

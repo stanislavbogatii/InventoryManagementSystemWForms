@@ -32,14 +32,30 @@ static class Program
 
         services.AddScoped<IFormFactory, FormFactory>();
 
+        //auth
         services.AddTransient<LoginForm>();
+        services.AddTransient<RegisterForm>();
+
+        //product
         services.AddTransient<HomeForm>();
         services.AddTransient<AdminHomeForm>();
-        services.AddTransient<RegisterForm>();
         services.AddTransient<ViewProductForm>();
         services.AddTransient<CreateProductForm>();
+
+        //warehouse
         services.AddTransient<WarehouseManagementForm>();
         services.AddTransient<CreateWarehouseForm>();
+        services.AddTransient<ViewWarehouseForm>();
+
+        //user
+        services.AddTransient<UserManagementForm>();
+        services.AddTransient<CreateUserForm>();
+        services.AddTransient<ViewUserForm>();
+        
+        //category
+        services.AddTransient<CategoriesManagementForm>();
+        services.AddTransient<CreateCategoryForm>();
+        services.AddTransient<ViewCategoryForm>();
 
         var provider = services.BuildServiceProvider();
 

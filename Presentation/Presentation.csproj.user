@@ -4,7 +4,16 @@
     <Compile Update="Forms\AdminHomeForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Forms\CategoriesManagementForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\CreateCategoryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Forms\CreateProductForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\CreateUserForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Forms\CreateWarehouseForm.cs">
@@ -19,7 +28,19 @@
     <Compile Update="Forms\RegisterForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Forms\UserManagementForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\ViewCategoryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Forms\ViewProductForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\ViewUserForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\ViewWarehouseForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Forms\WarehousesManagementForm.cs">

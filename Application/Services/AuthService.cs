@@ -37,7 +37,7 @@ public class AuthService : IAuthService
             PasswordHash = HashPassword(dto.Password),
         };
 
-        await _userRepo.AddAsync(user);
+        await _userRepo.CreateAsync(user);
     }
 
     private string HashPassword(string password)

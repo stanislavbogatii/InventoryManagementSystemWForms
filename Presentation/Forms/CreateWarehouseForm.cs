@@ -1,28 +1,95 @@
-﻿using System;
-using System.Windows.Forms;
+﻿using Application.DTOs.Warehouse;
 
 namespace Presentation.Forms
 {
     public partial class CreateWarehouseForm : Form
     {
-        public CreateWarehouseForm()
+        private readonly IWarehouseService _warehouseService;
+        public CreateWarehouseForm(IWarehouseService warehouseService)
         {
             InitializeComponent();
+            _warehouseService = warehouseService;
         }
 
-        private void btnSave_Click(object sender, EventArgs e)
+        private async void btnSave_Click(object sender, EventArgs e)
         {
-            string name = txtName.Text.Trim();
-            string location = txtLocation.Text.Trim();
-
-            if (string.IsNullOrEmpty(name) || string.IsNullOrEmpty(location))
+            if (!validateForm())
             {
-                MessageBox.Show("Please fill in all fields.", "Validation", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
+            try
+            {
+                var dto = new CreateWarehouseDto
+                {
+                    Name = txtName.Text,
+                    Width = double.TryParse(txtWidth.Text, out double width) ? width : 0,
+                    Length = double.TryParse(txtLength.Text, out double length) ? length : 0,
+                    Height = double.TryParse(txtHeight.Text, out double height) ? height : 0,
+                    MaxLoadCapacity = double.TryParse(txtCapacity.Text, out double capacity) ? capacity : 0,
+                    StorageType = cmbStorageType.SelectedItem?.ToString() ?? "",
+                    AccessLevel = cmbAccessLevel.SelectedItem?.ToString() ?? ""
+                };
 
-            this.DialogResult = DialogResult.OK;
-            this.Close();
+                await _warehouseService.Create(dto);
+                this.DialogResult = DialogResult.OK;
+                MessageBox.Show("Warehouse created successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error creating warehouse: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+        }
+
+        private bool validateForm()
+        {
+            if (string.IsNullOrWhiteSpace(txtName.Text))
+            {
+                MessageBox.Show("Please enter name.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtName.Focus();
+                return false;
+            }
+
+            if (string.IsNullOrWhiteSpace(txtLength.Text))
+            {
+                MessageBox.Show("Please enter length .", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtLength.Focus();
+                return false;
+            }
+
+            if (string.IsNullOrWhiteSpace(txtHeight.Text))
+            {
+                MessageBox.Show("Please enter height .", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtHeight.Focus();
+                return false;
+            }
+
+            if (string.IsNullOrWhiteSpace(txtWidth.Text))
+            {
+                MessageBox.Show("Please enter width .", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtWidth.Focus();
+                return false;
+            }
+            if (string.IsNullOrWhiteSpace(txtCapacity.Text))
+            {
+                MessageBox.Show("Please enter capacity .", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtCapacity.Focus();
+                return false;
+            }
+            if (string.IsNullOrWhiteSpace(cmbAccessLevel.Text))
+            {
+                MessageBox.Show("Please enter access level .", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                cmbAccessLevel.Focus();
+                return false;
+            }
+            if (string.IsNullOrWhiteSpace(cmbStorageType.Text))
+            {
+                MessageBox.Show("Please enter storage type .", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                cmbStorageType.Focus();
+                return false;
+            }
+            return true;
         }
     }
 }

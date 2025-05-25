@@ -48,6 +48,7 @@ namespace Presentation.Forms
             intMinPrice = new TextBox();
             intMaxPrice = new TextBox();
             btnManageWarehoues = new Button();
+            btnManageCategories = new Button();
             ((System.ComponentModel.ISupportInitialize)dgvProducts).BeginInit();
             SuspendLayout();
             // 
@@ -165,19 +166,21 @@ namespace Presentation.Forms
             // comboBoxReportType
             // 
             comboBoxReportType.Items.AddRange(new object[] { "Short report", "Detailed report" });
-            comboBoxReportType.SelectedIndex = 0;
             comboBoxReportType.Location = new Point(1225, 80);
             comboBoxReportType.Name = "comboBoxReportType";
             comboBoxReportType.Size = new Size(150, 23);
             comboBoxReportType.TabIndex = 6;
+            comboBoxReportType.SelectedIndex = 0;
             // 
             // btnLogout
             // 
-            btnLogout.Location = new Point(1225, 260);
+            btnLogout.BackColor = SystemColors.ButtonFace;
+            btnLogout.Location = new Point(1216, 850);
             btnLogout.Name = "btnLogout";
             btnLogout.Size = new Size(150, 30);
             btnLogout.TabIndex = 7;
             btnLogout.Text = "Logout";
+            btnLogout.UseVisualStyleBackColor = false;
             btnLogout.Click += btnLogout_Click;
             // 
             // btnManageUsers
@@ -190,7 +193,7 @@ namespace Presentation.Forms
             // 
             // btnCreateProduct
             // 
-            btnCreateProduct.Location = new Point(1225, 224);
+            btnCreateProduct.Location = new Point(1225, 260);
             btnCreateProduct.Name = "btnCreateProduct";
             btnCreateProduct.Size = new Size(150, 30);
             btnCreateProduct.TabIndex = 9;
@@ -224,9 +227,18 @@ namespace Presentation.Forms
             btnManageWarehoues.Text = "Manage Warehouses";
             btnManageWarehoues.Click += btnManageWarehoues_Click;
             // 
+            // btnManageCategories
+            // 
+            btnManageCategories.Location = new Point(1225, 224);
+            btnManageCategories.Name = "btnManageCategories";
+            btnManageCategories.Size = new Size(150, 30);
+            btnManageCategories.TabIndex = 13;
+            btnManageCategories.Text = "Manage Categories";
+            // 
             // AdminHomeForm
             // 
             ClientSize = new Size(1387, 894);
+            Controls.Add(btnManageCategories);
             Controls.Add(btnManageWarehoues);
             Controls.Add(intMaxPrice);
             Controls.Add(intMinPrice);
@@ -284,5 +296,6 @@ namespace Presentation.Forms
         private TextBox intMinPrice;
         private TextBox intMaxPrice;
         private Button btnManageWarehoues;
+        private Button btnManageCategories;
     }
 }

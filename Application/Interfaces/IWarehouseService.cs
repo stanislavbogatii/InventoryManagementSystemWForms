@@ -2,9 +2,9 @@
 
 public interface IWarehouseService
 {
-    Task<IEnumerable<WarehouseDto>> GetAllAsync();
-    Task<WarehouseDto?> GetByIdAsync(int id);
-    Task CreateAsync(CreateWarehouseDto dto);
-    Task UpdateAsync(int id, CreateWarehouseDto dto); 
-    Task DeleteAsync(int id);
+    Task<IEnumerable<WarehouseDto>> GetAll();
+    Task<WarehouseDto?> GetById(int id);
+    Task Create(CreateWarehouseDto dto);
+    Task Update(int id, UpdateWarehouseDto dto); 
+    Task Delete(int id);
 }

@@ -35,6 +35,12 @@ namespace Infrastructure.Repositories
             await _context.SaveChangesAsync();
         }
 
+        public async Task UdpateAsync(Product product)
+        {
+            _context.Products.Update(product);
+            await _context.SaveChangesAsync();
+        }
+
         public async Task<IEnumerable<Product>> GetAllAsync(ProductFilters? filters = null)
         {
             IQueryable<Product> query = _context.Products.Include(p => p.Category);
@@ -64,5 +70,6 @@ namespace Infrastructure.Repositories
 
             return await query.ToListAsync();
         }
+
     }
 }

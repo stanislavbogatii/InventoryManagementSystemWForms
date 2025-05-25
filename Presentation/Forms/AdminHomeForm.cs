@@ -34,7 +34,7 @@ namespace Presentation.Forms
         {
             if (dgvProducts.Columns[e.ColumnIndex].Name == "deleteButtonColumn" && e.RowIndex >= 0)
             {
-                int productId = Convert.ToInt32(dgvProducts.Rows[e.RowIndex].Cells["ProductID"].Value);
+                int productId = Convert.ToInt32(dgvProducts.Rows[e.RowIndex].Cells["dataGridViewTextBoxColumnID"].Value);
                 var confirm = MessageBox.Show("Are you sure you want to delete this product?", "Confirm Delete", MessageBoxButtons.YesNo);
                 if (confirm == DialogResult.Yes)
                 {
@@ -49,7 +49,7 @@ namespace Presentation.Forms
 
             if (e.RowIndex < 0) return;
 
-            int productId = Convert.ToInt32(dgvProducts.Rows[e.RowIndex].Cells["ProductID"].Value);
+            int productId = Convert.ToInt32(dgvProducts.Rows[e.RowIndex].Cells["dataGridViewTextBoxColumnID"].Value);
             var product = await _productService.GetById(productId);
 
             if (product == null)
