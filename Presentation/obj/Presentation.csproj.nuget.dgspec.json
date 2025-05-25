@@ -34,6 +34,9 @@
             "projectReferences": {
               "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Domain\\Domain.csproj": {
                 "projectPath": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Domain\\Domain.csproj"
+              },
+              "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }

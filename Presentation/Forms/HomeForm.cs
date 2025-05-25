@@ -1,4 +1,5 @@
-﻿using Application.Interfaces;
+﻿using Application.DTOs.Product;
+using Application.Interfaces;
 using Domain.Filters;
 using Infrastructure;
 using Microsoft.Extensions.DependencyInjection;
@@ -82,10 +83,36 @@ namespace Presentation.Forms
             LoadProductsAsync(filters);
         }
 
-        private void btnGenerateReport_Click(object sender, EventArgs e)
+        private async void btnGenerateReport_Click(object sender, EventArgs e)
         {
-            // Логика генерации и сохранения отчета
+            var products = await _productService.GetAll();
+            var selected = comboBoxReportType.SelectedItem?.ToString();
+
+            if (products == null || string.IsNullOrEmpty(selected))
+            {
+                MessageBox.Show("Please select report type and ensure there are products");
+                return;
+            }
+
+            var reportFacade = new Application.Facades.ReportFacade();
+            var workbook = reportFacade.GenerateExcelReport((List<ProductDto>)products, selected);
+
+            using (var saveFileDialog = new SaveFileDialog())
+            {
+                saveFileDialog.Filter = "Excel Workbook|*.xlsx";
+                saveFileDialog.Title = "Save excel report";
+                saveFileDialog.FileName = $"report_{DateTime.Now:yyyyMMdd_HHmmss}.xlsx";
+
+                if (saveFileDialog.ShowDialog() == DialogResult.OK)
+                {
+                    workbook.SaveAs(saveFileDialog.FileName);
+                    MessageBox.Show("Report success saved!");
+                }
+            }
+
+
         }
+
 
         private void btnLogout_Click(object sender, EventArgs e)
         {
@@ -111,7 +138,8 @@ namespace Presentation.Forms
                     product.Price.ToString("F2"),
                     product.OldPrice.ToString("F2"),
                     product.Quantity.ToString(),
-                    product.CategoryTitle
+                    product.CategoryTitle,
+                    product.WarehouseName
                 );
             }
         }

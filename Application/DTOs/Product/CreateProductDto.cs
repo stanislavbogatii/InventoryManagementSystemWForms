@@ -9,6 +9,7 @@
         public int Quantity { get; set; } = 0;
         public int Price { get; set; } = 0;
         public int OldPrice { get; set; } = 0;
+        public int? WarehouseId { get; set; } = null;
 
         public int? CategoryId { get; set; } = null;
     }

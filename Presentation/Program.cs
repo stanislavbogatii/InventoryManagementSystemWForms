@@ -26,8 +26,20 @@ static class Program
         services.AddScoped<IWarehouseRepository, WarehouseRepository>();
 
         services.AddScoped<IAuthService, AuthService>();
-        services.AddScoped<IUserService, UserService>();
-        services.AddScoped<IProductService, ProductService>();
+        services.AddScoped<ICategoryService, CategoryService>();
+        services.AddScoped<UserService>();
+        services.AddScoped<IUserService>(sp =>
+        {
+            var inner = sp.GetRequiredService<UserService>();
+            return new UserServiceProxy(inner);
+        });
+        services.AddScoped<ProductService>();
+
+        services.AddScoped<IProductService>(sp =>
+        {
+            var inner = sp.GetRequiredService<ProductService>();
+            return new ProductServiceDecorator(inner, "product_service_log.txt");
+        });
         services.AddScoped<IWarehouseService, WarehouseService>();
 
         services.AddScoped<IFormFactory, FormFactory>();

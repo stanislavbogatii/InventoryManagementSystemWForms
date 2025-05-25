@@ -1,11 +1,8 @@
 ﻿using Application.DTOs.Product;
 using Application.Interfaces;
-using Application.Builders;
-using Application.Directors;
 using Domain.Filters;
 using Infrastructure;
 using Microsoft.Extensions.DependencyInjection;
-using System.Windows.Forms;
 
 namespace Presentation.Forms
 {
@@ -89,30 +86,16 @@ namespace Presentation.Forms
         private async void btnGenerateReport_Click(object sender, EventArgs e)
         {
             var products = await _productService.GetAll();
-            IExcelReportBuilder builder;
-            string selected = comboBoxReportType.SelectedItem?.ToString();
+            var selected = comboBoxReportType.SelectedItem?.ToString();
 
-
-            if (products is not null)
+            if (products == null || string.IsNullOrEmpty(selected))
             {
-                if (selected == "Detailed report")
-                {
-                    builder = new DetailedExcelReportBuilder((List<ProductDto>)products);
-                }
-                else
-                {
-                    builder = new ShortExcelReportBuilder((List<ProductDto>)products);
-                }
-            }
-            else
-            {
-                MessageBox.Show("Please select report type");
+                MessageBox.Show("Please select report type and ensure there are products");
                 return;
             }
-            var director = new ExcelReportDirector((IExcelReportBuilder)builder);
-            director.ConstructReport();
 
-            var workbook = builder.GetReport();
+            var reportFacade = new Application.Facades.ReportFacade();
+            var workbook = reportFacade.GenerateExcelReport((List<ProductDto>)products, selected);
 
             using (var saveFileDialog = new SaveFileDialog())
             {
@@ -154,7 +137,8 @@ namespace Presentation.Forms
                     product.Price.ToString("F2"),
                     product.OldPrice.ToString("F2"),
                     product.Quantity.ToString(),
-                    product.CategoryTitle
+                    product.CategoryTitle,
+                    product.WarehouseName
                 );
             }
         }
@@ -171,6 +155,12 @@ namespace Presentation.Forms
         private void btnManageWarehoues_Click(object sender, EventArgs e)
         {
             var form = _serviceProvider.GetRequiredService<WarehouseManagementForm>();
+            form.Show();
+        }
+
+        private void btnManageCategories_Click(object sender, EventArgs e)
+        {
+            var form = _serviceProvider.GetRequiredService<CategoriesManagementForm>();
             form.Show();
         }
     }

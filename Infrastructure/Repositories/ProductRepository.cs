@@ -16,7 +16,10 @@ namespace Infrastructure.Repositories
 
         public async Task<Product?> GetByIdAsync(int id)
         {
-            return await _context.Products.FirstOrDefaultAsync(u => u.Id == id);
+            return await _context.Products
+                .Include(p => p.Warehouse)
+                .Include(p => p.Category)
+                .FirstOrDefaultAsync(u => u.Id == id);
         }
 
         public async Task AddAsync(Product product)
@@ -43,7 +46,9 @@ namespace Infrastructure.Repositories
 
         public async Task<IEnumerable<Product>> GetAllAsync(ProductFilters? filters = null)
         {
-            IQueryable<Product> query = _context.Products.Include(p => p.Category);
+            IQueryable<Product> query = _context.Products
+                .Include(p => p.Category)
+                .Include(p => p.Warehouse);
             if (filters is not null)
             {
                 if (!string.IsNullOrWhiteSpace(filters.title))

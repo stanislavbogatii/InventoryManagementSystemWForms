@@ -6,5 +6,8 @@ namespace Domain.Interfaces
     {
         Task<Category?> GetByIdAsync(int id);
         Task AddAsync(Category category);
+        Task UpdateAsync(Category category);
+        Task<IEnumerable<Category>> GetAllAsync();
+        Task DeleteAsync(int id);
     }
 }

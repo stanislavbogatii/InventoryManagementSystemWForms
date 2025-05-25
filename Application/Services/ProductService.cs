@@ -28,6 +28,7 @@ namespace Application.Services
                 OldPrice = dto.OldPrice,
                 CategoryId = dto.CategoryId,
                 Description = dto.Description,
+                WarehouseId = dto.WarehouseId,
             };
             await _productRepo.AddAsync(product);
 
@@ -68,6 +69,7 @@ namespace Application.Services
             product.Article = dto.Article;
             product.Quantity = dto.Quantity;
             product.OldPrice = dto.OldPrice;
+            product.WarehouseId = dto.WarehouseId;
             product.CategoryId = dto.CategoryId;
             product.Description = dto.Description;
 
@@ -85,10 +87,13 @@ namespace Application.Services
                 Article = product.Article ?? string.Empty,
                 Description = product.Description ?? string.Empty,
                 Price = product.Price,
+                WarehouseId = product.WarehouseId,
+                Warehouse = product.Warehouse,
                 OldPrice = product.OldPrice,
                 Quantity = product.Quantity,
                 CategoryId = product.CategoryId,
-                CategoryTitle = product.Category?.Title ?? string.Empty
+                CategoryTitle = product.Category?.Title ?? string.Empty,
+                WarehouseName = product.Warehouse?.Name ?? string.Empty,
             };
         }
     }

@@ -10,6 +10,7 @@ namespace Presentation.Forms
         private TextBox txtFilterCategory;
         private Button btnFilter;
         private Button btnGenerateReport;
+        private ComboBox comboBoxReportType;
         private Button btnLogout;
         private System.ComponentModel.IContainer components = null;
 
@@ -34,7 +35,10 @@ namespace Presentation.Forms
             dataGridViewTextBoxColumn5 = new DataGridViewTextBoxColumn();
             dataGridViewTextBoxColumn6 = new DataGridViewTextBoxColumn();
             dataGridViewTextBoxColumn7 = new DataGridViewTextBoxColumn();
+            dataGridViewTextBoxColumn8 = new DataGridViewTextBoxColumn();
+
             deleteButtonColumn = new DataGridViewButtonColumn();
+            comboBoxReportType = new ComboBox();
             txtFilterName = new TextBox();
             txtFilterCategory = new TextBox();
             btnFilter = new Button();
@@ -57,7 +61,7 @@ namespace Presentation.Forms
             // dgvProducts
             // 
             dgvProducts.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-            dgvProducts.Columns.AddRange(new DataGridViewColumn[] { dataGridViewTextBoxColumnID, dataGridViewTextBoxColumn1, dataGridViewTextBoxColumn2, dataGridViewTextBoxColumn3, dataGridViewTextBoxColumn4, dataGridViewTextBoxColumn5, dataGridViewTextBoxColumn6, dataGridViewTextBoxColumn7, deleteButtonColumn });
+            dgvProducts.Columns.AddRange(new DataGridViewColumn[] { dataGridViewTextBoxColumnID, dataGridViewTextBoxColumn1, dataGridViewTextBoxColumn2, dataGridViewTextBoxColumn3, dataGridViewTextBoxColumn4, dataGridViewTextBoxColumn5, dataGridViewTextBoxColumn6, dataGridViewTextBoxColumn7, dataGridViewTextBoxColumn8, deleteButtonColumn });
             dgvProducts.Location = new Point(10, 80);
             dgvProducts.Name = "dgvProducts";
             dgvProducts.ReadOnly = true;
@@ -69,9 +73,8 @@ namespace Presentation.Forms
             // 
             // dataGridViewTextBoxColumnID
             // 
-            dataGridViewTextBoxColumnID.Name = "ProductID";
             dataGridViewTextBoxColumnID.HeaderText = "ID";
-
+            dataGridViewTextBoxColumnID.Name = "dataGridViewTextBoxColumnID";
             dataGridViewTextBoxColumnID.ReadOnly = true;
             // 
             // dataGridViewTextBoxColumn1
@@ -115,6 +118,10 @@ namespace Presentation.Forms
             dataGridViewTextBoxColumn7.HeaderText = "Category";
             dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
             dataGridViewTextBoxColumn7.ReadOnly = true;
+
+            dataGridViewTextBoxColumn8.HeaderText = "Warehouse";
+            dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
+            dataGridViewTextBoxColumn8.ReadOnly = true;
             // 
             // deleteButtonColumn
             // 
@@ -123,6 +130,15 @@ namespace Presentation.Forms
             deleteButtonColumn.ReadOnly = true;
             deleteButtonColumn.Text = "Delete";
             deleteButtonColumn.UseColumnTextForButtonValue = true;
+            // 
+            // comboBoxReportType
+            // 
+            comboBoxReportType.Items.AddRange(new object[] { "Short report", "Detailed report" });
+            comboBoxReportType.Location = new Point(1225, 80);
+            comboBoxReportType.Name = "comboBoxReportType";
+            comboBoxReportType.Size = new Size(150, 23);
+            comboBoxReportType.TabIndex = 6;
+            comboBoxReportType.SelectedIndex = 0;
             // 
             // txtFilterName
             // 
@@ -151,7 +167,7 @@ namespace Presentation.Forms
             // 
             // btnGenerateReport
             // 
-            btnGenerateReport.Location = new Point(1220, 80);
+            btnGenerateReport.Location = new Point(1225, 110);
             btnGenerateReport.Name = "btnGenerateReport";
             btnGenerateReport.Size = new Size(150, 30);
             btnGenerateReport.TabIndex = 6;
@@ -160,7 +176,7 @@ namespace Presentation.Forms
             // 
             // btnLogout
             // 
-            btnLogout.Location = new Point(1220, 152);
+            btnLogout.Location = new Point(1225, 182);
             btnLogout.Name = "btnLogout";
             btnLogout.Size = new Size(150, 30);
             btnLogout.TabIndex = 7;
@@ -169,7 +185,7 @@ namespace Presentation.Forms
             // 
             // btnCreateProduct
             // 
-            btnCreateProduct.Location = new Point(1220, 116);
+            btnCreateProduct.Location = new Point(1225, 146);
             btnCreateProduct.Name = "btnCreateProduct";
             btnCreateProduct.Size = new Size(150, 30);
             btnCreateProduct.TabIndex = 9;
@@ -199,6 +215,7 @@ namespace Presentation.Forms
             ClientSize = new Size(1387, 894);
             Controls.Add(intMaxPrice);
             Controls.Add(intMinPrice);
+            Controls.Add(comboBoxReportType);
             Controls.Add(btnCreateProduct);
             Controls.Add(lblCurrentUser);
             Controls.Add(dgvProducts);
@@ -245,6 +262,8 @@ namespace Presentation.Forms
         private DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
         private DataGridViewTextBoxColumn dataGridViewTextBoxColumn6;
         private DataGridViewTextBoxColumn dataGridViewTextBoxColumn7;
+        private DataGridViewTextBoxColumn dataGridViewTextBoxColumn8;
+
 
         private Button btnCreateProduct;
         private DataGridViewButtonColumn deleteButtonColumn;

@@ -89,7 +89,7 @@ namespace Infrastructure.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("WarehouseLocationId")
+                    b.Property<int?>("WarehouseId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
@@ -98,7 +98,7 @@ namespace Infrastructure.Migrations
 
                     b.HasIndex("CategoryId1");
 
-                    b.HasIndex("WarehouseLocationId");
+                    b.HasIndex("WarehouseId");
 
                     b.ToTable("Products");
                 });
@@ -192,14 +192,14 @@ namespace Infrastructure.Migrations
                         .WithMany("Products")
                         .HasForeignKey("CategoryId1");
 
-                    b.HasOne("Domain.Entitites.Warehouse", "WarehouseLocation")
+                    b.HasOne("Domain.Entitites.Warehouse", "Warehouse")
                         .WithMany("Products")
-                        .HasForeignKey("WarehouseLocationId")
+                        .HasForeignKey("WarehouseId")
                         .OnDelete(DeleteBehavior.SetNull);
 
                     b.Navigation("Category");
 
-                    b.Navigation("WarehouseLocation");
+                    b.Navigation("Warehouse");
                 });
 
             modelBuilder.Entity("Domain.Entitites.Category", b =>

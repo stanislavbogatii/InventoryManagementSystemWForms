@@ -20,6 +20,10 @@
         private Label label2;
         private TextBox txtCategory;
         private Label label3;
+        private ComboBox cmbCategory;
+        private ComboBox cmbWarehouse;
+
+
         private TextBox txtOldPrice;
 
         protected override void Dispose(bool disposing)
@@ -39,6 +43,7 @@
             txtDescription = new TextBox();
             lblPrice = new Label();
             txtPrice = new TextBox();
+            cmbWarehouse = new ComboBox();
             lblQuantity = new Label();
             txtQuantity = new TextBox();
             btnCreateProduct = new Button();
@@ -47,9 +52,10 @@
             txtCodeLbl = new Label();
             txtCode = new TextBox();
             label2 = new Label();
-            txtCategory = new TextBox();
+            cmbCategory = new ComboBox();
             label3 = new Label();
             txtOldPrice = new TextBox();
+            label4 = new Label();
             SuspendLayout();
             // 
             // lblProductName
@@ -97,7 +103,15 @@
             txtPrice.Name = "txtPrice";
             txtPrice.Size = new Size(200, 23);
             txtPrice.TabIndex = 5;
-            txtPrice.KeyPress += NumericTextBox_KeyPress; // фильтрация ввода
+            txtPrice.KeyPress += NumericTextBox_KeyPress;
+            // 
+            // cmbWarehouse
+            // 
+            cmbWarehouse.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbWarehouse.Location = new Point(140, 260);
+            cmbWarehouse.Name = "cmbWarehouse";
+            cmbWarehouse.Size = new Size(200, 23);
+            cmbWarehouse.TabIndex = 7;
             // 
             // lblQuantity
             // 
@@ -113,7 +127,7 @@
             txtQuantity.Name = "txtQuantity";
             txtQuantity.Size = new Size(200, 23);
             txtQuantity.TabIndex = 7;
-            txtQuantity.KeyPress += NumericTextBox_KeyPress; // фильтрация ввода
+            txtQuantity.KeyPress += NumericTextBox_KeyPress;
             // 
             // btnCreateProduct
             // 
@@ -162,12 +176,13 @@
             label2.TabIndex = 13;
             label2.Text = "Category:";
             // 
-            // txtCategory
+            // cmbCategory
             // 
-            txtCategory.Location = new Point(140, 228);
-            txtCategory.Name = "txtCategory";
-            txtCategory.Size = new Size(200, 23);
-            txtCategory.TabIndex = 14;
+            cmbCategory.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbCategory.Location = new Point(140, 228);
+            cmbCategory.Name = "cmbCategory";
+            cmbCategory.Size = new Size(200, 23);
+            cmbCategory.TabIndex = 7;
             // 
             // label3
             // 
@@ -183,15 +198,24 @@
             txtOldPrice.Name = "txtOldPrice";
             txtOldPrice.Size = new Size(200, 23);
             txtOldPrice.TabIndex = 16;
-            txtOldPrice.KeyPress += NumericTextBox_KeyPress; // фильтрация ввода
+            txtOldPrice.KeyPress += NumericTextBox_KeyPress;
+            // 
+            // label4
+            // 
+            label4.Location = new Point(30, 260);
+            label4.Name = "label4";
+            label4.Size = new Size(100, 23);
+            label4.TabIndex = 17;
+            label4.Text = "Warehouse:";
             // 
             // CreateProductForm
             // 
             ClientSize = new Size(407, 477);
+            Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(txtOldPrice);
             Controls.Add(label2);
-            Controls.Add(txtCategory);
+            Controls.Add(cmbCategory);
             Controls.Add(txtCodeLbl);
             Controls.Add(txtCode);
             Controls.Add(label1);
@@ -199,6 +223,7 @@
             Controls.Add(lblProductName);
             Controls.Add(txtTitle);
             Controls.Add(lblDescription);
+            Controls.Add(cmbWarehouse);
             Controls.Add(txtDescription);
             Controls.Add(lblPrice);
             Controls.Add(txtPrice);
@@ -229,5 +254,6 @@
                 e.Handled = true;
             }
         }
+        private Label label4;
     }
 }

@@ -1780,7 +1780,8 @@
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
           "ClosedXML": "0.105.0",
-          "Domain": "1.0.0"
+          "Domain": "1.0.0",
+          "Infrastructure": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Application.dll": {}

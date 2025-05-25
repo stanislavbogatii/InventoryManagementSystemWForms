@@ -1,0 +1,231 @@
+﻿2025-05-25 21:45:55 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-25 21:45:56 - GetAll returned 4 products
+2025-05-25 21:58:47 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-25 21:58:47 - GetAll returned 4 products
+2025-05-25 21:58:52 - GetById called with Id=2
+2025-05-25 21:58:52 - GetById result: test
+2025-05-25 21:59:30 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-25 21:59:30 - GetAll returned 4 products
+2025-05-25 22:12:13 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-25 22:12:14 - GetAll returned 4 products
+2025-05-25 23:29:32 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-25 23:29:32 - GetAll returned 4 products
+2025-05-25 23:31:18 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-25 23:31:18 - GetAll returned 4 products
+2025-05-25 23:33:00 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-25 23:33:00 - GetAll returned 4 products
+2025-05-25 23:33:33 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-25 23:33:33 - GetAll returned 4 products
+2025-05-25 23:34:52 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-25 23:34:52 - GetAll returned 4 products
+2025-05-25 23:36:12 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-25 23:36:12 - GetAll returned 4 products
+2025-05-25 23:47:04 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-25 23:47:04 - GetAll returned 4 products
+2025-05-25 23:47:53 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-25 23:47:53 - GetAll returned 4 products
+2025-05-25 23:51:08 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-25 23:51:08 - GetAll returned 4 products
+2025-05-25 23:51:33 - GetById called with Id=5
+2025-05-25 23:51:33 - GetById result: admin
+2025-05-25 23:51:43 - GetById called with Id=15
+2025-05-25 23:51:43 - GetById result: New product
+2025-05-25 23:51:50 - GetById called with Id=2
+2025-05-25 23:51:50 - GetById result: test
+2025-05-25 23:51:54 - Update called with Id=2, Title=test, Code=article, Article=article
+2025-05-25 23:51:54 - Validation failed: Article already exists.
+2025-05-25 23:51:56 - Update called with Id=2, Title=test, Code=article, Article=article
+2025-05-25 23:51:56 - Validation failed: Article already exists.
+2025-05-25 23:52:54 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-25 23:52:55 - GetAll returned 4 products
+2025-05-25 23:57:39 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-25 23:57:39 - GetAll returned 4 products
+2025-05-25 23:58:54 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-25 23:58:54 - GetAll returned 4 products
+2025-05-26 00:00:30 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-26 00:00:31 - GetAll returned 4 products
+2025-05-26 00:06:48 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-26 00:06:48 - GetAll returned 4 products
+2025-05-26 00:12:03 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-26 00:12:04 - GetAll returned 4 products
+2025-05-26 00:12:31 - Create called with Title=pp, Code=2sdf, Article=sdfqd, Price=23
+2025-05-26 00:12:31 - Create finished
+2025-05-26 00:12:32 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-26 00:12:32 - GetAll returned 5 products
+2025-05-26 00:12:35 - GetById called with Id=17
+2025-05-26 00:12:35 - GetById result: pp
+2025-05-26 00:20:02 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-26 00:20:02 - GetAll returned 5 products
+2025-05-26 00:20:07 - GetById called with Id=16
+2025-05-26 00:20:07 - GetById result: Other product
+2025-05-26 00:20:10 - Update called with Id=16, Title=Other product, Code=code product, Article=article prod
+2025-05-26 00:20:10 - Update finished
+2025-05-26 00:20:11 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-26 00:20:11 - GetAll returned 5 products
+2025-05-26 00:20:56 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-26 00:20:56 - GetAll returned 4 products
+2025-05-26 00:34:33 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-26 00:34:33 - GetAll returned 4 products
+2025-05-26 00:34:39 - GetById called with Id=17
+2025-05-26 00:34:40 - GetById result: pp
+2025-05-26 00:34:44 - Update called with Id=17, Title=pp, Code=2sdf, Article=sdfqd
+2025-05-26 00:34:45 - Update finished
+2025-05-26 00:34:46 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-26 00:34:46 - GetAll returned 4 products
+2025-05-26 00:34:48 - GetById called with Id=17
+2025-05-26 00:34:48 - GetById result: pp
+2025-05-26 00:36:14 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-26 00:36:14 - GetAll returned 4 products
+2025-05-26 00:36:16 - GetById called with Id=15
+2025-05-26 00:36:16 - GetById result: New product
+2025-05-26 00:36:20 - GetById called with Id=17
+2025-05-26 00:36:20 - GetById result: pp
+2025-05-26 00:40:10 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-26 00:40:10 - GetAll returned 4 products
+2025-05-26 00:40:11 - GetById called with Id=17
+2025-05-26 00:40:11 - GetById result: pp
+2025-05-26 00:40:16 - GetById called with Id=15
+2025-05-26 00:40:16 - GetById result: New product
+2025-05-26 00:40:21 - Update called with Id=15, Title=New product, Code=code, Article=article
+2025-05-26 00:40:21 - Validation failed: Article already exists.
+2025-05-26 00:40:27 - GetById called with Id=17
+2025-05-26 00:40:27 - GetById result: pp
+2025-05-26 00:40:28 - Update called with Id=17, Title=pp, Code=2sdf, Article=sdfqd
+2025-05-26 00:40:28 - Update finished
+2025-05-26 00:40:31 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-26 00:40:31 - GetAll returned 4 products
+2025-05-26 00:40:33 - GetById called with Id=17
+2025-05-26 00:40:33 - GetById result: pp
+2025-05-26 00:40:37 - Update called with Id=17, Title=pp, Code=2sdf, Article=sdfqd
+2025-05-26 00:40:37 - Update finished
+2025-05-26 00:40:38 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-26 00:40:38 - GetAll returned 4 products
+2025-05-26 00:40:39 - GetById called with Id=17
+2025-05-26 00:40:39 - GetById result: pp
+2025-05-26 00:40:50 - GetById called with Id=17
+2025-05-26 00:40:50 - GetById result: pp
+2025-05-26 00:43:05 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-26 00:43:05 - GetAll returned 4 products
+2025-05-26 00:45:07 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-26 00:45:08 - GetAll returned 4 products
+2025-05-26 00:45:11 - GetById called with Id=2
+2025-05-26 00:45:11 - GetById result: test
+2025-05-26 00:45:15 - Update called with Id=2, Title=test, Code=article, Article=article
+2025-05-26 00:45:15 - Validation failed: Article already exists.
+2025-05-26 00:45:20 - GetById called with Id=5
+2025-05-26 00:45:20 - GetById result: admin
+2025-05-26 00:45:29 - GetById called with Id=5
+2025-05-26 00:45:29 - GetById result: admin
+2025-05-26 00:45:35 - GetById called with Id=5
+2025-05-26 00:45:35 - GetById result: admin
+2025-05-26 00:45:37 - Update called with Id=5, Title=admin, Code=ccd, Article=article
+2025-05-26 00:45:37 - Validation failed: Article already exists.
+2025-05-26 00:48:04 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-26 00:48:04 - GetAll returned 4 products
+2025-05-26 00:48:06 - GetById called with Id=2
+2025-05-26 00:48:06 - GetById result: test
+2025-05-26 00:48:07 - Update called with Id=2, Title=test, Code=article, Article=article
+2025-05-26 00:48:07 - Validation failed: Article already exists.
+2025-05-26 00:48:19 - GetById called with Id=17
+2025-05-26 00:48:19 - GetById result: pp
+2025-05-26 00:48:21 - Update called with Id=17, Title=pp, Code=2sdf, Article=sdfqd
+2025-05-26 00:48:21 - Update finished
+2025-05-26 00:48:22 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-26 00:48:22 - GetAll returned 4 products
+2025-05-26 00:48:23 - GetById called with Id=17
+2025-05-26 00:48:23 - GetById result: pp
+2025-05-26 00:48:27 - Update called with Id=17, Title=pp, Code=2sdf, Article=sdfqd
+2025-05-26 00:48:27 - Update finished
+2025-05-26 00:48:28 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-26 00:48:28 - GetAll returned 4 products
+2025-05-26 00:48:30 - GetById called with Id=17
+2025-05-26 00:48:30 - GetById result: pp
+2025-05-26 00:49:40 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-26 00:49:40 - GetAll returned 4 products
+2025-05-26 00:49:42 - GetById called with Id=5
+2025-05-26 00:49:42 - GetById result: admin
+2025-05-26 00:50:24 - Update called with Id=5, Title=admin, Code=cddc, Article=article
+2025-05-26 00:50:52 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-26 00:50:53 - GetAll returned 4 products
+2025-05-26 00:50:57 - Delete called with Id=5
+2025-05-26 00:50:57 - Delete finished
+2025-05-26 00:51:00 - Delete called with Id=2
+2025-05-26 00:51:00 - Delete finished
+2025-05-26 00:51:02 - GetById called with Id=15
+2025-05-26 00:51:02 - GetById result: New product
+2025-05-26 00:51:03 - Update called with Id=15, Title=New product, Code=code, Article=article
+2025-05-26 00:51:03 - Update finished
+2025-05-26 00:51:04 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-26 00:51:04 - GetAll returned 2 products
+2025-05-26 00:51:05 - GetById called with Id=17
+2025-05-26 00:51:05 - GetById result: pp
+2025-05-26 00:51:06 - Update called with Id=17, Title=pp, Code=2sdf, Article=sdfqd
+2025-05-26 00:51:06 - Update finished
+2025-05-26 00:51:07 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-26 00:51:07 - GetAll returned 2 products
+2025-05-26 00:51:08 - GetById called with Id=17
+2025-05-26 00:51:08 - GetById result: pp
+2025-05-26 00:51:12 - Update called with Id=17, Title=pp, Code=2sdf, Article=sdfqd
+2025-05-26 00:51:12 - Update finished
+2025-05-26 00:51:13 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-26 00:51:13 - GetAll returned 2 products
+2025-05-26 00:52:20 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-26 00:52:20 - GetAll returned 2 products
+2025-05-26 00:52:22 - GetById called with Id=15
+2025-05-26 00:52:22 - GetById result: New product
+2025-05-26 00:52:26 - Update called with Id=15, Title=New product, Code=code, Article=article
+2025-05-26 00:52:26 - Update finished
+2025-05-26 00:52:27 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-26 00:52:27 - GetAll returned 2 products
+2025-05-26 00:52:29 - GetById called with Id=15
+2025-05-26 00:52:29 - GetById result: New product
+2025-05-26 00:52:31 - Update called with Id=15, Title=New product, Code=code, Article=article
+2025-05-26 00:52:31 - Update finished
+2025-05-26 00:52:32 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-26 00:52:32 - GetAll returned 2 products
+2025-05-26 00:52:33 - GetById called with Id=15
+2025-05-26 00:52:33 - GetById result: New product
+2025-05-26 00:52:38 - Update called with Id=15, Title=New product, Code=code, Article=article
+2025-05-26 00:52:38 - Update finished
+2025-05-26 00:52:39 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-26 00:52:39 - GetAll returned 2 products
+2025-05-26 01:04:31 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-26 01:04:31 - GetAll returned 2 products
+2025-05-26 01:04:33 - GetById called with Id=15
+2025-05-26 01:04:33 - GetById result: New product
+2025-05-26 01:05:01 - GetById called with Id=15
+2025-05-26 01:05:01 - GetById result: New product
+2025-05-26 01:05:44 - GetById called with Id=15
+2025-05-26 01:05:44 - GetById result: New product
+2025-05-26 01:06:13 - GetById called with Id=15
+2025-05-26 01:06:13 - GetById result: New product
+2025-05-26 01:07:46 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-26 01:07:46 - GetAll returned 2 products
+2025-05-26 01:07:49 - GetById called with Id=17
+2025-05-26 01:07:49 - GetById result: pp
+2025-05-26 01:10:49 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-26 01:10:49 - GetAll returned 2 products
+2025-05-26 01:10:50 - GetById called with Id=15
+2025-05-26 01:10:50 - GetById result: New product
+2025-05-26 01:12:46 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-26 01:12:46 - GetAll returned 2 products
+2025-05-26 01:12:49 - GetById called with Id=15
+2025-05-26 01:12:49 - GetById result: New product
+2025-05-26 01:12:54 - Update called with Id=15, Title=New product, Code=code, Article=article
+2025-05-26 01:12:54 - Update finished
+2025-05-26 01:12:55 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-26 01:12:55 - GetAll returned 2 products
+2025-05-26 01:12:56 - GetById called with Id=15
+2025-05-26 01:12:56 - GetById result: New product
+2025-05-26 01:13:00 - Update called with Id=15, Title=New product, Code=code, Article=article
+2025-05-26 01:13:00 - Update finished
+2025-05-26 01:13:00 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-26 01:13:00 - GetAll returned 2 products
+2025-05-26 01:20:39 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-26 01:20:39 - GetAll returned 2 products
+2025-05-26 01:21:01 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-26 01:21:02 - GetAll returned 2 products
+2025-05-26 01:21:05 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-26 01:21:05 - GetAll returned 2 products
+2025-05-26 01:21:22 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-26 01:21:22 - GetAll returned 2 products

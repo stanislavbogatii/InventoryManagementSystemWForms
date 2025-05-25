@@ -57,9 +57,9 @@ namespace Infrastructure.Data
                     .HasForeignKey(p => p.CategoryId)
                     .OnDelete(DeleteBehavior.Cascade);
 
-                entity.HasOne(p => p.WarehouseLocation)
+                entity.HasOne(p => p.Warehouse)
                       .WithMany(w => w.Products)
-                      .HasForeignKey(p => p.WarehouseLocationId)
+                      .HasForeignKey(p => p.WarehouseId)
                       .OnDelete(DeleteBehavior.SetNull);
             });
 

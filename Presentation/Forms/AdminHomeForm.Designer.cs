@@ -36,6 +36,8 @@ namespace Presentation.Forms
             dataGridViewTextBoxColumn5 = new DataGridViewTextBoxColumn();
             dataGridViewTextBoxColumn6 = new DataGridViewTextBoxColumn();
             dataGridViewTextBoxColumn7 = new DataGridViewTextBoxColumn();
+            dataGridViewTextBoxColumn8 = new DataGridViewTextBoxColumn();
+
             deleteButtonColumn = new DataGridViewButtonColumn();
             txtFilterName = new TextBox();
             txtFilterCategory = new TextBox();
@@ -63,7 +65,7 @@ namespace Presentation.Forms
             // dgvProducts
             // 
             dgvProducts.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-            dgvProducts.Columns.AddRange(new DataGridViewColumn[] { dataGridViewTextBoxColumnID, dataGridViewTextBoxColumn1, dataGridViewTextBoxColumn2, dataGridViewTextBoxColumn3, dataGridViewTextBoxColumn4, dataGridViewTextBoxColumn5, dataGridViewTextBoxColumn6, dataGridViewTextBoxColumn7, deleteButtonColumn });
+            dgvProducts.Columns.AddRange(new DataGridViewColumn[] { dataGridViewTextBoxColumnID, dataGridViewTextBoxColumn1, dataGridViewTextBoxColumn2, dataGridViewTextBoxColumn3, dataGridViewTextBoxColumn4, dataGridViewTextBoxColumn5, dataGridViewTextBoxColumn6, dataGridViewTextBoxColumn7, dataGridViewTextBoxColumn8, deleteButtonColumn });
             dgvProducts.Location = new Point(10, 80);
             dgvProducts.Name = "dgvProducts";
             dgvProducts.ReadOnly = true;
@@ -120,6 +122,10 @@ namespace Presentation.Forms
             dataGridViewTextBoxColumn7.HeaderText = "Category";
             dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
             dataGridViewTextBoxColumn7.ReadOnly = true;
+
+            dataGridViewTextBoxColumn8.HeaderText = "Warehouse";
+            dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
+            dataGridViewTextBoxColumn8.ReadOnly = true;
             // 
             // deleteButtonColumn
             // 
@@ -197,7 +203,7 @@ namespace Presentation.Forms
             btnCreateProduct.Name = "btnCreateProduct";
             btnCreateProduct.Size = new Size(150, 30);
             btnCreateProduct.TabIndex = 9;
-            btnCreateProduct.Text = "Create product";
+            btnCreateProduct.Text = "Edit product";
             btnCreateProduct.Click += btnCreateProduct_Click;
             // 
             // intMinPrice
@@ -234,6 +240,7 @@ namespace Presentation.Forms
             btnManageCategories.Size = new Size(150, 30);
             btnManageCategories.TabIndex = 13;
             btnManageCategories.Text = "Manage Categories";
+            btnManageCategories.Click += btnManageCategories_Click;
             // 
             // AdminHomeForm
             // 
@@ -290,6 +297,7 @@ namespace Presentation.Forms
         private DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
         private DataGridViewTextBoxColumn dataGridViewTextBoxColumn6;
         private DataGridViewTextBoxColumn dataGridViewTextBoxColumn7;
+        private DataGridViewTextBoxColumn dataGridViewTextBoxColumn8;
 
         private Button btnCreateProduct;
         private DataGridViewButtonColumn deleteButtonColumn;
