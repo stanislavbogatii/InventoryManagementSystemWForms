@@ -15,6 +15,12 @@ namespace Presentation.Forms
         public CreateUserForm()
         {
             InitializeComponent();
+            this.AcceptButton = btnCreateUser;
+        }
+
+        private void btnCreateUser_Click(object sender, EventArgs e)
+        {
+            // Placeholder for create logic
         }
     }
 }

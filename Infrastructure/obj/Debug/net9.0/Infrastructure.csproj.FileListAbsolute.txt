@@ -14,3 +14,19 @@ C:\Users\Stanislav\Documents\NET LEARn\InventoryManagementSystemWForms\Infrastru
 C:\Users\Stanislav\Documents\NET LEARn\InventoryManagementSystemWForms\Infrastructure\obj\Debug\net9.0\Infrastructure.pdb
 C:\Users\Stanislav\Documents\NET LEARn\InventoryManagementSystemWForms\Infrastructure\obj\Debug\net9.0\ref\Infrastructure.dll
 C:\Users\Stanislav\Documents\NET LEARn\InventoryManagementSystemWForms\Infrastructure\obj\Debug\net9.0\Infrastructure.sourcelink.json
+C:\Users\stasb\Source\Repos\InventoryManagementSystemWForms\Infrastructure\bin\Debug\net9.0\Infrastructure.deps.json
+C:\Users\stasb\Source\Repos\InventoryManagementSystemWForms\Infrastructure\bin\Debug\net9.0\Infrastructure.dll
+C:\Users\stasb\Source\Repos\InventoryManagementSystemWForms\Infrastructure\bin\Debug\net9.0\Infrastructure.pdb
+C:\Users\stasb\Source\Repos\InventoryManagementSystemWForms\Infrastructure\bin\Debug\net9.0\Domain.dll
+C:\Users\stasb\Source\Repos\InventoryManagementSystemWForms\Infrastructure\bin\Debug\net9.0\Domain.pdb
+C:\Users\stasb\Source\Repos\InventoryManagementSystemWForms\Infrastructure\obj\Debug\net9.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\stasb\Source\Repos\InventoryManagementSystemWForms\Infrastructure\obj\Debug\net9.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stasb\Source\Repos\InventoryManagementSystemWForms\Infrastructure\obj\Debug\net9.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\stasb\Source\Repos\InventoryManagementSystemWForms\Infrastructure\obj\Debug\net9.0\Infrastructure.AssemblyInfo.cs
+C:\Users\stasb\Source\Repos\InventoryManagementSystemWForms\Infrastructure\obj\Debug\net9.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\stasb\Source\Repos\InventoryManagementSystemWForms\Infrastructure\obj\Debug\net9.0\Infrastructure.sourcelink.json
+C:\Users\stasb\Source\Repos\InventoryManagementSystemWForms\Infrastructure\obj\Debug\net9.0\Infrastr.15EFFBFE.Up2Date
+C:\Users\stasb\Source\Repos\InventoryManagementSystemWForms\Infrastructure\obj\Debug\net9.0\Infrastructure.dll
+C:\Users\stasb\Source\Repos\InventoryManagementSystemWForms\Infrastructure\obj\Debug\net9.0\refint\Infrastructure.dll
+C:\Users\stasb\Source\Repos\InventoryManagementSystemWForms\Infrastructure\obj\Debug\net9.0\Infrastructure.pdb
+C:\Users\stasb\Source\Repos\InventoryManagementSystemWForms\Infrastructure\obj\Debug\net9.0\ref\Infrastructure.dll

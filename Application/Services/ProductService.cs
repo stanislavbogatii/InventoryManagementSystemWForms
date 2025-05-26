@@ -1,23 +1,30 @@
 ﻿using Application.DTOs.Product;
-using Application.DTOs.Warehouse;
 using Application.Interfaces;
 using Domain.Entitites;
-using Domain.Enums;
 using Domain.Filters;
 using Domain.Interfaces;
+using Infrastructure.Repositories;
 
 namespace Application.Services
 {
     public class ProductService : IProductService
     {
-        IProductRepository _productRepo;
+        private readonly IProductRepository _productRepo;
+        private readonly ProductValidationService _validationService;
+        private readonly ProductMementoRepository _mementoRepository;
         public ProductService(IProductRepository productRepo)
         {
             _productRepo = productRepo;
-
+            _validationService = new ProductValidationService();
+            _mementoRepository = new ProductMementoRepository();
         }
         public async Task Create(CreateProductDto dto)
         {
+            if (!_validationService.Validate(dto, out var errorMessage))
+            {
+                throw new ArgumentException($"Validation failed: {errorMessage}");
+            }
+
             Product product = new()
             {
                 Title = dto.Title,
@@ -31,7 +38,6 @@ namespace Application.Services
                 WarehouseId = dto.WarehouseId,
             };
             await _productRepo.AddAsync(product);
-
         }
 
         public async Task Delete(int id)
@@ -63,6 +69,9 @@ namespace Application.Services
         {
             var product = await _productRepo.GetByIdAsync(id);
             if (product == null) throw new Exception("Product not found");
+                
+            _mementoRepository.SaveMemento(product);
+
             product.Title = dto.Title;
             product.Price = dto.Price;
             product.Code = dto.Code;
@@ -76,6 +85,33 @@ namespace Application.Services
             await _productRepo.UdpateAsync(product);
         }
 
+        public async Task RestoreFromMemento(int id)
+        {
+            var memento = _mementoRepository.GetMemento(id);
+            if (memento == null) throw new Exception("No previous version to restore");
+
+            var product = await _productRepo.GetByIdAsync(id);
+            if (product == null) throw new Exception("Product not found");
+
+            product.Title = memento.Title;
+            product.Code = memento.Code;
+            product.Article = memento.Article;
+            product.Description = memento.Description;
+            product.Quantity = memento.Quantity;
+            product.Price = memento.Price;
+            product.OldPrice = memento.OldPrice;
+            product.WarehouseId = memento.WarehouseId;
+            product.CategoryId = memento.CategoryId;
+
+            await _productRepo.UdpateAsync(product);
+
+            _mementoRepository.RemoveMemento(id);
+        }
+
+        public bool HasMemento(int id)
+        {
+            return _mementoRepository.HasMemento(id);
+        }
 
         public static ProductDto ToDto(Product product)
         {

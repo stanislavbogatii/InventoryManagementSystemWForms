@@ -1,12 +1,13 @@
 ﻿using Application.DTOs.Product;
 using Application.Interfaces;
 using Domain.Filters;
+using Domain.Interfaces;
 using Infrastructure;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Presentation.Forms
 {
-    public partial class HomeForm : Form
+    public partial class HomeForm : Form, IObserver
     {
         private readonly IProductService _productService;
         private IServiceProvider _serviceProvider;
@@ -20,11 +21,15 @@ namespace Presentation.Forms
             _productService = productService;
             _serviceProvider = serviceProvider;
 
-            lblCurrentUser.Text = $"Current user: {Session.Instance.UserName}";
-
             this.AcceptButton = btnFilter;
-
             _ = LoadProductsAsync();
+            Session.Instance.Attach(this);
+            Update();
+        }
+
+        public void Update()
+        {
+            lblCurrentUser.Text = $"Current user: {Session.Instance.UserName}";
         }
 
         private async void dgvProducts_CellDeleteClick(object sender, DataGridViewCellEventArgs e)

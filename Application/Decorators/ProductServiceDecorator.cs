@@ -75,6 +75,18 @@ public class ProductServiceDecorator : IProductService
         return results;
     }
 
+    public bool HasMemento(int Id)
+    {
+        return _inner.HasMemento(Id);
+    }
+
+    public async Task RestoreFromMemento(int Id)
+    {
+        await LogAsync($"RestoreFromMemento called with Id={Id}");
+        await _inner.RestoreFromMemento(Id);
+        await LogAsync("RestoreFromMemento finished");
+    }
+
     public async Task Update(int id, UpdateProductDto dto)
     {
         await LogAsync($"Update called with Id={id}, Title={dto.Title}, Code={dto.Code}, Article={dto.Article}");

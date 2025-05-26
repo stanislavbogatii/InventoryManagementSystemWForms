@@ -23,5 +23,26 @@
         public Category Category { get; set; } = null!;
         public int? WarehouseId { get; set; } = null;
         public Warehouse? Warehouse { get; set; } = null;
+
+
+        public ProductMemento SaveToMemento()
+        {
+            return new ProductMemento(this);
+        }
+
+        public void RestoreFromMemento(ProductMemento memento)
+        {
+            if (memento == null) return;
+
+            Title = memento.Title;
+            Code = memento.Code;
+            Article = memento.Article;
+            Description = memento.Description;
+            Quantity = memento.Quantity;
+            Price = memento.Price;
+            OldPrice = memento.OldPrice;
+            CategoryId = memento.CategoryId;
+            WarehouseId = memento.WarehouseId;
+        }
     }
 }

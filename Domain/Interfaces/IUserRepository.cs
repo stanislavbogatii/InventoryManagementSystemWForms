@@ -8,5 +8,7 @@ namespace Domain.Interfaces
         Task CreateAsync(User user);
 
         Task UpdateAsync(User user);
+
+        Task<bool>  AnyExistsAsync();
     }
 }

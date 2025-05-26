@@ -53,4 +53,9 @@ public class UserServiceProxy : IUserService
         CheckAdminRole();
         return _inner.Update(id, dto);
     }
+
+    public Task<bool> AnyExists()
+    {
+        return _inner.AnyExists();
+    }
 }

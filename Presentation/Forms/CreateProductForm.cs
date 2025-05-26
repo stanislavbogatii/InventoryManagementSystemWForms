@@ -1,7 +1,6 @@
 ﻿using Application.Builders;
 using Application.DTOs.Product;
 using Application.Interfaces;
-using Application.Services;
 using Domain.Entitites;
 
 namespace Presentation.Forms
@@ -19,10 +18,14 @@ namespace Presentation.Forms
             _productService = productService;
             _warehouseService = warehouseService;
             this.AcceptButton = btnCreateProduct;
-            LoadCategories();
-            LoadWarehouses();
+            LoadAsync();
         }
 
+        private async Task LoadAsync()
+        {
+            await LoadCategories();
+            await LoadWarehouses();
+        }
 
         public async void btnCreateProduct_Click(object sender, EventArgs e)
         {
@@ -62,13 +65,17 @@ namespace Presentation.Forms
                 this.DialogResult = DialogResult.OK;
                 this.Close();
             }
+            catch (ArgumentException ex)
+            {
+                MessageBox.Show("Failed: " + ex.Message, "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
             catch (Exception ex)
             {
-                MessageBox.Show("Failed: " + ex.Message);
+                MessageBox.Show("Failed: " + ex.Message, "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
 
-        private async void LoadCategories()
+        private async Task LoadCategories()
         {
             var categories = await _categoryService.GetAll();
             var categoryTree = CategoryCompositeBuilder.Build(categories);
@@ -84,7 +91,7 @@ namespace Presentation.Forms
             cmbCategory.SelectedIndex = 0;
         }
 
-        private async void LoadWarehouses()
+        private async Task LoadWarehouses()
         {
             var warehouses = await _warehouseService.GetAll();
             cmbWarehouse.Items.Clear();

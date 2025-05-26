@@ -15,6 +15,13 @@ namespace Presentation.Forms
         public ViewUserForm()
         {
             InitializeComponent();
+            this.AcceptButton = btnSaveUser;
         }
+
+        private void btnSaveUser_Click(object sender, EventArgs e)
+        {
+            // Placeholder for save logic
+        }
+
     }
 }

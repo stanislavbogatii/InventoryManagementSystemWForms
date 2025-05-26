@@ -1,6 +1,5 @@
 ﻿using Application.Interfaces;
 using Infrastructure;
-using Microsoft.Extensions.DependencyInjection;
 using Presentation.Interfaces;
 
 
@@ -9,21 +8,18 @@ public partial class LoginForm : Form
 {
     private readonly IAuthService _authService;
     private readonly IUserService _userService;
-    private readonly IServiceProvider _serviceProvider;
     private readonly IFormFactory _formFactory;
 
     public LoginForm(
         IAuthService authService,
         IUserService userService,
         IProductService productService,
-        IServiceProvider serviceProvider,
         IFormFactory formFactory
     )
     {
         InitializeComponent();
         _authService = authService;
         _userService = userService;
-        _serviceProvider = serviceProvider;
         _formFactory = formFactory;
 
         this.AcceptButton = btnLogin;

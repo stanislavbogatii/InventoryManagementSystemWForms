@@ -53,6 +53,7 @@
             label3 = new Label();
             txtOldPrice = new TextBox();
             label4 = new Label();
+            btnRestoreProduct = new Button();
             SuspendLayout();
             // 
             // lblProductName
@@ -67,7 +68,7 @@
             // 
             txtTitle.Location = new Point(140, 30);
             txtTitle.Name = "txtTitle";
-            txtTitle.Size = new Size(200, 23);
+            txtTitle.Size = new Size(200, 27);
             txtTitle.TabIndex = 1;
             // 
             // lblDescription
@@ -98,7 +99,7 @@
             // 
             txtPrice.Location = new Point(140, 297);
             txtPrice.Name = "txtPrice";
-            txtPrice.Size = new Size(200, 23);
+            txtPrice.Size = new Size(200, 27);
             txtPrice.TabIndex = 5;
             txtPrice.KeyPress += NumericTextBox_KeyPress;
             // 
@@ -114,7 +115,7 @@
             // 
             txtQuantity.Location = new Point(140, 373);
             txtQuantity.Name = "txtQuantity";
-            txtQuantity.Size = new Size(200, 23);
+            txtQuantity.Size = new Size(200, 27);
             txtQuantity.TabIndex = 7;
             txtQuantity.KeyPress += NumericTextBox_KeyPress;
             // 
@@ -139,7 +140,7 @@
             // 
             txtArticle.Location = new Point(140, 189);
             txtArticle.Name = "txtArticle";
-            txtArticle.Size = new Size(200, 23);
+            txtArticle.Size = new Size(200, 27);
             txtArticle.TabIndex = 10;
             // 
             // txtCodeLbl
@@ -154,7 +155,7 @@
             // 
             txtCode.Location = new Point(140, 148);
             txtCode.Name = "txtCode";
-            txtCode.Size = new Size(200, 23);
+            txtCode.Size = new Size(200, 27);
             txtCode.TabIndex = 12;
             // 
             // label2
@@ -170,7 +171,7 @@
             cmbWarehouse.DropDownStyle = ComboBoxStyle.DropDownList;
             cmbWarehouse.Location = new Point(140, 260);
             cmbWarehouse.Name = "cmbWarehouse";
-            cmbWarehouse.Size = new Size(200, 23);
+            cmbWarehouse.Size = new Size(200, 28);
             cmbWarehouse.TabIndex = 7;
             // 
             // cmbCategory
@@ -178,7 +179,7 @@
             cmbCategory.DropDownStyle = ComboBoxStyle.DropDownList;
             cmbCategory.Location = new Point(140, 228);
             cmbCategory.Name = "cmbCategory";
-            cmbCategory.Size = new Size(200, 23);
+            cmbCategory.Size = new Size(200, 28);
             cmbCategory.TabIndex = 7;
             // 
             // label3
@@ -193,7 +194,7 @@
             // 
             txtOldPrice.Location = new Point(140, 335);
             txtOldPrice.Name = "txtOldPrice";
-            txtOldPrice.Size = new Size(200, 23);
+            txtOldPrice.Size = new Size(200, 27);
             txtOldPrice.TabIndex = 16;
             txtOldPrice.KeyPress += NumericTextBox_KeyPress;
             // 
@@ -205,9 +206,19 @@
             label4.TabIndex = 17;
             label4.Text = "Warehouse:";
             // 
+            // btnRestoreProduct
+            // 
+            btnRestoreProduct.Location = new Point(140, 449);
+            btnRestoreProduct.Name = "btnRestoreProduct";
+            btnRestoreProduct.Size = new Size(200, 30);
+            btnRestoreProduct.TabIndex = 18;
+            btnRestoreProduct.Text = "Undo last update";
+            btnRestoreProduct.Click += btnRestoreProduct_Click;
+            // 
             // ViewProductForm
             // 
-            ClientSize = new Size(407, 477);
+            ClientSize = new Size(407, 506);
+            Controls.Add(btnRestoreProduct);
             Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(txtOldPrice);
@@ -252,5 +263,6 @@
             }
         }
         private Label label4;
+        private Button btnRestoreProduct;
     }
 }

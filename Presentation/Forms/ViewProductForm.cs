@@ -1,7 +1,6 @@
 ﻿using Application.Builders;
 using Application.DTOs.Product;
 using Application.Interfaces;
-using Application.Services;
 using Domain.Entitites;
 
 namespace Presentation.Forms
@@ -36,7 +35,14 @@ namespace Presentation.Forms
             if (product is not null)
             {
                 populateForm(product);
+                CheckMemento();
             }
+        }
+
+        private void CheckMemento()
+        {
+            if (_product is null) return;
+            btnRestoreProduct.Enabled = _productService.HasMemento(_product.Id);
         }
 
         private async Task LoadCategories()
@@ -210,6 +216,28 @@ namespace Presentation.Forms
             public string DisplayName { get; set; }
 
             public override string ToString() => DisplayName;
+        }
+
+        private async void btnRestoreProduct_Click(object sender, EventArgs e)
+        {
+            if (_product is null)
+            {
+                MessageBox.Show("No product");
+                return;
+            }
+
+            var result = MessageBox.Show("Are you sure you want to restore this product?", "Confirm Restore", MessageBoxButtons.YesNo);
+            if (result == DialogResult.Yes)
+            {
+                await _productService.RestoreFromMemento(_product.Id);
+                MessageBox.Show("Product restored successfully.");
+                this.DialogResult = DialogResult.OK;
+                this.Close();
+            }
+            else
+            {
+                MessageBox.Show("Restore cancelled.");
+            }
         }
     }
 }

@@ -62,22 +62,17 @@ namespace Application.Services
             throw new NotImplementedException();
         }
 
-        //private ProductDto ToDto(Product product) => new ProductDto
-        //{
-        //    Id = product.Id,
-        //    Title = product.Title,
-        //    Description = product.Description,
-        //    Code = product.Code,
-        //    Article = product.Article,
-        //    CategoryId = product.CategoryId,
-        //    CategoryTitle = product.Category.Title
-        //};
         private UserDto ToDto(User user) => new UserDto
         {
             Id = user.Id,
             Username = user.Username,
             Role = user.Role
         };
+
+        public async Task<bool> AnyExists()
+        {
+            return await _userRepo.AnyExistsAsync();
+        }
 
         private string HashPassword(string password)
         {

@@ -1,15 +1,16 @@
-﻿using Application.DTOs.Product;
-using Application.Interfaces;
+﻿using Application.Interfaces;
 using Domain.Filters;
+using Domain.Interfaces;
 using Infrastructure;
-using Microsoft.Extensions.DependencyInjection;
+using Presentation.Commands;
 
 namespace Presentation.Forms
 {
-    public partial class AdminHomeForm : Form
+    public partial class AdminHomeForm : Form, IObserver
     {
         private readonly IProductService _productService;
         private IServiceProvider _serviceProvider;
+        private readonly Dictionary<Button, ICommand> _commands = new();
 
         public AdminHomeForm(
             IProductService productService,
@@ -19,109 +20,67 @@ namespace Presentation.Forms
             InitializeComponent();
             _productService = productService;
             _serviceProvider = serviceProvider;
-
-            lblCurrentUser.Text = $"Current user: {Session.Instance.UserName} (admin)";
-
             this.AcceptButton = btnFilter;
-
             _ = LoadProductsAsync();
+            Update();
+            _commands.Add(btnFilter, new FilterProductsCommand(this));
+            _commands.Add(btnLogout, new LogoutCommand(this, _serviceProvider));
+            _commands.Add(btnGenerateReport, new GenerateReportCommand(this, _productService));
+            _commands.Add(btnCreateProduct, new OpenCreateProductFormCommand(this, _serviceProvider));
+            _commands.Add(btnManageWarehoues, new OpenWarehouseFormCommand(_serviceProvider));
+            _commands.Add(btnManageCategories, new OpenCategoriesFormCommand(_serviceProvider));
+            _commands.Add(btnManageUsers, new OpenUsersFormCommand(_serviceProvider));
+
+            Session.Instance.Attach(this);
         }
 
-        private async void dgvProducts_CellDeleteClick(object sender, DataGridViewCellEventArgs e)
+        public void Update()
+        {
+            lblCurrentUser.Text = $"Current user: {Session.Instance.UserName} (admin)";
+        }
+
+        private void btnFilter_Click(object sender, EventArgs e) => _commands[btnFilter].Execute();
+        private void btnLogout_Click(object sender, EventArgs e) => _commands[btnLogout].Execute();
+        private void btnGenerateReport_Click(object sender, EventArgs e) => _commands[btnGenerateReport].Execute();
+        private void btnCreateProduct_Click(object sender, EventArgs e) => _commands[btnCreateProduct].Execute();
+        private void btnManageWarehoues_Click(object sender, EventArgs e) => _commands[btnManageWarehoues].Execute();
+        private void btnManageCategories_Click(object sender, EventArgs e) => _commands[btnManageCategories].Execute();
+        private void btnManageUsers_Click(object sender, EventArgs e) => _commands[btnManageUsers].Execute();
+
+        private void dgvProducts_CellDeleteClick(object sender, DataGridViewCellEventArgs e)
         {
             if (dgvProducts.Columns[e.ColumnIndex].Name == "deleteButtonColumn" && e.RowIndex >= 0)
             {
                 int productId = Convert.ToInt32(dgvProducts.Rows[e.RowIndex].Cells["dataGridViewTextBoxColumnID"].Value);
-                var confirm = MessageBox.Show("Are you sure you want to delete this product?", "Confirm Delete", MessageBoxButtons.YesNo);
-                if (confirm == DialogResult.Yes)
-                {
-                    await _productService.Delete(productId);
-                    dgvProducts.Rows.RemoveAt(e.RowIndex);
-                }
+                new DeleteProductCommand(this, _productService, productId, e.RowIndex).Execute();
             }
         }
 
-        private async void dgvProducts_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
+        private void dgvProducts_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
-
-            if (e.RowIndex < 0) return;
-
-            int productId = Convert.ToInt32(dgvProducts.Rows[e.RowIndex].Cells["dataGridViewTextBoxColumnID"].Value);
-            var product = await _productService.GetById(productId);
-
-            if (product == null)
+            if (e.RowIndex >= 0)
             {
-                MessageBox.Show("Product not found!");
-                return;
-            }
-
-            var editProductForm = ActivatorUtilities.CreateInstance<ViewProductForm>(_serviceProvider, product);
-            if (editProductForm.ShowDialog() == DialogResult.OK)
-            {
-                await LoadProductsAsync();
+                int productId = Convert.ToInt32(dgvProducts.Rows[e.RowIndex].Cells["dataGridViewTextBoxColumnID"].Value);
+                new ViewProductCommand(this, _serviceProvider, _productService, productId).Execute();
             }
         }
 
-
-        private void homeForm_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnFilter_Click(object sender, EventArgs e)
+        public void FilterProducts()
         {
             int minPrice = string.IsNullOrEmpty(intMinPrice.Text) ? 0 : int.Parse(intMinPrice.Text);
             int maxPrice = string.IsNullOrEmpty(intMaxPrice.Text) ? int.MaxValue : int.Parse(intMaxPrice.Text);
             var title = string.IsNullOrEmpty(txtFilterName.Text) ? null : txtFilterName.Text;
+
             ProductFilters filters = new()
             {
                 minPrice = minPrice,
                 maxPrice = maxPrice,
-                title = title,
+                title = title
             };
 
-            LoadProductsAsync(filters);
+            _ = LoadProductsAsync(filters);
         }
-
-        private async void btnGenerateReport_Click(object sender, EventArgs e)
-        {
-            var products = await _productService.GetAll();
-            var selected = comboBoxReportType.SelectedItem?.ToString();
-
-            if (products == null || string.IsNullOrEmpty(selected))
-            {
-                MessageBox.Show("Please select report type and ensure there are products");
-                return;
-            }
-
-            var reportFacade = new Application.Facades.ReportFacade();
-            var workbook = reportFacade.GenerateExcelReport((List<ProductDto>)products, selected);
-
-            using (var saveFileDialog = new SaveFileDialog())
-            {
-                saveFileDialog.Filter = "Excel Workbook|*.xlsx";
-                saveFileDialog.Title = "Save excel report";
-                saveFileDialog.FileName = $"report_{DateTime.Now:yyyyMMdd_HHmmss}.xlsx";
-
-                if (saveFileDialog.ShowDialog() == DialogResult.OK)
-                {
-                    workbook.SaveAs(saveFileDialog.FileName);
-                    MessageBox.Show("Report success saved!");
-                }
-            }
-
-
-        }
-
-        private void btnLogout_Click(object sender, EventArgs e)
-        {
-            Session.Instance.Clear();
-            var loginForm = _serviceProvider.GetRequiredService<LoginForm>();
-            loginForm.Show();
-            this.Hide();
-        }
-
-        private async Task LoadProductsAsync(ProductFilters? filters = null)
+        public async Task LoadProductsAsync(ProductFilters? filters = null)
         {
             var products = await _productService.GetAll(filters);
 
@@ -143,26 +102,7 @@ namespace Presentation.Forms
             }
         }
 
-        private async void btnCreateProduct_Click(object sender, EventArgs e)
-        {
-            var createProductForm = _serviceProvider.GetRequiredService<CreateProductForm>();
-            if (createProductForm.ShowDialog() == DialogResult.OK)
-            {
-                await LoadProductsAsync();
-            }
-        }
 
-        private void btnManageWarehoues_Click(object sender, EventArgs e)
-        {
-            var form = _serviceProvider.GetRequiredService<WarehouseManagementForm>();
-            form.Show();
-        }
-
-        private void btnManageCategories_Click(object sender, EventArgs e)
-        {
-            var form = _serviceProvider.GetRequiredService<CategoriesManagementForm>();
-            form.Show();
-        }
     }
 
 }

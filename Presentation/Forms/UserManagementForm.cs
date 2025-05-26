@@ -16,5 +16,25 @@ namespace Presentation.Forms
         {
             InitializeComponent();
         }
+
+        private void btnCreateUser_Click(object sender, EventArgs e)
+        {
+            // Placeholder for create user logic
+        }
+
+        private void btnLogout_Click(object sender, EventArgs e)
+        {
+            // Placeholder for logout logic
+        }
+
+        private void dgvUsers_CellDeleteClick(object sender, DataGridViewCellEventArgs e)
+        {
+            // Placeholder for delete logic
+        }
+
+        private void dgvUsers_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            // Placeholder for edit logic
+        }
     }
 }

@@ -5,12 +5,12 @@ namespace Presentation.Forms
     partial class AdminHomeForm
     {
         private Label lblCurrentUser;
-        private DataGridView dgvProducts;
+        public DataGridView dgvProducts;
         private TextBox txtFilterName;
         private TextBox txtFilterCategory;
         private Button btnFilter;
         private Button btnGenerateReport;
-        private ComboBox comboBoxReportType;
+        public ComboBox comboBoxReportType;
         private Button btnLogout;
         private Button btnManageUsers;
         private System.ComponentModel.IContainer components = null;
@@ -37,7 +37,6 @@ namespace Presentation.Forms
             dataGridViewTextBoxColumn6 = new DataGridViewTextBoxColumn();
             dataGridViewTextBoxColumn7 = new DataGridViewTextBoxColumn();
             dataGridViewTextBoxColumn8 = new DataGridViewTextBoxColumn();
-
             deleteButtonColumn = new DataGridViewButtonColumn();
             txtFilterName = new TextBox();
             txtFilterCategory = new TextBox();
@@ -65,10 +64,12 @@ namespace Presentation.Forms
             // dgvProducts
             // 
             dgvProducts.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dgvProducts.ColumnHeadersHeight = 29;
             dgvProducts.Columns.AddRange(new DataGridViewColumn[] { dataGridViewTextBoxColumnID, dataGridViewTextBoxColumn1, dataGridViewTextBoxColumn2, dataGridViewTextBoxColumn3, dataGridViewTextBoxColumn4, dataGridViewTextBoxColumn5, dataGridViewTextBoxColumn6, dataGridViewTextBoxColumn7, dataGridViewTextBoxColumn8, deleteButtonColumn });
             dgvProducts.Location = new Point(10, 80);
             dgvProducts.Name = "dgvProducts";
             dgvProducts.ReadOnly = true;
+            dgvProducts.RowHeadersWidth = 51;
             dgvProducts.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dgvProducts.Size = new Size(1200, 800);
             dgvProducts.TabIndex = 1;
@@ -78,58 +79,70 @@ namespace Presentation.Forms
             // dataGridViewTextBoxColumnID
             // 
             dataGridViewTextBoxColumnID.HeaderText = "ID";
+            dataGridViewTextBoxColumnID.MinimumWidth = 6;
             dataGridViewTextBoxColumnID.Name = "dataGridViewTextBoxColumnID";
             dataGridViewTextBoxColumnID.ReadOnly = true;
             // 
             // dataGridViewTextBoxColumn1
             // 
             dataGridViewTextBoxColumn1.HeaderText = "Title";
+            dataGridViewTextBoxColumn1.MinimumWidth = 6;
             dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
             dataGridViewTextBoxColumn1.ReadOnly = true;
             // 
             // dataGridViewTextBoxColumn2
             // 
             dataGridViewTextBoxColumn2.HeaderText = "Code";
+            dataGridViewTextBoxColumn2.MinimumWidth = 6;
             dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
             dataGridViewTextBoxColumn2.ReadOnly = true;
             // 
             // dataGridViewTextBoxColumn3
             // 
             dataGridViewTextBoxColumn3.HeaderText = "Article";
+            dataGridViewTextBoxColumn3.MinimumWidth = 6;
             dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
             dataGridViewTextBoxColumn3.ReadOnly = true;
             // 
             // dataGridViewTextBoxColumn4
             // 
             dataGridViewTextBoxColumn4.HeaderText = "Price";
+            dataGridViewTextBoxColumn4.MinimumWidth = 6;
             dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
             dataGridViewTextBoxColumn4.ReadOnly = true;
             // 
             // dataGridViewTextBoxColumn5
             // 
             dataGridViewTextBoxColumn5.HeaderText = "Old price";
+            dataGridViewTextBoxColumn5.MinimumWidth = 6;
             dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
             dataGridViewTextBoxColumn5.ReadOnly = true;
             // 
             // dataGridViewTextBoxColumn6
             // 
             dataGridViewTextBoxColumn6.HeaderText = "Quantity";
+            dataGridViewTextBoxColumn6.MinimumWidth = 6;
             dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
             dataGridViewTextBoxColumn6.ReadOnly = true;
             // 
             // dataGridViewTextBoxColumn7
             // 
             dataGridViewTextBoxColumn7.HeaderText = "Category";
+            dataGridViewTextBoxColumn7.MinimumWidth = 6;
             dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
             dataGridViewTextBoxColumn7.ReadOnly = true;
-
+            // 
+            // dataGridViewTextBoxColumn8
+            // 
             dataGridViewTextBoxColumn8.HeaderText = "Warehouse";
+            dataGridViewTextBoxColumn8.MinimumWidth = 6;
             dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
             dataGridViewTextBoxColumn8.ReadOnly = true;
             // 
             // deleteButtonColumn
             // 
             deleteButtonColumn.HeaderText = "Actions";
+            deleteButtonColumn.MinimumWidth = 6;
             deleteButtonColumn.Name = "deleteButtonColumn";
             deleteButtonColumn.ReadOnly = true;
             deleteButtonColumn.Text = "Delete";
@@ -140,7 +153,7 @@ namespace Presentation.Forms
             txtFilterName.Location = new Point(10, 40);
             txtFilterName.Name = "txtFilterName";
             txtFilterName.PlaceholderText = " Name, article, code";
-            txtFilterName.Size = new Size(120, 23);
+            txtFilterName.Size = new Size(120, 27);
             txtFilterName.TabIndex = 2;
             // 
             // txtFilterCategory
@@ -148,7 +161,7 @@ namespace Presentation.Forms
             txtFilterCategory.Location = new Point(136, 40);
             txtFilterCategory.Name = "txtFilterCategory";
             txtFilterCategory.PlaceholderText = "Filter by category";
-            txtFilterCategory.Size = new Size(120, 23);
+            txtFilterCategory.Size = new Size(120, 27);
             txtFilterCategory.TabIndex = 3;
             // 
             // btnFilter
@@ -174,9 +187,8 @@ namespace Presentation.Forms
             comboBoxReportType.Items.AddRange(new object[] { "Short report", "Detailed report" });
             comboBoxReportType.Location = new Point(1225, 80);
             comboBoxReportType.Name = "comboBoxReportType";
-            comboBoxReportType.Size = new Size(150, 23);
+            comboBoxReportType.Size = new Size(150, 28);
             comboBoxReportType.TabIndex = 6;
-            comboBoxReportType.SelectedIndex = 0;
             // 
             // btnLogout
             // 
@@ -196,6 +208,7 @@ namespace Presentation.Forms
             btnManageUsers.Size = new Size(150, 30);
             btnManageUsers.TabIndex = 8;
             btnManageUsers.Text = "Manage Users";
+            btnManageUsers.Click += btnManageUsers_Click;
             // 
             // btnCreateProduct
             // 
@@ -203,7 +216,7 @@ namespace Presentation.Forms
             btnCreateProduct.Name = "btnCreateProduct";
             btnCreateProduct.Size = new Size(150, 30);
             btnCreateProduct.TabIndex = 9;
-            btnCreateProduct.Text = "Edit product";
+            btnCreateProduct.Text = "Create product";
             btnCreateProduct.Click += btnCreateProduct_Click;
             // 
             // intMinPrice
@@ -211,7 +224,7 @@ namespace Presentation.Forms
             intMinPrice.Location = new Point(262, 40);
             intMinPrice.Name = "intMinPrice";
             intMinPrice.PlaceholderText = "Min price";
-            intMinPrice.Size = new Size(120, 23);
+            intMinPrice.Size = new Size(120, 27);
             intMinPrice.TabIndex = 10;
             intMinPrice.KeyPress += NumericTextBox_KeyPress;
             // 
@@ -220,7 +233,7 @@ namespace Presentation.Forms
             intMaxPrice.Location = new Point(388, 40);
             intMaxPrice.Name = "intMaxPrice";
             intMaxPrice.PlaceholderText = "Max price";
-            intMaxPrice.Size = new Size(120, 23);
+            intMaxPrice.Size = new Size(120, 27);
             intMaxPrice.TabIndex = 11;
             intMaxPrice.KeyPress += NumericTextBox_KeyPress;
             // 

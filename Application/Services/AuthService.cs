@@ -30,11 +30,18 @@ public class AuthService : IAuthService
         var existing = await _userRepo.GetByUsernameAsync(dto.Username);
         if (existing != null)
             throw new Exception("User already exists");
+        bool usersExist = await _userRepo.AnyExistsAsync();
+        string Role = "User";
+        if (!usersExist)
+        {
+            Role = "Admin"; 
+        }
 
         var user = new User
         {
             Username = dto.Username,
             PasswordHash = HashPassword(dto.Password),
+            Role = Role
         };
 
         await _userRepo.CreateAsync(user);

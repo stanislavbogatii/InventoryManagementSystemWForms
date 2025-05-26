@@ -14,8 +14,6 @@ namespace Presentation.Forms
             _categoryService = categoryService;
         }
 
-
-
         private async void dgvCategories_CellDeleteClick(object sender, DataGridViewCellEventArgs e)
         {
             if (dgvCategories.Columns[e.ColumnIndex].Name == "deleteButtonColumn" && e.RowIndex >= 0)
@@ -58,11 +56,6 @@ namespace Presentation.Forms
             {
                 LoadCategories();
             }
-        }
-
-        private void btnCloneCategory_Click(object sender, EventArgs e)
-        {
-            // Здесь обработка кнопки клонирования выбранной категории
         }
 
         private void CategoryManagementForm_Load(object sender, EventArgs e)
