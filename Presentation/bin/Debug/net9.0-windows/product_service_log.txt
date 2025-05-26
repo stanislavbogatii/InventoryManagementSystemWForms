@@ -338,3 +338,83 @@
 2025-05-26 19:26:47 - GetAll returned 2 products
 2025-05-26 19:40:09 - GetAll called with filters: minPrice=, maxPrice=, title=
 2025-05-26 19:40:09 - GetAll returned 2 products
+2025-05-26 20:42:09 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-26 20:42:10 - GetAll returned 2 products
+2025-05-26 20:42:13 - GetById called with Id=15
+2025-05-26 20:42:13 - GetById result: New product
+2025-05-26 20:43:23 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-26 20:43:23 - GetAll returned 2 products
+2025-05-26 20:43:42 - GetById called with Id=15
+2025-05-26 20:43:42 - GetById result: New product
+2025-05-26 20:43:50 - Update called with Id=15, Title=New product, Code=code, Article=article
+2025-05-26 20:43:50 - Update finished
+2025-05-26 20:43:51 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-26 20:43:51 - GetAll returned 2 products
+2025-05-26 20:43:52 - GetById called with Id=15
+2025-05-26 20:43:52 - GetById result: New product
+2025-05-26 20:43:54 - RestoreFromMemento called with Id=15
+2025-05-26 20:43:54 - RestoreFromMemento finished
+2025-05-26 20:43:56 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-26 20:43:56 - GetAll returned 2 products
+2025-05-26 20:57:42 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-26 20:57:43 - GetAll returned 2 products
+2025-05-26 20:58:12 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-26 20:58:13 - GetAll returned 2 products
+2025-05-26 21:04:26 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-26 21:04:27 - GetAll returned 2 products
+2025-05-26 21:13:22 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-26 21:13:23 - GetAll returned 2 products
+2025-05-26 21:14:59 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-26 21:14:59 - GetAll returned 2 products
+2025-05-26 21:15:01 - GetById called with Id=15
+2025-05-26 21:15:01 - GetById result: New product
+2025-05-26 21:16:41 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-26 21:16:41 - GetAll returned 2 products
+2025-05-26 21:17:13 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-26 21:17:14 - GetAll returned 2 products
+2025-05-26 21:17:40 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-26 21:17:41 - GetAll returned 2 products
+2025-05-26 21:27:53 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-26 21:27:53 - GetAll returned 2 products
+2025-05-26 21:31:10 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-26 21:31:10 - GetAll returned 2 products
+2025-05-26 21:32:06 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-26 21:32:06 - GetAll returned 2 products
+2025-05-26 21:33:28 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-26 21:33:29 - GetAll returned 2 products
+2025-05-26 21:34:44 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-26 21:34:45 - GetAll returned 2 products
+2025-05-26 21:35:22 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-26 21:35:22 - GetAll returned 2 products
+2025-05-26 21:36:57 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-26 21:36:57 - GetAll returned 2 products
+2025-05-26 21:38:51 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-26 21:38:52 - GetAll returned 2 products
+2025-05-26 21:39:07 - GetById called with Id=15
+2025-05-26 21:39:07 - GetById result: New product
+2025-05-26 21:40:07 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-26 21:40:07 - GetAll returned 2 products
+2025-05-26 21:40:29 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-26 21:40:29 - GetAll returned 2 products
+2025-05-26 21:48:43 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-26 21:48:43 - GetAll returned 2 products
+2025-05-26 21:50:16 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-26 21:50:16 - GetAll returned 2 products
+2025-05-26 21:52:37 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-26 21:52:37 - GetAll returned 2 products
+2025-05-26 21:53:53 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-26 21:53:53 - GetAll returned 2 products
+2025-05-26 21:54:22 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-26 21:54:23 - GetAll returned 2 products
+2025-05-26 22:01:53 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-26 22:01:53 - GetAll returned 2 products
+2025-05-26 22:02:28 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-26 22:02:28 - GetAll returned 2 products
+2025-05-26 22:02:57 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-26 22:02:57 - GetAll returned 2 products
+2025-05-26 22:03:18 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-26 22:03:18 - GetAll returned 2 products
+2025-05-26 22:04:49 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-26 22:04:50 - GetAll returned 2 products
+2025-05-26 22:05:25 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-26 22:05:25 - GetAll returned 2 products

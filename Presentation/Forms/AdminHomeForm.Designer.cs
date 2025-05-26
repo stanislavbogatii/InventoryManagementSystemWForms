@@ -189,6 +189,7 @@ namespace Presentation.Forms
             comboBoxReportType.Name = "comboBoxReportType";
             comboBoxReportType.Size = new Size(150, 28);
             comboBoxReportType.TabIndex = 6;
+            comboBoxReportType.SelectedIndex = 0;
             // 
             // btnLogout
             // 

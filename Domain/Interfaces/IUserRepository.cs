@@ -9,6 +9,11 @@ namespace Domain.Interfaces
 
         Task UpdateAsync(User user);
 
+        Task<IEnumerable<User>> GetAllAsync();
+        Task<User?> GetByIdAsync(int id);
+
+        Task DeleteAsync(int id);
+
         Task<bool>  AnyExistsAsync();
     }
 }

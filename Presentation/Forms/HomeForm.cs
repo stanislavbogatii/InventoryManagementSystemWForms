@@ -29,7 +29,7 @@ namespace Presentation.Forms
 
         public void Update()
         {
-            lblCurrentUser.Text = $"Current user: {Session.Instance.UserName}";
+            lblCurrentUser.Text = $"Current user: {Session.Instance.UserName} (User)";
         }
 
         private async void dgvProducts_CellDeleteClick(object sender, DataGridViewCellEventArgs e)

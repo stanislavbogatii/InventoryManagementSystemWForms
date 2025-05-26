@@ -25,6 +25,8 @@
             lblRole = new Label();
             cmbRole = new ComboBox();
             btnCreateUser = new Button();
+            txtPassword = new TextBox();
+            label1 = new Label();
             SuspendLayout();
             // 
             // lblUsername
@@ -39,12 +41,12 @@
             // 
             txtUsername.Location = new Point(140, 30);
             txtUsername.Name = "txtUsername";
-            txtUsername.Size = new Size(200, 27);
+            txtUsername.Size = new Size(200, 23);
             txtUsername.TabIndex = 1;
             // 
             // lblRole
             // 
-            lblRole.Location = new Point(30, 70);
+            lblRole.Location = new Point(30, 108);
             lblRole.Name = "lblRole";
             lblRole.Size = new Size(100, 23);
             lblRole.TabIndex = 2;
@@ -53,24 +55,42 @@
             // cmbRole
             // 
             cmbRole.DropDownStyle = ComboBoxStyle.DropDownList;
-            cmbRole.Location = new Point(140, 70);
-            cmbRole.Name = "cmbRole";
-            cmbRole.Size = new Size(200, 28);
-            cmbRole.TabIndex = 3;
             cmbRole.Items.AddRange(new object[] { "Admin", "User" });
+            cmbRole.SelectedIndex = 0;
+            cmbRole.Location = new Point(140, 108);
+            cmbRole.Name = "cmbRole";
+            cmbRole.Size = new Size(200, 23);
+            cmbRole.TabIndex = 3;
             // 
             // btnCreateUser
             // 
-            btnCreateUser.Location = new Point(140, 110);
+            btnCreateUser.Location = new Point(140, 148);
             btnCreateUser.Name = "btnCreateUser";
             btnCreateUser.Size = new Size(200, 30);
             btnCreateUser.TabIndex = 4;
             btnCreateUser.Text = "Create User";
             btnCreateUser.Click += btnCreateUser_Click;
             // 
+            // txtPassword
+            // 
+            txtPassword.Location = new Point(140, 69);
+            txtPassword.Name = "txtPassword";
+            txtPassword.Size = new Size(200, 23);
+            txtPassword.TabIndex = 6;
+            // 
+            // label1
+            // 
+            label1.Location = new Point(30, 69);
+            label1.Name = "label1";
+            label1.Size = new Size(100, 23);
+            label1.TabIndex = 5;
+            label1.Text = "Password:";
+            // 
             // CreateUserForm
             // 
-            ClientSize = new Size(407, 160);
+            ClientSize = new Size(407, 212);
+            Controls.Add(txtPassword);
+            Controls.Add(label1);
             Controls.Add(btnCreateUser);
             Controls.Add(cmbRole);
             Controls.Add(lblRole);
@@ -83,5 +103,7 @@
             ResumeLayout(false);
             PerformLayout();
         }
+        private TextBox txtPassword;
+        private Label label1;
     }
 }

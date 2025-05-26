@@ -36,7 +36,7 @@ namespace Presentation.Forms
 
         public void Update()
         {
-            lblCurrentUser.Text = $"Current user: {Session.Instance.UserName} (admin)";
+            lblCurrentUser.Text = $"Current user: {Session.Instance.UserName} (Admin)";
         }
 
         private void btnFilter_Click(object sender, EventArgs e) => _commands[btnFilter].Execute();

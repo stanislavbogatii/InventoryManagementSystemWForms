@@ -14,19 +14,21 @@ namespace Application.Services
         {
             _userRepo = userRepo;
         }
-        public Task Delete(int id)
+        public async Task Delete(int id)
         {
-            throw new NotImplementedException();
+            await _userRepo.DeleteAsync(id);
         }
 
-        public Task<IEnumerable<UserDto>> GetAll()
+        public async Task<IEnumerable<UserDto>> GetAll()
         {
-            throw new NotImplementedException();
+            var users = await _userRepo.GetAllAsync();
+            return users.Select(l => MapToDto(l)).ToList();
         }
 
         public async Task<UserDto?> GetById(int id)
         {
-            throw new NotImplementedException();
+            var user = await _userRepo.GetByIdAsync(id);
+            return ToDto(user);
         }
 
         public async Task<UserDto?> GetByUsername(string username)
@@ -57,9 +59,17 @@ namespace Application.Services
 
         }
 
-        public Task Update(int id, UpdateUserDto dto)
+        public async Task Update(int id, UpdateUserDto dto)
         {
-            throw new NotImplementedException();
+            var user = await _userRepo.GetByIdAsync(id);
+            if (user is null) throw new Exception("User not found");
+
+            var hash = HashPassword(dto.Password);
+
+            user.Username = user.Username;
+            user.Role = dto.Role;
+            user.PasswordHash = hash;
+            await _userRepo.UpdateAsync(user);
         }
 
         private UserDto ToDto(User user) => new UserDto
@@ -82,5 +92,15 @@ namespace Application.Services
             return Convert.ToBase64String(hash);
         }
 
+        private UserDto MapToDto(User user)
+        {
+            return new UserDto
+            {
+                Id = user.Id,
+                Username = user.Username,
+                Role = user.Role
+            };
+
+        }
     }
 }

@@ -17,7 +17,7 @@ namespace Infrastructure.Data
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer(
-                @"Server=THINKPAD-E-16\SQLEXPRESS;Database=InnventoryDB;Trusted_Connection=True;TrustServerCertificate=True"
+                @"Server=DESKTOP-BJHK5QL;Database=InnventoryDB;Trusted_Connection=True;TrustServerCertificate=True"
             );
         }
 
