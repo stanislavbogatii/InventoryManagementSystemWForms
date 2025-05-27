@@ -4,6 +4,7 @@ using Domain.Interfaces;
 using Infrastructure.Data;
 using Infrastructure.Repositories;
 using Microsoft.Extensions.DependencyInjection;
+using Presentation.Factories;
 using Presentation.Forms;
 using Presentation.Interfaces;
 
@@ -42,7 +43,7 @@ static class Program
         });
         services.AddScoped<IWarehouseService, WarehouseService>();
 
-        services.AddScoped<IFormFactory, FormFactory>();
+        services.AddScoped<IFormFactory, FormFactoryBase>();
 
         //auth
         services.AddTransient<LoginForm>();

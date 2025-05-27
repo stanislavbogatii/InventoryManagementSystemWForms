@@ -1,5 +1,6 @@
 ﻿using Application.Interfaces;
 using Infrastructure;
+using Presentation.Factories;
 using Presentation.Interfaces;
 
 
@@ -8,20 +9,20 @@ public partial class LoginForm : Form
 {
     private readonly IAuthService _authService;
     private readonly IUserService _userService;
-    private readonly IFormFactory _formFactory;
+    private readonly IServiceProvider _serviceProvider;
 
     public LoginForm(
         IAuthService authService,
         IUserService userService,
         IProductService productService,
-        IFormFactory formFactory
+        IServiceProvider serviceProvider
+
     )
     {
         InitializeComponent();
         _authService = authService;
         _userService = userService;
-        _formFactory = formFactory;
-
+        _serviceProvider = serviceProvider;
         this.AcceptButton = btnLogin;
     }
 
@@ -38,7 +39,8 @@ public partial class LoginForm : Form
                 Session.Instance.UserRole = user.Role;
                 Session.Instance.Id = user.Id;
             }
-            Form form = _formFactory.CreateForm(user.Role ?? "User");
+            IFormFactory formFactory = FormFactorySelector.GetFormFactory(_serviceProvider, user.Role);
+            Form form = formFactory.CreateForm();
             form.Show();
             this.Hide();
         }

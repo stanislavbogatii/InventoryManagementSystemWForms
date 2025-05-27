@@ -2,6 +2,6 @@
 {
     public interface IFormFactory
     {
-        Form CreateForm(string Role);
+        Form CreateForm();
     }
 }
