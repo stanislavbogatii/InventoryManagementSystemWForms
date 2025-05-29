@@ -24,7 +24,6 @@ public class ProductServiceDecorator : IProductService
     {
         await LogAsync($"Create called with Title={dto.Title}, Code={dto.Code}, Article={dto.Article}, Price={dto.Price}");
 
-        // Проверка уникальности Code и Article
         var allProducts = await _inner.GetAll();
         bool isCodeDuplicate = false;
         bool isArticleDuplicate = false;

@@ -71,7 +71,7 @@ namespace Presentation.Forms
             dgvProducts.ReadOnly = true;
             dgvProducts.RowHeadersWidth = 51;
             dgvProducts.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dgvProducts.Size = new Size(1200, 800);
+            dgvProducts.Size = new Size(1200, 642);
             dgvProducts.TabIndex = 1;
             dgvProducts.CellContentClick += dgvProducts_CellDeleteClick;
             dgvProducts.CellDoubleClick += dgvProducts_CellDoubleClick;
@@ -194,7 +194,7 @@ namespace Presentation.Forms
             // btnLogout
             // 
             btnLogout.BackColor = SystemColors.ButtonFace;
-            btnLogout.Location = new Point(1216, 850);
+            btnLogout.Location = new Point(1225, 692);
             btnLogout.Name = "btnLogout";
             btnLogout.Size = new Size(150, 30);
             btnLogout.TabIndex = 7;
@@ -258,7 +258,7 @@ namespace Presentation.Forms
             // 
             // AdminHomeForm
             // 
-            ClientSize = new Size(1387, 894);
+            ClientSize = new Size(1387, 736);
             Controls.Add(btnManageCategories);
             Controls.Add(btnManageWarehoues);
             Controls.Add(intMaxPrice);

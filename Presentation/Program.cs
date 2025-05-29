@@ -43,7 +43,7 @@ static class Program
         });
         services.AddScoped<IWarehouseService, WarehouseService>();
 
-        services.AddScoped<IFormFactory, FormFactoryBase>();
+        //services.AddScoped<IFormFactory, FormFactoryBase>();
 
         //auth
         services.AddTransient<LoginForm>();

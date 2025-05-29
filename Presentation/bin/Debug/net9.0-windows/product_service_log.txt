@@ -418,3 +418,11 @@
 2025-05-26 22:04:50 - GetAll returned 2 products
 2025-05-26 22:05:25 - GetAll called with filters: minPrice=, maxPrice=, title=
 2025-05-26 22:05:25 - GetAll returned 2 products
+2025-05-29 11:43:34 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-29 11:43:34 - GetAll returned 2 products
+2025-05-29 11:49:20 - GetById called with Id=1
+2025-05-29 11:49:20 - GetById result: New product
+2025-05-29 14:53:47 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-29 14:53:47 - GetAll returned 2 products
+2025-05-29 14:57:14 - GetAll called with filters: minPrice=, maxPrice=, title=
+2025-05-29 14:57:15 - GetAll returned 2 products

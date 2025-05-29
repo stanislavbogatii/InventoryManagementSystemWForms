@@ -3,16 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|c:\\users\\stasb\\source\\repos\\inventorymanagementsystemwforms\\application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|solutionrelative:application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\presentation\\forms\\adminhomeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\forms\\adminhomeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|c:\\users\\stasb\\source\\repos\\inventorymanagementsystemwforms\\presentation\\forms\\viewproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\forms\\viewproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|c:\\users\\stasb\\source\\repos\\inventorymanagementsystemwforms\\presentation\\forms\\adminhomeform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\forms\\adminhomeform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|c:\\users\\stasb\\source\\repos\\inventorymanagementsystemwforms\\presentation\\forms\\homeform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\forms\\homeform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\presentation\\forms\\homeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\forms\\homeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E68C9BF1-CFE9-4C45-8246-373F649D7DED}|Infrastructure\\Infrastructure.csproj|c:\\users\\stasb\\source\\repos\\inventorymanagementsystemwforms\\infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E68C9BF1-CFE9-4C45-8246-373F649D7DED}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|c:\\users\\stasb\\source\\repos\\inventorymanagementsystemwforms\\presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|c:\\users\\stasb\\source\\repos\\inventorymanagementsystemwforms\\presentation\\forms\\adminhomeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\forms\\adminhomeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|c:\\users\\stasb\\source\\repos\\inventorymanagementsystemwforms\\presentation\\commands\\generatereportcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\commands\\generatereportcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|c:\\users\\stasb\\source\\repos\\inventorymanagementsystemwforms\\presentation\\commands\\logoutcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,6 +47,26 @@
       "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\forms\\createproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|c:\\users\\stasb\\source\\repos\\inventorymanagementsystemwforms\\application\\builders\\categorycompositebuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|solutionrelative:application\\builders\\categorycompositebuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23304725-73F3-486D-B3E6-966ADA480098}|Domain\\Domain.csproj|c:\\users\\stasb\\source\\repos\\inventorymanagementsystemwforms\\domain\\entitites\\categorycomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23304725-73F3-486D-B3E6-966ADA480098}|Domain\\Domain.csproj|solutionrelative:domain\\entitites\\categorycomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23304725-73F3-486D-B3E6-966ADA480098}|Domain\\Domain.csproj|c:\\users\\stasb\\source\\repos\\inventorymanagementsystemwforms\\domain\\entitites\\categoryleaf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23304725-73F3-486D-B3E6-966ADA480098}|Domain\\Domain.csproj|solutionrelative:domain\\entitites\\categoryleaf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23304725-73F3-486D-B3E6-966ADA480098}|Domain\\Domain.csproj|c:\\users\\stasb\\source\\repos\\inventorymanagementsystemwforms\\domain\\entitites\\categorycomposite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23304725-73F3-486D-B3E6-966ADA480098}|Domain\\Domain.csproj|solutionrelative:domain\\entitites\\categorycomposite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|c:\\users\\stasb\\source\\repos\\inventorymanagementsystemwforms\\application\\proxies\\userserviceproxy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|solutionrelative:application\\proxies\\userserviceproxy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|c:\\users\\stasb\\source\\repos\\inventorymanagementsystemwforms\\application\\decorators\\productservicedecorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|solutionrelative:application\\decorators\\productservicedecorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -35,8 +75,16 @@
       "RelativeMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|solutionrelative:application\\facades\\reportfacade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|c:\\users\\stasb\\source\\repos\\inventorymanagementsystemwforms\\application\\directors\\excelreportdirector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|solutionrelative:application\\directors\\excelreportdirector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|c:\\users\\stasb\\source\\repos\\inventorymanagementsystemwforms\\presentation\\forms\\warehousesmanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\forms\\warehousesmanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|c:\\users\\stasb\\source\\repos\\inventorymanagementsystemwforms\\application\\dtos\\warehouse\\warehousedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|solutionrelative:application\\dtos\\warehouse\\warehousedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|c:\\users\\stasb\\source\\repos\\inventorymanagementsystemwforms\\application\\interfaces\\iexcelreportbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|solutionrelative:application\\interfaces\\iexcelreportbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|c:\\users\\stasb\\source\\repos\\inventorymanagementsystemwforms\\application\\builders\\shortexcelreportbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,28 +95,72 @@
       "RelativeMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|solutionrelative:application\\builders\\detailedexcelreportbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|c:\\users\\stasb\\source\\repos\\inventorymanagementsystemwforms\\application\\interfaces\\iexcelreportbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|solutionrelative:application\\interfaces\\iexcelreportbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|c:\\users\\stasb\\source\\repos\\inventorymanagementsystemwforms\\application\\directors\\excelreportdirector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|solutionrelative:application\\directors\\excelreportdirector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|c:\\users\\stasb\\source\\repos\\inventorymanagementsystemwforms\\presentation\\forms\\warehousesmanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\forms\\warehousesmanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|c:\\users\\stasb\\source\\repos\\inventorymanagementsystemwforms\\presentation\\factories\\formfactoryselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\factories\\formfactoryselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|c:\\users\\stasb\\source\\repos\\inventorymanagementsystemwforms\\presentation\\factories\\userhomefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\factories\\userhomefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|c:\\users\\stasb\\source\\repos\\inventorymanagementsystemwforms\\presentation\\factories\\formfactorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\factories\\formfactorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|c:\\users\\stasb\\source\\repos\\inventorymanagementsystemwforms\\presentation\\factories\\adminformfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\factories\\adminformfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|c:\\users\\stasb\\source\\repos\\inventorymanagementsystemwforms\\presentation\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E68C9BF1-CFE9-4C45-8246-373F649D7DED}|Infrastructure\\Infrastructure.csproj|c:\\users\\stasb\\source\\repos\\inventorymanagementsystemwforms\\infrastructure\\repositories\\productmementorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E68C9BF1-CFE9-4C45-8246-373F649D7DED}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\productmementorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|c:\\users\\stasb\\source\\repos\\inventorymanagementsystemwforms\\application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|solutionrelative:application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|c:\\users\\stasb\\source\\repos\\inventorymanagementsystemwforms\\application\\services\\productvalidationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|solutionrelative:application\\services\\productvalidationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|c:\\users\\stasb\\source\\repos\\inventorymanagementsystemwforms\\application\\handlers\\productnamevalidationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|solutionrelative:application\\handlers\\productnamevalidationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|c:\\users\\stasb\\source\\repos\\inventorymanagementsystemwforms\\application\\handlers\\productpricevalidationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|solutionrelative:application\\handlers\\productpricevalidationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E68C9BF1-CFE9-4C45-8246-373F649D7DED}|Infrastructure\\Infrastructure.csproj|c:\\users\\stasb\\source\\repos\\inventorymanagementsystemwforms\\infrastructure\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E68C9BF1-CFE9-4C45-8246-373F649D7DED}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|c:\\users\\stasb\\source\\repos\\inventorymanagementsystemwforms\\presentation\\forms\\homeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\forms\\homeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|c:\\users\\stasb\\source\\repos\\inventorymanagementsystemwforms\\presentation\\forms\\viewproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\forms\\viewproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|c:\\users\\stasb\\source\\repos\\inventorymanagementsystemwforms\\presentation\\forms\\warehousesmanagementform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
       "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\forms\\warehousesmanagementform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|c:\\users\\stasb\\source\\repos\\inventorymanagementsystemwforms\\presentation\\forms\\warehousesmanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\presentation\\forms\\warehousesmanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\forms\\warehousesmanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|c:\\users\\stasb\\source\\repos\\inventorymanagementsystemwforms\\presentation\\forms\\warehousesmanagementform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\forms\\warehousesmanagementform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|c:\\users\\stasb\\source\\repos\\inventorymanagementsystemwforms\\application\\dtos\\warehouse\\warehousedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|solutionrelative:application\\dtos\\warehouse\\warehousedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{23304725-73F3-486D-B3E6-966ADA480098}|Domain\\Domain.csproj|c:\\users\\stasb\\source\\repos\\inventorymanagementsystemwforms\\domain\\entitites\\warehouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -79,56 +171,8 @@
       "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\forms\\viewwarehouseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|c:\\users\\stasb\\source\\repos\\inventorymanagementsystemwforms\\presentation\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|c:\\users\\stasb\\source\\repos\\inventorymanagementsystemwforms\\presentation\\factories\\userhomefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\factories\\userhomefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|c:\\users\\stasb\\source\\repos\\inventorymanagementsystemwforms\\presentation\\factories\\adminformfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\factories\\adminformfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|c:\\users\\stasb\\source\\repos\\inventorymanagementsystemwforms\\presentation\\factories\\formfactoryselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\factories\\formfactoryselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|c:\\users\\stasb\\source\\repos\\inventorymanagementsystemwforms\\presentation\\factories\\formfactorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\factories\\formfactorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E68C9BF1-CFE9-4C45-8246-373F649D7DED}|Infrastructure\\Infrastructure.csproj|c:\\users\\stasb\\source\\repos\\inventorymanagementsystemwforms\\infrastructure\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E68C9BF1-CFE9-4C45-8246-373F649D7DED}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|c:\\users\\stasb\\source\\repos\\inventorymanagementsystemwforms\\presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|c:\\users\\stasb\\source\\repos\\inventorymanagementsystemwforms\\presentation\\forms\\homeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\forms\\homeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|c:\\users\\stasb\\source\\repos\\inventorymanagementsystemwforms\\presentation\\forms\\adminhomeform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\forms\\adminhomeform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|c:\\users\\stasb\\source\\repos\\inventorymanagementsystemwforms\\presentation\\forms\\usermanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\forms\\usermanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|c:\\users\\stasb\\source\\repos\\inventorymanagementsystemwforms\\presentation\\forms\\homeform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\forms\\homeform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\presentation\\forms\\homeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\forms\\homeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\presentation\\forms\\adminhomeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\forms\\adminhomeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|c:\\users\\stasb\\source\\repos\\inventorymanagementsystemwforms\\presentation\\forms\\createuserform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -191,20 +235,12 @@
       "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\forms\\categoriesmanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E68C9BF1-CFE9-4C45-8246-373F649D7DED}|Infrastructure\\Infrastructure.csproj|c:\\users\\stasb\\source\\repos\\inventorymanagementsystemwforms\\infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E68C9BF1-CFE9-4C45-8246-373F649D7DED}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|c:\\users\\stasb\\source\\repos\\inventorymanagementsystemwforms\\presentation\\forms\\createproductform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\forms\\createproductform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|c:\\users\\stasb\\source\\repos\\inventorymanagementsystemwforms\\presentation\\forms\\viewproductform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\forms\\viewproductform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E68C9BF1-CFE9-4C45-8246-373F649D7DED}|Infrastructure\\Infrastructure.csproj|c:\\users\\stasb\\source\\repos\\inventorymanagementsystemwforms\\infrastructure\\repositories\\productmementorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E68C9BF1-CFE9-4C45-8246-373F649D7DED}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\productmementorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{23304725-73F3-486D-B3E6-966ADA480098}|Domain\\Domain.csproj|c:\\users\\stasb\\source\\repos\\inventorymanagementsystemwforms\\domain\\entitites\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -227,24 +263,8 @@
       "RelativeMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|solutionrelative:application\\dtos\\product\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|c:\\users\\stasb\\source\\repos\\inventorymanagementsystemwforms\\application\\services\\productvalidationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|solutionrelative:application\\services\\productvalidationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|c:\\users\\stasb\\source\\repos\\inventorymanagementsystemwforms\\application\\handlers\\productvalidationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|solutionrelative:application\\handlers\\productvalidationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|c:\\users\\stasb\\source\\repos\\inventorymanagementsystemwforms\\application\\handlers\\productpricevalidationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|solutionrelative:application\\handlers\\productpricevalidationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|c:\\users\\stasb\\source\\repos\\inventorymanagementsystemwforms\\application\\handlers\\productnamevalidationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|solutionrelative:application\\handlers\\productnamevalidationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|c:\\users\\stasb\\source\\repos\\inventorymanagementsystemwforms\\presentation\\commands\\generatereportcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29AF60BC-C5DC-41BA-BB32-14AF52CED3FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\commands\\generatereportcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{23304725-73F3-486D-B3E6-966ADA480098}|Domain\\Domain.csproj|c:\\users\\stasb\\source\\repos\\inventorymanagementsystemwforms\\domain\\interfaces\\icommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -281,14 +301,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E68C9BF1-CFE9-4C45-8246-373F649D7DED}|Infrastructure\\Infrastructure.csproj|c:\\users\\stasb\\source\\repos\\inventorymanagementsystemwforms\\infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{E68C9BF1-CFE9-4C45-8246-373F649D7DED}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23304725-73F3-486D-B3E6-966ADA480098}|Domain\\Domain.csproj|c:\\users\\stasb\\source\\repos\\inventorymanagementsystemwforms\\domain\\entitites\\categorycomposite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23304725-73F3-486D-B3E6-966ADA480098}|Domain\\Domain.csproj|solutionrelative:domain\\entitites\\categorycomposite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|c:\\users\\stasb\\source\\repos\\inventorymanagementsystemwforms\\application\\builders\\categorycompositebuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C7F3966-098D-4EFF-A2F6-439255B80939}|Application\\Application.csproj|solutionrelative:application\\builders\\categorycompositebuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -298,266 +310,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "C:\\Users\\stasb\\Source\\Repos\\InventoryManagementSystemWForms\\Application\\Services\\ProductService.cs",
-              "RelativeDocumentMoniker": "Application\\Services\\ProductService.cs",
-              "ToolTip": "C:\\Users\\stasb\\Source\\Repos\\InventoryManagementSystemWForms\\Application\\Services\\ProductService.cs",
-              "RelativeToolTip": "Application\\Services\\ProductService.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAswGkAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T15:57:39.685Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LogoutCommand.cs",
-              "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Commands\\LogoutCommand.cs",
-              "RelativeDocumentMoniker": "Presentation\\Commands\\LogoutCommand.cs",
-              "ToolTip": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Commands\\LogoutCommand.cs",
-              "RelativeToolTip": "Presentation\\Commands\\LogoutCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T14:39:34.702Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AdminHomeForm.cs",
-              "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Forms\\AdminHomeForm.cs",
-              "RelativeDocumentMoniker": "Presentation\\Forms\\AdminHomeForm.cs",
-              "ToolTip": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Forms\\AdminHomeForm.cs",
-              "RelativeToolTip": "Presentation\\Forms\\AdminHomeForm.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAmwF4AAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T19:03:43.594Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ViewProductForm.cs",
-              "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Forms\\ViewProductForm.cs",
-              "RelativeDocumentMoniker": "Presentation\\Forms\\ViewProductForm.cs",
-              "ToolTip": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Forms\\ViewProductForm.cs",
-              "RelativeToolTip": "Presentation\\Forms\\ViewProductForm.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAEwCkAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T18:57:12.601Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DeleteProductCommand.cs",
-              "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Commands\\DeleteProductCommand.cs",
-              "RelativeDocumentMoniker": "Presentation\\Commands\\DeleteProductCommand.cs",
-              "ToolTip": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Commands\\DeleteProductCommand.cs",
-              "RelativeToolTip": "Presentation\\Commands\\DeleteProductCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T15:23:53.691Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CreateProductForm.cs",
-              "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Forms\\CreateProductForm.cs",
-              "RelativeDocumentMoniker": "Presentation\\Forms\\CreateProductForm.cs",
-              "ToolTip": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Forms\\CreateProductForm.cs",
-              "RelativeToolTip": "Presentation\\Forms\\CreateProductForm.cs",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAmwHIAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T15:43:37.123Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ProductServiceDecorator.cs",
-              "DocumentMoniker": "C:\\Users\\stasb\\Source\\Repos\\InventoryManagementSystemWForms\\Application\\Decorators\\ProductServiceDecorator.cs",
-              "RelativeDocumentMoniker": "Application\\Decorators\\ProductServiceDecorator.cs",
-              "ToolTip": "C:\\Users\\stasb\\Source\\Repos\\InventoryManagementSystemWForms\\Application\\Decorators\\ProductServiceDecorator.cs",
-              "RelativeToolTip": "Application\\Decorators\\ProductServiceDecorator.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAmwHkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T14:53:59.588Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ExcelReportDirector.cs",
-              "DocumentMoniker": "C:\\Users\\stasb\\Source\\Repos\\InventoryManagementSystemWForms\\Application\\Directors\\ExcelReportDirector.cs",
-              "RelativeDocumentMoniker": "Application\\Directors\\ExcelReportDirector.cs",
-              "ToolTip": "C:\\Users\\stasb\\Source\\Repos\\InventoryManagementSystemWForms\\Application\\Directors\\ExcelReportDirector.cs",
-              "RelativeToolTip": "Application\\Directors\\ExcelReportDirector.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T14:33:15.198Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ShortExcelReportBuilder.cs",
-              "DocumentMoniker": "C:\\Users\\stasb\\Source\\Repos\\InventoryManagementSystemWForms\\Application\\Builders\\ShortExcelReportBuilder.cs",
-              "RelativeDocumentMoniker": "Application\\Builders\\ShortExcelReportBuilder.cs",
-              "ToolTip": "C:\\Users\\stasb\\Source\\Repos\\InventoryManagementSystemWForms\\Application\\Builders\\ShortExcelReportBuilder.cs",
-              "RelativeToolTip": "Application\\Builders\\ShortExcelReportBuilder.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAcwD0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T14:33:06.841Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ReportFacade.cs",
-              "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Application\\Facades\\ReportFacade.cs",
-              "RelativeDocumentMoniker": "Application\\Facades\\ReportFacade.cs",
-              "ToolTip": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Application\\Facades\\ReportFacade.cs",
-              "RelativeToolTip": "Application\\Facades\\ReportFacade.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBQAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T15:20:23.638Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "DetailedExcelReportBuilder.cs",
-              "DocumentMoniker": "C:\\Users\\stasb\\Source\\Repos\\InventoryManagementSystemWForms\\Application\\Builders\\DetailedExcelReportBuilder.cs",
-              "RelativeDocumentMoniker": "Application\\Builders\\DetailedExcelReportBuilder.cs",
-              "ToolTip": "C:\\Users\\stasb\\Source\\Repos\\InventoryManagementSystemWForms\\Application\\Builders\\DetailedExcelReportBuilder.cs",
-              "RelativeToolTip": "Application\\Builders\\DetailedExcelReportBuilder.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAiwDUAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T14:32:55.788Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IExcelReportBuilder.cs",
-              "DocumentMoniker": "C:\\Users\\stasb\\Source\\Repos\\InventoryManagementSystemWForms\\Application\\Interfaces\\IExcelReportBuilder.cs",
-              "RelativeDocumentMoniker": "Application\\Interfaces\\IExcelReportBuilder.cs",
-              "ToolTip": "C:\\Users\\stasb\\Source\\Repos\\InventoryManagementSystemWForms\\Application\\Interfaces\\IExcelReportBuilder.cs",
-              "RelativeToolTip": "Application\\Interfaces\\IExcelReportBuilder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T14:32:21.177Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "WarehousesManagementForm.cs",
-              "DocumentMoniker": "C:\\Users\\stasb\\Source\\Repos\\InventoryManagementSystemWForms\\Presentation\\Forms\\WarehousesManagementForm.cs",
-              "RelativeDocumentMoniker": "Presentation\\Forms\\WarehousesManagementForm.cs",
-              "ToolTip": "C:\\Users\\stasb\\Source\\Repos\\InventoryManagementSystemWForms\\Presentation\\Forms\\WarehousesManagementForm.cs",
-              "RelativeToolTip": "Presentation\\Forms\\WarehousesManagementForm.cs",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAmwHoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T14:26:31.383Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "WarehousesManagementForm.resx",
-              "DocumentMoniker": "C:\\Users\\stasb\\Source\\Repos\\InventoryManagementSystemWForms\\Presentation\\Forms\\WarehousesManagementForm.resx",
-              "RelativeDocumentMoniker": "Presentation\\Forms\\WarehousesManagementForm.resx",
-              "ToolTip": "C:\\Users\\stasb\\Source\\Repos\\InventoryManagementSystemWForms\\Presentation\\Forms\\WarehousesManagementForm.resx",
-              "RelativeToolTip": "Presentation\\Forms\\WarehousesManagementForm.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-05-27T14:26:15.227Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "WarehousesManagementForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\stasb\\Source\\Repos\\InventoryManagementSystemWForms\\Presentation\\Forms\\WarehousesManagementForm.Designer.cs",
-              "RelativeDocumentMoniker": "Presentation\\Forms\\WarehousesManagementForm.Designer.cs",
-              "ToolTip": "C:\\Users\\stasb\\Source\\Repos\\InventoryManagementSystemWForms\\Presentation\\Forms\\WarehousesManagementForm.Designer.cs",
-              "RelativeToolTip": "Presentation\\Forms\\WarehousesManagementForm.Designer.cs",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T14:26:00.865Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "WarehousesManagementForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\stasb\\Source\\Repos\\InventoryManagementSystemWForms\\Presentation\\Forms\\WarehousesManagementForm.cs",
-              "RelativeDocumentMoniker": "Presentation\\Forms\\WarehousesManagementForm.cs",
-              "ToolTip": "C:\\Users\\stasb\\Source\\Repos\\InventoryManagementSystemWForms\\Presentation\\Forms\\WarehousesManagementForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "Presentation\\Forms\\WarehousesManagementForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T14:25:43.673Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "WarehouseDto.cs",
-              "DocumentMoniker": "C:\\Users\\stasb\\Source\\Repos\\InventoryManagementSystemWForms\\Application\\DTOs\\Warehouse\\WarehouseDto.cs",
-              "RelativeDocumentMoniker": "Application\\DTOs\\Warehouse\\WarehouseDto.cs",
-              "ToolTip": "C:\\Users\\stasb\\Source\\Repos\\InventoryManagementSystemWForms\\Application\\DTOs\\Warehouse\\WarehouseDto.cs",
-              "RelativeToolTip": "Application\\DTOs\\Warehouse\\WarehouseDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T14:25:18.791Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Warehouse.cs",
-              "DocumentMoniker": "C:\\Users\\stasb\\Source\\Repos\\InventoryManagementSystemWForms\\Domain\\Entitites\\Warehouse.cs",
-              "RelativeDocumentMoniker": "Domain\\Entitites\\Warehouse.cs",
-              "ToolTip": "C:\\Users\\stasb\\Source\\Repos\\InventoryManagementSystemWForms\\Domain\\Entitites\\Warehouse.cs",
-              "RelativeToolTip": "Domain\\Entitites\\Warehouse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T14:25:12.809Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ViewWarehouseForm.cs",
-              "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Forms\\ViewWarehouseForm.cs",
-              "RelativeDocumentMoniker": "Presentation\\Forms\\ViewWarehouseForm.cs",
-              "ToolTip": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Forms\\ViewWarehouseForm.cs",
-              "RelativeToolTip": "Presentation\\Forms\\ViewWarehouseForm.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAoAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T14:25:05.815Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "FormFactorySelector.cs",
-              "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Factories\\FormFactorySelector.cs",
-              "RelativeDocumentMoniker": "Presentation\\Factories\\FormFactorySelector.cs",
-              "ToolTip": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Factories\\FormFactorySelector.cs",
-              "RelativeToolTip": "Presentation\\Factories\\FormFactorySelector.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T14:20:48.153Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -576,46 +330,325 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "AdminFormFactory.cs",
-              "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Factories\\AdminFormFactory.cs",
-              "RelativeDocumentMoniker": "Presentation\\Factories\\AdminFormFactory.cs",
-              "ToolTip": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Factories\\AdminFormFactory.cs",
-              "RelativeToolTip": "Presentation\\Factories\\AdminFormFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "HomeForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Forms\\HomeForm.cs",
+              "RelativeDocumentMoniker": "Presentation\\Forms\\HomeForm.cs",
+              "ToolTip": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Forms\\HomeForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "Presentation\\Forms\\HomeForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T13:31:07.19Z",
+              "WhenOpened": "2025-05-26T08:25:28.153Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Forms\\HomeForm.Designer.cs",
+              "RelativeDocumentMoniker": "Presentation\\Forms\\HomeForm.Designer.cs",
+              "ToolTip": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Forms\\HomeForm.Designer.cs",
+              "RelativeToolTip": "Presentation\\Forms\\HomeForm.Designer.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAQwJUAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T18:59:53.324Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminHomeForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Forms\\AdminHomeForm.cs",
+              "RelativeDocumentMoniker": "Presentation\\Forms\\AdminHomeForm.cs",
+              "ToolTip": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Forms\\AdminHomeForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "Presentation\\Forms\\AdminHomeForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T14:43:23.233Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GenerateReportCommand.cs",
+              "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Commands\\GenerateReportCommand.cs",
+              "RelativeDocumentMoniker": "Presentation\\Commands\\GenerateReportCommand.cs",
+              "ToolTip": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Commands\\GenerateReportCommand.cs",
+              "RelativeToolTip": "Presentation\\Commands\\GenerateReportCommand.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T14:42:40.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminHomeForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Forms\\AdminHomeForm.Designer.cs",
+              "RelativeDocumentMoniker": "Presentation\\Forms\\AdminHomeForm.Designer.cs",
+              "ToolTip": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Forms\\AdminHomeForm.Designer.cs",
+              "RelativeToolTip": "Presentation\\Forms\\AdminHomeForm.Designer.cs",
+              "ViewState": "AgIAAKQAAAAAAAAAAAAwwL8AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T14:48:40.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T17:41:38.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Program.cs",
+              "RelativeDocumentMoniker": "Presentation\\Program.cs",
+              "ToolTip": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Program.cs",
+              "RelativeToolTip": "Presentation\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAQwC0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T16:33:35.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LogoutCommand.cs",
+              "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Commands\\LogoutCommand.cs",
+              "RelativeDocumentMoniker": "Presentation\\Commands\\LogoutCommand.cs",
+              "ToolTip": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Commands\\LogoutCommand.cs",
+              "RelativeToolTip": "Presentation\\Commands\\LogoutCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T14:39:34.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DeleteProductCommand.cs",
+              "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Commands\\DeleteProductCommand.cs",
+              "RelativeDocumentMoniker": "Presentation\\Commands\\DeleteProductCommand.cs",
+              "ToolTip": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Commands\\DeleteProductCommand.cs",
+              "RelativeToolTip": "Presentation\\Commands\\DeleteProductCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T15:23:53.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AdminHomeForm.cs",
+              "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Forms\\AdminHomeForm.cs",
+              "RelativeDocumentMoniker": "Presentation\\Forms\\AdminHomeForm.cs",
+              "ToolTip": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Forms\\AdminHomeForm.cs",
+              "RelativeToolTip": "Presentation\\Forms\\AdminHomeForm.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAUwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T19:03:43.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CreateProductForm.cs",
+              "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Forms\\CreateProductForm.cs",
+              "RelativeDocumentMoniker": "Presentation\\Forms\\CreateProductForm.cs",
+              "ToolTip": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Forms\\CreateProductForm.cs",
+              "RelativeToolTip": "Presentation\\Forms\\CreateProductForm.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAAwG0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T15:43:37.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CategoryCompositeBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Application\\Builders\\CategoryCompositeBuilder.cs",
+              "RelativeDocumentMoniker": "Application\\Builders\\CategoryCompositeBuilder.cs",
+              "ToolTip": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Application\\Builders\\CategoryCompositeBuilder.cs",
+              "RelativeToolTip": "Application\\Builders\\CategoryCompositeBuilder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T11:10:04.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CategoryComponent.cs",
+              "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Domain\\Entitites\\CategoryComponent.cs",
+              "RelativeDocumentMoniker": "Domain\\Entitites\\CategoryComponent.cs",
+              "ToolTip": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Domain\\Entitites\\CategoryComponent.cs",
+              "RelativeToolTip": "Domain\\Entitites\\CategoryComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T11:59:30.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CategoryLeaf.cs",
+              "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Domain\\Entitites\\CategoryLeaf.cs",
+              "RelativeDocumentMoniker": "Domain\\Entitites\\CategoryLeaf.cs",
+              "ToolTip": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Domain\\Entitites\\CategoryLeaf.cs",
+              "RelativeToolTip": "Domain\\Entitites\\CategoryLeaf.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T11:59:23.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ProductServiceDecorator.cs",
+              "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Application\\Decorators\\ProductServiceDecorator.cs",
+              "RelativeDocumentMoniker": "Application\\Decorators\\ProductServiceDecorator.cs",
+              "ToolTip": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Application\\Decorators\\ProductServiceDecorator.cs",
+              "RelativeToolTip": "Application\\Decorators\\ProductServiceDecorator.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAQwG4AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T14:53:59.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ReportFacade.cs",
+              "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Application\\Facades\\ReportFacade.cs",
+              "RelativeDocumentMoniker": "Application\\Facades\\ReportFacade.cs",
+              "ToolTip": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Application\\Facades\\ReportFacade.cs",
+              "RelativeToolTip": "Application\\Facades\\ReportFacade.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T15:20:23.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "WarehousesManagementForm.cs",
+              "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Forms\\WarehousesManagementForm.cs",
+              "RelativeDocumentMoniker": "Presentation\\Forms\\WarehousesManagementForm.cs",
+              "ToolTip": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Forms\\WarehousesManagementForm.cs",
+              "RelativeToolTip": "Presentation\\Forms\\WarehousesManagementForm.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAAwG0AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T14:26:31.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserServiceProxy.cs",
+              "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Application\\Proxies\\UserServiceProxy.cs",
+              "RelativeDocumentMoniker": "Application\\Proxies\\UserServiceProxy.cs",
+              "ToolTip": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Application\\Proxies\\UserServiceProxy.cs",
+              "RelativeToolTip": "Application\\Proxies\\UserServiceProxy.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAqwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T17:16:17.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CategoryComposite.cs",
+              "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Domain\\Entitites\\CategoryComposite.cs",
+              "RelativeDocumentMoniker": "Domain\\Entitites\\CategoryComposite.cs",
+              "ToolTip": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Domain\\Entitites\\CategoryComposite.cs",
+              "RelativeToolTip": "Domain\\Entitites\\CategoryComposite.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T11:09:38.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "WarehouseDto.cs",
+              "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Application\\DTOs\\Warehouse\\WarehouseDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\Warehouse\\WarehouseDto.cs",
+              "ToolTip": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Application\\DTOs\\Warehouse\\WarehouseDto.cs",
+              "RelativeToolTip": "Application\\DTOs\\Warehouse\\WarehouseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T14:25:18.791Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 20,
+              "Title": "IExcelReportBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Application\\Interfaces\\IExcelReportBuilder.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IExcelReportBuilder.cs",
+              "ToolTip": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Application\\Interfaces\\IExcelReportBuilder.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IExcelReportBuilder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T14:32:21.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ShortExcelReportBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Application\\Builders\\ShortExcelReportBuilder.cs",
+              "RelativeDocumentMoniker": "Application\\Builders\\ShortExcelReportBuilder.cs",
+              "ToolTip": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Application\\Builders\\ShortExcelReportBuilder.cs",
+              "RelativeToolTip": "Application\\Builders\\ShortExcelReportBuilder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T14:33:06.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "DetailedExcelReportBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Application\\Builders\\DetailedExcelReportBuilder.cs",
+              "RelativeDocumentMoniker": "Application\\Builders\\DetailedExcelReportBuilder.cs",
+              "ToolTip": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Application\\Builders\\DetailedExcelReportBuilder.cs",
+              "RelativeToolTip": "Application\\Builders\\DetailedExcelReportBuilder.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T14:32:55.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ExcelReportDirector.cs",
+              "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Application\\Directors\\ExcelReportDirector.cs",
+              "RelativeDocumentMoniker": "Application\\Directors\\ExcelReportDirector.cs",
+              "ToolTip": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Application\\Directors\\ExcelReportDirector.cs",
+              "RelativeToolTip": "Application\\Directors\\ExcelReportDirector.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T14:33:15.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "FormFactorySelector.cs",
+              "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Factories\\FormFactorySelector.cs",
+              "RelativeDocumentMoniker": "Presentation\\Factories\\FormFactorySelector.cs",
+              "ToolTip": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Factories\\FormFactorySelector.cs",
+              "RelativeToolTip": "Presentation\\Factories\\FormFactorySelector.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T14:20:48.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
               "Title": "UserHomeFactory.cs",
               "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Factories\\UserHomeFactory.cs",
               "RelativeDocumentMoniker": "Presentation\\Factories\\UserHomeFactory.cs",
               "ToolTip": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Factories\\UserHomeFactory.cs",
               "RelativeToolTip": "Presentation\\Factories\\UserHomeFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T13:08:27.599Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-27T13:08:27.599Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "LoginForm.cs",
-              "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Forms\\LoginForm.cs",
-              "RelativeDocumentMoniker": "Presentation\\Forms\\LoginForm.cs",
-              "ToolTip": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Forms\\LoginForm.cs",
-              "RelativeToolTip": "Presentation\\Forms\\LoginForm.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAIwC4AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T14:30:07.335Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "FormFactoryBase.cs",
               "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Factories\\FormFactoryBase.cs",
               "RelativeDocumentMoniker": "Presentation\\Factories\\FormFactoryBase.cs",
@@ -623,51 +656,190 @@
               "RelativeToolTip": "Presentation\\Factories\\FormFactoryBase.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T13:31:04.081Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-27T13:31:04.081Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Program.cs",
-              "RelativeDocumentMoniker": "Presentation\\Program.cs",
-              "ToolTip": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Program.cs",
-              "RelativeToolTip": "Presentation\\Program.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAmwC4AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 27,
+              "Title": "AdminFormFactory.cs",
+              "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Factories\\AdminFormFactory.cs",
+              "RelativeDocumentMoniker": "Presentation\\Factories\\AdminFormFactory.cs",
+              "ToolTip": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Factories\\AdminFormFactory.cs",
+              "RelativeToolTip": "Presentation\\Factories\\AdminFormFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T16:33:35.664Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-27T13:31:07.19Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 28,
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Forms\\LoginForm.cs",
+              "RelativeDocumentMoniker": "Presentation\\Forms\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Forms\\LoginForm.cs",
+              "RelativeToolTip": "Presentation\\Forms\\LoginForm.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T14:30:07.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ProductMementoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Infrastructure\\Repositories\\ProductMementoRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\ProductMementoRepository.cs",
+              "ToolTip": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Infrastructure\\Repositories\\ProductMementoRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\ProductMementoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T16:28:01.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ProductValidationService.cs",
+              "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Application\\Services\\ProductValidationService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\ProductValidationService.cs",
+              "ToolTip": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Application\\Services\\ProductValidationService.cs",
+              "RelativeToolTip": "Application\\Services\\ProductValidationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T15:37:49.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Application\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Application\\Services\\ProductService.cs",
+              "RelativeToolTip": "Application\\Services\\ProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T15:57:39.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ProductNameValidationHandler.cs",
+              "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Application\\Handlers\\ProductNameValidationHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Handlers\\ProductNameValidationHandler.cs",
+              "ToolTip": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Application\\Handlers\\ProductNameValidationHandler.cs",
+              "RelativeToolTip": "Application\\Handlers\\ProductNameValidationHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T15:42:14.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ProductPriceValidationHandler.cs",
+              "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Application\\Handlers\\ProductPriceValidationHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Handlers\\ProductPriceValidationHandler.cs",
+              "ToolTip": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Application\\Handlers\\ProductPriceValidationHandler.cs",
+              "RelativeToolTip": "Application\\Handlers\\ProductPriceValidationHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T15:36:01.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
               "Title": "Session.cs",
               "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Infrastructure\\Session.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Session.cs",
               "ToolTip": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Infrastructure\\Session.cs",
               "RelativeToolTip": "Infrastructure\\Session.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAwwFIAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAADoAAAAAAAAAAAAkwEkAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T13:52:48.752Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-26T13:52:48.752Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 35,
               "Title": "HomeForm.cs",
               "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Forms\\HomeForm.cs",
               "RelativeDocumentMoniker": "Presentation\\Forms\\HomeForm.cs",
               "ToolTip": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Forms\\HomeForm.cs",
               "RelativeToolTip": "Presentation\\Forms\\HomeForm.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwCMAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-26T14:05:47.548Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 36,
+              "Title": "ViewProductForm.cs",
+              "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Forms\\ViewProductForm.cs",
+              "RelativeDocumentMoniker": "Presentation\\Forms\\ViewProductForm.cs",
+              "ToolTip": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Forms\\ViewProductForm.cs",
+              "RelativeToolTip": "Presentation\\Forms\\ViewProductForm.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAEwCkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T18:57:12.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "WarehousesManagementForm.resx",
+              "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Forms\\WarehousesManagementForm.resx",
+              "RelativeDocumentMoniker": "Presentation\\Forms\\WarehousesManagementForm.resx",
+              "ToolTip": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Forms\\WarehousesManagementForm.resx",
+              "RelativeToolTip": "Presentation\\Forms\\WarehousesManagementForm.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-05-27T14:26:15.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "WarehousesManagementForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Forms\\WarehousesManagementForm.Designer.cs",
+              "RelativeDocumentMoniker": "Presentation\\Forms\\WarehousesManagementForm.Designer.cs",
+              "ToolTip": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Forms\\WarehousesManagementForm.Designer.cs",
+              "RelativeToolTip": "Presentation\\Forms\\WarehousesManagementForm.Designer.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T14:26:00.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "WarehousesManagementForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Forms\\WarehousesManagementForm.cs",
+              "RelativeDocumentMoniker": "Presentation\\Forms\\WarehousesManagementForm.cs",
+              "ToolTip": "C:\\Users\\stasb\\Source\\Repos\\InventoryManagementSystemWForms\\Presentation\\Forms\\WarehousesManagementForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "Presentation\\Forms\\WarehousesManagementForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T14:25:43.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Warehouse.cs",
+              "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Domain\\Entitites\\Warehouse.cs",
+              "RelativeDocumentMoniker": "Domain\\Entitites\\Warehouse.cs",
+              "ToolTip": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Domain\\Entitites\\Warehouse.cs",
+              "RelativeToolTip": "Domain\\Entitites\\Warehouse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T14:25:12.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ViewWarehouseForm.cs",
+              "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Forms\\ViewWarehouseForm.cs",
+              "RelativeDocumentMoniker": "Presentation\\Forms\\ViewWarehouseForm.cs",
+              "ToolTip": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Forms\\ViewWarehouseForm.cs",
+              "RelativeToolTip": "Presentation\\Forms\\ViewWarehouseForm.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T14:25:05.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
               "Title": "UserManagementForm.cs",
               "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Forms\\UserManagementForm.cs",
               "RelativeDocumentMoniker": "Presentation\\Forms\\UserManagementForm.cs",
@@ -680,42 +852,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "AdminHomeForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Forms\\AdminHomeForm.Designer.cs",
-              "RelativeDocumentMoniker": "Presentation\\Forms\\AdminHomeForm.Designer.cs",
-              "ToolTip": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Forms\\AdminHomeForm.Designer.cs",
-              "RelativeToolTip": "Presentation\\Forms\\AdminHomeForm.Designer.cs",
-              "ViewState": "AgIAAKQAAAAAAAAAAAAwwL8AAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T14:48:40.461Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "AdminHomeForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Forms\\AdminHomeForm.cs",
-              "RelativeDocumentMoniker": "Presentation\\Forms\\AdminHomeForm.cs",
-              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Forms\\AdminHomeForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "..\\..\\..\\..\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Forms\\AdminHomeForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T14:43:23.233Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "HomeForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Forms\\HomeForm.Designer.cs",
-              "RelativeDocumentMoniker": "Presentation\\Forms\\HomeForm.Designer.cs",
-              "ToolTip": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Forms\\HomeForm.Designer.cs",
-              "RelativeToolTip": "Presentation\\Forms\\HomeForm.Designer.cs",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAwwIoAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T18:59:53.324Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 43,
               "Title": "CreateUserForm.Designer.cs",
               "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Forms\\CreateUserForm.Designer.cs",
               "RelativeDocumentMoniker": "Presentation\\Forms\\CreateUserForm.Designer.cs",
@@ -727,7 +864,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 44,
               "Title": "ViewUserForm.cs",
               "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Forms\\ViewUserForm.cs",
               "RelativeDocumentMoniker": "Presentation\\Forms\\ViewUserForm.cs",
@@ -740,18 +877,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "HomeForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Forms\\HomeForm.cs",
-              "RelativeDocumentMoniker": "Presentation\\Forms\\HomeForm.cs",
-              "ToolTip": "C:\\Users\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Forms\\HomeForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "..\\..\\..\\..\\Stanislav\\Documents\\NET LEARn\\InventoryManagementSystemWForms\\Presentation\\Forms\\HomeForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T08:25:28.153Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 45,
               "Title": "CreateUserForm.cs",
               "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Forms\\CreateUserForm.cs",
               "RelativeDocumentMoniker": "Presentation\\Forms\\CreateUserForm.cs",
@@ -764,7 +890,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 46,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Application\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\UserService.cs",
@@ -776,7 +902,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 48,
               "Title": "CreateCategoryForm.cs",
               "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Forms\\CreateCategoryForm.cs",
               "RelativeDocumentMoniker": "Presentation\\Forms\\CreateCategoryForm.cs",
@@ -784,12 +910,11 @@
               "RelativeToolTip": "Presentation\\Forms\\CreateCategoryForm.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAQwCUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T18:44:52.259Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-26T18:44:52.259Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 47,
               "Title": "CreateUserForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Forms\\CreateUserForm.cs",
               "RelativeDocumentMoniker": "Presentation\\Forms\\CreateUserForm.cs",
@@ -800,7 +925,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 49,
               "Title": "ViewUserForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Forms\\ViewUserForm.cs",
               "RelativeDocumentMoniker": "Presentation\\Forms\\ViewUserForm.cs",
@@ -811,7 +936,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 54,
               "Title": "CategoriesManagementForm.cs",
               "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Forms\\CategoriesManagementForm.cs",
               "RelativeDocumentMoniker": "Presentation\\Forms\\CategoriesManagementForm.cs",
@@ -824,7 +949,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 55,
               "Title": "RegisterForm.cs",
               "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Forms\\RegisterForm.cs",
               "RelativeDocumentMoniker": "Presentation\\Forms\\RegisterForm.cs",
@@ -836,7 +961,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 50,
               "Title": "ViewUserForm.Designer.cs",
               "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Forms\\ViewUserForm.Designer.cs",
               "RelativeDocumentMoniker": "Presentation\\Forms\\ViewUserForm.Designer.cs",
@@ -848,7 +973,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 52,
               "Title": "WarehouseService.cs",
               "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Application\\Services\\WarehouseService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\WarehouseService.cs",
@@ -856,12 +981,11 @@
               "RelativeToolTip": "Application\\Services\\WarehouseService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T18:00:44.054Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-26T18:00:44.054Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 51,
               "Title": "UserDto.cs",
               "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Application\\DTOs\\User\\UserDto.cs",
               "RelativeDocumentMoniker": "Application\\DTOs\\User\\UserDto.cs",
@@ -873,7 +997,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 56,
               "Title": "UserManagementForm.Designer.cs",
               "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Forms\\UserManagementForm.Designer.cs",
               "RelativeDocumentMoniker": "Presentation\\Forms\\UserManagementForm.Designer.cs",
@@ -885,7 +1009,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 53,
               "Title": "UserManagementForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Forms\\UserManagementForm.cs",
               "RelativeDocumentMoniker": "Presentation\\Forms\\UserManagementForm.cs",
@@ -896,20 +1020,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Infrastructure\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Infrastructure\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "Infrastructure\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T17:41:38.597Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 57,
               "Title": "CategoriesManagementForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Forms\\CategoriesManagementForm.cs",
               "RelativeDocumentMoniker": "Presentation\\Forms\\CategoriesManagementForm.cs",
@@ -920,7 +1031,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 58,
               "Title": "CreateProductForm.Designer.cs",
               "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Forms\\CreateProductForm.Designer.cs",
               "RelativeDocumentMoniker": "Presentation\\Forms\\CreateProductForm.Designer.cs",
@@ -932,7 +1043,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 59,
               "Title": "ViewProductForm.Designer.cs",
               "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Forms\\ViewProductForm.Designer.cs",
               "RelativeDocumentMoniker": "Presentation\\Forms\\ViewProductForm.Designer.cs",
@@ -944,20 +1055,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "ProductMementoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Infrastructure\\Repositories\\ProductMementoRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\ProductMementoRepository.cs",
-              "ToolTip": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Infrastructure\\Repositories\\ProductMementoRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Repositories\\ProductMementoRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T16:28:01.549Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 60,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Domain\\Entitites\\Product.cs",
               "RelativeDocumentMoniker": "Domain\\Entitites\\Product.cs",
@@ -965,12 +1063,11 @@
               "RelativeToolTip": "Domain\\Entitites\\Product.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAAACwAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T16:27:32.437Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-26T16:27:32.437Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 62,
               "Title": "UpdateProductDto.cs",
               "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Application\\DTOs\\Product\\UpdateProductDto.cs",
               "RelativeDocumentMoniker": "Application\\DTOs\\Product\\UpdateProductDto.cs",
@@ -982,7 +1079,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 61,
               "Title": "ProductMemento.cs",
               "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Domain\\Entitites\\ProductMemento.cs",
               "RelativeDocumentMoniker": "Domain\\Entitites\\ProductMemento.cs",
@@ -994,7 +1091,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 63,
               "Title": "ProductDto.cs",
               "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Application\\DTOs\\Product\\ProductDto.cs",
               "RelativeDocumentMoniker": "Application\\DTOs\\Product\\ProductDto.cs",
@@ -1006,7 +1103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 64,
               "Title": "CreateProductDto.cs",
               "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Application\\DTOs\\Product\\CreateProductDto.cs",
               "RelativeDocumentMoniker": "Application\\DTOs\\Product\\CreateProductDto.cs",
@@ -1014,48 +1111,11 @@
               "RelativeToolTip": "Application\\DTOs\\Product\\CreateProductDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T15:58:15.146Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-26T15:58:15.146Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
-              "Title": "ProductNameValidationHandler.cs",
-              "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Application\\Handlers\\ProductNameValidationHandler.cs",
-              "RelativeDocumentMoniker": "Application\\Handlers\\ProductNameValidationHandler.cs",
-              "ToolTip": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Application\\Handlers\\ProductNameValidationHandler.cs",
-              "RelativeToolTip": "Application\\Handlers\\ProductNameValidationHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T15:42:14.656Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 56,
-              "Title": "ProductValidationService.cs",
-              "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Application\\Services\\ProductValidationService.cs",
-              "RelativeDocumentMoniker": "Application\\Services\\ProductValidationService.cs",
-              "ToolTip": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Application\\Services\\ProductValidationService.cs",
-              "RelativeToolTip": "Application\\Services\\ProductValidationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T15:37:49.684Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 58,
-              "Title": "ProductPriceValidationHandler.cs",
-              "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Application\\Handlers\\ProductPriceValidationHandler.cs",
-              "RelativeDocumentMoniker": "Application\\Handlers\\ProductPriceValidationHandler.cs",
-              "ToolTip": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Application\\Handlers\\ProductPriceValidationHandler.cs",
-              "RelativeToolTip": "Application\\Handlers\\ProductPriceValidationHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T15:36:01.046Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 65,
               "Title": "ProductValidationHandler.cs",
               "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Application\\Handlers\\ProductValidationHandler.cs",
               "RelativeDocumentMoniker": "Application\\Handlers\\ProductValidationHandler.cs",
@@ -1067,7 +1127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 66,
               "Title": "ICommand.cs",
               "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Domain\\Interfaces\\ICommand.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\ICommand.cs",
@@ -1079,7 +1139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 67,
               "Title": "OpenCreateProductFormCommand.cs",
               "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Commands\\OpenCreateProductFormCommand.cs",
               "RelativeDocumentMoniker": "Presentation\\Commands\\OpenCreateProductFormCommand.cs",
@@ -1091,20 +1151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
-              "Title": "GenerateReportCommand.cs",
-              "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Commands\\GenerateReportCommand.cs",
-              "RelativeDocumentMoniker": "Presentation\\Commands\\GenerateReportCommand.cs",
-              "ToolTip": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Commands\\GenerateReportCommand.cs",
-              "RelativeToolTip": "Presentation\\Commands\\GenerateReportCommand.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T14:42:40.619Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 68,
               "Title": "OpenCategoriesFormCommand.cs",
               "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Commands\\OpenCategoriesFormCommand.cs",
               "RelativeDocumentMoniker": "Presentation\\Commands\\OpenCategoriesFormCommand.cs",
@@ -1116,7 +1163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 69,
               "Title": "FilterProductsCommand.cs",
               "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Commands\\FilterProductsCommand.cs",
               "RelativeDocumentMoniker": "Presentation\\Commands\\FilterProductsCommand.cs",
@@ -1124,11 +1171,12 @@
               "RelativeToolTip": "Presentation\\Commands\\FilterProductsCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T14:40:43.254Z"
+              "WhenOpened": "2025-05-26T14:40:43.254Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 70,
               "Title": "LoadProductsCommand.cs",
               "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Presentation\\Commands\\LoadProductsCommand.cs",
               "RelativeDocumentMoniker": "Presentation\\Commands\\LoadProductsCommand.cs",
@@ -1140,7 +1188,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 71,
               "Title": "Domain.csproj",
               "DocumentMoniker": "C:\\Users\\stasb\\Source\\Repos\\InventoryManagementSystemWForms\\Domain\\Domain.csproj",
               "RelativeDocumentMoniker": "Domain\\Domain.csproj",
@@ -1152,7 +1200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 73,
               "Title": "IObserver.cs",
               "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Domain\\Interfaces\\IObserver.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\IObserver.cs",
@@ -1164,7 +1212,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 72,
               "Title": "IObservable.cs",
               "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Domain\\Interfaces\\IObservable.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\IObservable.cs",
@@ -1176,7 +1224,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 74,
               "Title": "Infrastructure.csproj",
               "DocumentMoniker": "C:\\Users\\stasb\\Source\\Repos\\InventoryManagementSystemWForms\\Infrastructure\\Infrastructure.csproj",
               "RelativeDocumentMoniker": "Infrastructure\\Infrastructure.csproj",
@@ -1185,31 +1233,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-05-26T13:55:11.652Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 71,
-              "Title": "CategoryCompositeBuilder.cs",
-              "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Application\\Builders\\CategoryCompositeBuilder.cs",
-              "RelativeDocumentMoniker": "Application\\Builders\\CategoryCompositeBuilder.cs",
-              "ToolTip": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Application\\Builders\\CategoryCompositeBuilder.cs",
-              "RelativeToolTip": "Application\\Builders\\CategoryCompositeBuilder.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBQAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T11:10:04.533Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 70,
-              "Title": "CategoryComposite.cs",
-              "DocumentMoniker": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Domain\\Entitites\\CategoryComposite.cs",
-              "RelativeDocumentMoniker": "Domain\\Entitites\\CategoryComposite.cs",
-              "ToolTip": "C:\\Users\\stasb\\source\\repos\\InventoryManagementSystemWForms\\Domain\\Entitites\\CategoryComposite.cs",
-              "RelativeToolTip": "Domain\\Entitites\\CategoryComposite.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T11:09:38.964Z"
             }
           ]
         }
